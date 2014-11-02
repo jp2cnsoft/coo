@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD" xml:space="preserve">
+    <value>Aggiungere</value>
+  </data>
+  <data name="ADDRESS" xml:space="preserve">
+    <value>Località</value>
+  </data>
+  <data name="ADSERVICE" xml:space="preserve">
+    <value>Pubblicizza</value>
+  </data>
+  <data name="ALLMESSAGE" xml:space="preserve">
+    <value>Tutte le indagini</value>
+  </data>
+  <data name="ALLPRODUCT" xml:space="preserve">
+    <value>Tutti i prodotti</value>
+  </data>
+  <data name="ALLSEL" xml:space="preserve">
+    <value>Seleziona tutto / Annulla tutte le</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="AREA" xml:space="preserve">
+    <value>Locale</value>
+  </data>
+  <data name="AREACODE" xml:space="preserve">
+    <value>Numero locale</value>
+  </data>
+  <data name="BRANCHCODE" xml:space="preserve">
+    <value>Estensione numero</value>
+  </data>
+  <data name="BROWSER" xml:space="preserve">
+    <value>Anteprima</value>
+  </data>
+  <data name="CALLING" xml:space="preserve">
+    <value>Industria</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CHECKEMAIL" xml:space="preserve">
+    <value>Indirizzo e-mail di verifica</value>
+  </data>
+  <data name="CLASSNAME" xml:space="preserve">
+    <value>Nome classe</value>
+  </data>
+  <data name="CLEAR" xml:space="preserve">
+    <value>Chiaro</value>
+  </data>
+  <data name="CLOSE" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CMPADDRESS" xml:space="preserve">
+    <value>Località</value>
+  </data>
+  <data name="CMPHOMEPAGE" xml:space="preserve">
+    <value>Sito Web</value>
+  </data>
+  <data name="COMMEMO" xml:space="preserve">
+    <value>Company Info</value>
+  </data>
+  <data name="COMPANY" xml:space="preserve">
+    <value>Società</value>
+  </data>
+  <data name="COMPANYNAME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>Confermato</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>Altre News</value>
+  </data>
+  <data name="COUNTRY" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="COUNTRYCODE" xml:space="preserve">
+    <value>Codice del paese</value>
+  </data>
+  <data name="CREATE" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>Giorno</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>Eliminare</value>
+  </data>
+  <data name="DISPLAY" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="EMAILADDRESS" xml:space="preserve">
+    <value>Indirizzo e-mail</value>
+  </data>
+  <data name="EMAILFROM" xml:space="preserve">
+    <value>coo@seikasoft.com</value>
+  </data>
+  <data name="EMAILFROMPASS" xml:space="preserve">
+    <value>COO-0</value>
+  </data>
+  <data name="EMAILNAME" xml:space="preserve">
+    <value>Nome Indirizzo e-mail</value>
+  </data>
+  <data name="EMAILREMARK" xml:space="preserve">
+    <value>(Esempio: sample@company.com)</value>
+  </data>
+  <data name="EMAILSAVESUCCESS" xml:space="preserve">
+    <value>Invia riuscito</value>
+  </data>
+  <data name="FAMILYNAME" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="FAXNUMBER" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="HOSTPAGE" xml:space="preserve">
+    <value>URL del sito web</value>
+  </data>
+  <data name="IMAGE" xml:space="preserve">
+    <value>Immagini</value>
+  </data>
+  <data name="LASTNAME" xml:space="preserve">
+    <value>Valutazione</value>
+  </data>
+  <data name="LINK" xml:space="preserve">
+    <value>Contatti Carriera</value>
+  </data>
+  <data name="LINKME" xml:space="preserve">
+    <value>Contatta gli amministratori</value>
+  </data>
+  <data name="LOOK" xml:space="preserve">
+    <value>Vedi sito</value>
+  </data>
+  <data name="MAILADDRESS" xml:space="preserve">
+    <value>Rispondi Indirizzo e-mail</value>
+  </data>
+  <data name="MAILCONTENT" xml:space="preserve">
+    <value>(0) (1) è stata registrata per il nuovo sito.</value>
+  </data>
+  <data name="MAILSUBJECT" xml:space="preserve">
+    <value>(0) ha registrato un nuovo contatto.</value>
+  </data>
+  <data name="MANAGER" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="MANAGERREPLY" xml:space="preserve">
+    <value>[Rispondi amministratore]</value>
+  </data>
+  <data name="MESSAGEBOARD" xml:space="preserve">
+    <value>Contattaci</value>
+  </data>
+  <data name="MESSAGECONTENT" xml:space="preserve">
+    <value>Richiesta</value>
+  </data>
+  <data name="MESSAGENAME" xml:space="preserve">
+    <value>Il tuo nome</value>
+  </data>
+  <data name="MESSAGETHEME" xml:space="preserve">
+    <value>Titolo Storia</value>
+  </data>
+  <data name="MOBILENUMBER" xml:space="preserve">
+    <value>Cellulari</value>
+  </data>
+  <data name="MODIFY" xml:space="preserve">
+    <value>Cambiare</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>Luna</value>
+  </data>
+  <data name="MORE" xml:space="preserve">
+    <value>Più</value>
+  </data>
+  <data name="MSGDEL" xml:space="preserve">
+    <value>[Elimina]</value>
+  </data>
+  <data name="MSGDELCONTENT" xml:space="preserve">
+    <value>Vuoi cancellare la tua scelta?</value>
+  </data>
+  <data name="MSGDELERR" xml:space="preserve">
+    <value>Elimina non</value>
+  </data>
+  <data name="MSGERRFAIL" xml:space="preserve">
+    <value>Contatta la registrazione non</value>
+  </data>
+  <data name="MSGERRPAGE" xml:space="preserve">
+    <value>Impossibile caricare la pagina, si prega di contattare l&amp;#39;amministratore.</value>
+  </data>
+  <data name="MSGERRTIME" xml:space="preserve">
+    <value>10 È possibile contattare nuovamente nel giro di pochi secondi.</value>
+  </data>
+  <data name="MSGMANAGEMENT" xml:space="preserve">
+    <value>Gestione Contatti</value>
+  </data>
+  <data name="MSGNAME" xml:space="preserve">
+    <value>Persona di contatto</value>
+  </data>
+  <data name="MSGOK" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MSGREPLYERR" xml:space="preserve">
+    <value>Risposta non</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NEXT" xml:space="preserve">
+    <value>Successivo</value>
+  </data>
+  <data name="NEXTPAGE" xml:space="preserve">
+    <value>Pagina successiva</value>
+  </data>
+  <data name="ONLINELINK" xml:space="preserve">
+    <value>Contatto online</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>Formazione del sito</value>
+  </data>
+  <data name="PAGE_FIRST" xml:space="preserve">
+    <value>Prima pagina</value>
+  </data>
+  <data name="PAGE_LAST" xml:space="preserve">
+    <value>Ultima pagina</value>
+  </data>
+  <data name="PAGE_NEXT" xml:space="preserve">
+    <value>Pagina successiva</value>
+  </data>
+  <data name="PAGE_PIECE" xml:space="preserve">
+    <value>Risultati</value>
+  </data>
+  <data name="PAGE_PROV" xml:space="preserve">
+    <value>Pag.precedente</value>
+  </data>
+  <data name="PAGE_TOTAL" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PICTURE" xml:space="preserve">
+    <value>Immagine</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="PREV" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="PREVPAGE" xml:space="preserve">
+    <value>Pag.precedente</value>
+  </data>
+  <data name="PRICE" xml:space="preserve">
+    <value>Prezzo di listino</value>
+  </data>
+  <data name="PRODUCT" xml:space="preserve">
+    <value>Prodotti</value>
+  </data>
+  <data name="PRODUCTCLASS" xml:space="preserve">
+    <value>Categoria prodotti</value>
+  </data>
+  <data name="PROJECTNAME" xml:space="preserve">
+    <value>Online le imprese</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>Comprare</value>
+  </data>
+  <data name="QUESTION" xml:space="preserve">
+    <value>Q &amp;amp; A</value>
+  </data>
+  <data name="README" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>Riferimenti</value>
+  </data>
+  <data name="REFRESH" xml:space="preserve">
+    <value>Aggiornato</value>
+  </data>
+  <data name="REGEMAILFROM" xml:space="preserve">
+    <value>Online le imprese</value>
+  </data>
+  <data name="REGEMAILSUBJECT" xml:space="preserve">
+    <value>Mail on-line di verifica società</value>
+  </data>
+  <data name="REGIST" xml:space="preserve">
+    <value>Accesso</value>
+  </data>
+  <data name="REGMAILCONTENT" xml:space="preserve">
+    <value>&lt;html xmlns:copyRight="http://xml.sz.luohuedu.net/"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta http-equiv="Content-Language" content="JAPAN"&gt;&lt;title&gt; Indirizzo e-mail di verifica &lt;/title&gt;&lt;/head&gt;&lt;body style="text-align:center;font-family:ＭＳ ゴシック;"&gt;&lt;div style="margin-left:auto;margin-right:auto;width:648px;text-align:left;"&gt;&lt;div style="width:100%;"&gt;&lt;div style="float:left;"&gt; &lt;a href="http://www.{domainname}" target="_blank"&gt;&lt;img src="http://www.{domainname}/Images/jpcoo.png" border="0" title="Online le imprese"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;div style="float:right;padding-top:18px;font-size:14px;"&gt;&lt;div style="float:left;margin-right:5px;"&gt;Sito &lt;br/&gt;</value>
+  </data>
+  <data name="RELEASED" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="REMAILADDRESS" xml:space="preserve">
+    <value>Conferma la tua E-mail</value>
+  </data>
+  <data name="REMOVE" xml:space="preserve">
+    <value>Rimuovi dalla classificazione</value>
+  </data>
+  <data name="REPLY" xml:space="preserve">
+    <value>Answers</value>
+  </data>
+  <data name="REPLYCONTENT" xml:space="preserve">
+    <value>Answers</value>
+  </data>
+  <data name="REPLYDELCONTENT" xml:space="preserve">
+    <value>Vuoi cancellare la tua scelta?</value>
+  </data>
+  <data name="REPLYED" xml:space="preserve">
+    <value>Data risposta</value>
+  </data>
+  <data name="RESEND" xml:space="preserve">
+    <value>Invia di nuovo</value>
+  </data>
+  <data name="RESET" xml:space="preserve">
+    <value>Chiaro</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>Cambia password</value>
+  </data>
+  <data name="SAVESUCCESS" xml:space="preserve">
+    <value>Curare con successo.</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>Ricerca</value>
+  </data>
+  <data name="SELECT" xml:space="preserve">
+    <value>Seleziona</value>
+  </data>
+  <data name="SETUP" xml:space="preserve">
+    <value>Gestione del sito</value>
+  </data>
+  <data name="SUBMIT" xml:space="preserve">
+    <value>Inoltrare</value>
+  </data>
+  <data name="TELNUMBER" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>Titolo Storia</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="TOURISTS" xml:space="preserve">
+    <value>Clienti</value>
+  </data>
+  <data name="VERIFYCODE" xml:space="preserve">
+    <value>Codice di verifica</value>
+  </data>
+  <data name="VERIFYCODEMSG" xml:space="preserve">
+    <value>(Si prega di inserire il codice di autenticazione)</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>Anno</value>
+  </data>
+  <data name="ZIPCODE" xml:space="preserve">
+    <value>Codice Postale</value>
+  </data>
+  <data name="USERSITEDEL" xml:space="preserve">
+    <value>Rimuovere veramente la lingua, la cancellazione non può ripristinare le informazioni.</value>
+  </data>
+  <data name="USERSITEDEFDEL" xml:space="preserve">
+    <value>Non è possibile eliminare la lingua predefinita</value>
+  </data>
+  <data name="CONTROLSUCCESS" xml:space="preserve">
+    <value>L&amp;#39;operazione ha avuto successo.</value>
+  </data>
+  <data name="SITEMANAGE" xml:space="preserve">
+    <value>Gestione del sito</value>
+  </data>
+  <data name="ALLNEWS" xml:space="preserve">
+    <value>Tutte le News</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Accesso</value>
+  </data>
+  <data name="GOSHOP" xml:space="preserve">
+    <value>Maggiori informazioni Acquista</value>
+  </data>
+  <data name="OVERSHOP" xml:space="preserve">
+    <value>Per contabili</value>
+  </data>
+  <data name="LOGO" xml:space="preserve">
+    <value>http://www. (dominio) / bbs / images / logo.png</value>
+  </data>
+  <data name="LANGSITEMAG" xml:space="preserve">
+    <value>Gestione del sito giapponese</value>
+  </data>
+  <data name="ERRORMESSAGE" xml:space="preserve">
+    <value>Si prega di inserire i dati e le informazioni di riferimento.</value>
+  </data>
+  <data name="WAITING" xml:space="preserve">
+    <value>I dati sono in fase di elaborazione. Un attimo, per favore. ... ... ... ...</value>
+    <comment>2009-05-08需要翻译</comment>
+  </data>
+  <data name="PLASECHOOSE" xml:space="preserve">
+    <value>Si prega di selezionare il nome della categoria.</value>
+  </data>
+</root>

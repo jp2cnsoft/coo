@@ -1,0 +1,154 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86B8911C-50A4-4837-9017-A73E6FF8895D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seika</RootNamespace>
+    <AssemblyName>Seika</AssemblyName>
+    <ApplicationIcon>Seika.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DiffieHellman, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\DiffieHellman.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Org.Mentalis.Security, Version=1.0.13.715, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Org.Mentalis.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tamir.SharpSSH, Version=1.1.1.13, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Tamir.SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="URLRewriter, Version=1.0.3320.21322, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\URLRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CmdColumns.cs" />
+    <Compile Include="CmdDataCell.cs" />
+    <Compile Include="CmdDataRow.cs" />
+    <Compile Include="CmdDataTable.cs" />
+    <Compile Include="CmdProcessBase.cs" />
+    <Compile Include="CmdSendBuffer.cs" />
+    <Compile Include="CmdSendData.cs" />
+    <Compile Include="ColorPicker.cs" />
+    <Compile Include="CommandCodeDef.cs" />
+    <Compile Include="CommandData.cs" />
+    <Compile Include="CommandEnums.cs" />
+    <Compile Include="CommandItemNameDef.cs" />
+    <Compile Include="CommandParam.cs" />
+    <Compile Include="CommandProcessBase.cs" />
+    <Compile Include="CommandResult.cs" />
+    <Compile Include="ApiImporterCollection.cs" />
+    <Compile Include="DataViewReorder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LanguageTranslate.cs" />
+    <Compile Include="PageControlUrl.cs" />
+    <Compile Include="DropdownlistControl.cs" />
+    <Compile Include="ReloadDataFlag.cs" />
+    <Compile Include="SButton.cs" />
+    <Compile Include="CustomException.cs" />
+    <Compile Include="DatabaseSetup.cs" />
+    <Compile Include="DataSetManage.cs" />
+    <Compile Include="DBConnectPool.cs" />
+    <Compile Include="DownloadWebFile.cs" />
+    <Compile Include="FTPCommon.cs" />
+    <Compile Include="FtpMethods.cs" />
+    <Compile Include="OutputFileType.cs" />
+    <Compile Include="ServerConnectionInfo.cs" />
+    <Compile Include="CooCommand.cs" />
+    <Compile Include="CommandList.cs" />
+    <Compile Include="CommandSet.cs" />
+    <Compile Include="SSH_Client.cs" />
+    <Compile Include="StringFormatOutput.cs" />
+    <Compile Include="TransformException.cs" />
+    <Compile Include="WebDownload.cs" />
+    <Compile Include="FtpManage.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="PageControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="OrderControl.cs" />
+    <Compile Include="ResManager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SDropDownList.cs" />
+    <Compile Include="SLinkButton.cs" />
+    <Compile Include="Thumbnail.cs" />
+    <Compile Include="XmlDocManage.cs" />
+    <Compile Include="StringFilter.cs" />
+    <Compile Include="ZipCompress.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Seika.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

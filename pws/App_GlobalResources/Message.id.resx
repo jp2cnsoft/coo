@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>Koneksi database gagal</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>Gagal transaksi pengolahan data sambungan.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>Mendadak kami mengalami kesalahan sistem, hubungi administrator.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) masukan yang diperlukan.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>Salah jumlah angka (0), (1) Masukkan angka.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1) dan jumlah digit angka.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) Harap masukkan tanggal yang benar.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) untuk item nomor non-numerik karakter yang tidak diperbolehkan.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) alfanumerik atau &amp;quot;_&amp;quot; tidak dapat masuk.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) item alfanumerik. Non-karakter yang tidak diperbolehkan.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) item huruf. Huruf lainnya tidak diperbolehkan.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) item double-byte karakter. Lainnya double-byte karakter yang tidak diperbolehkan.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) alamat e-mail format tidak benar, silakan masukkan alamat email yang valid.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) tipe file tidak berlaku.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] adalah (0) ukuran file, silakan menentukan file sebagai berikut.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) tidak sesuai dengan format situs.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) tidak sesuai dengan format jumlah.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) adalah tidak mungkin untuk menentukan 0.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA Format kode pos, harap masukkan kode pos yang benar.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA bentuk nomor ponsel, masukkan nomor ponsel yang valid.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] Ukuran file (1) KB Silakan pilih sebuah file dengan.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO SHINPURUMODO Anda menentukan satu file.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>Maksimum file (0) dapat dipilih.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>Pada saat yang sama tidak menambahkan nama file yang sama dalam daftar.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) ke (2) Anda dapat memasukkan angka.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) adalah digandakan. Tidak boleh yang sama.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>Silakan pilih (0) ke lapisan terakhir.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>Gagal koneksi ke server.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>Pengolahan data dengan server gagal.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA tanggal yang ditentukan. Silakan tentukan tanggal di masa lalu.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA tanggal yang ditentukan. Silakan tentukan tanggal di masa mendatang.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase yang GetData fungsi tidak dapat dipanggil secara langsung, harus diturunkan.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>Saya menutup koneksi database proses gagal.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>Bila Anda menjalankan perintah SQL kesalahan.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>Gambar yang terkait untuk menjalankan perintah SQL pada saat terjadi kesalahan.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>Database transaksi rollback operasi gagal.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>Bila Anda kembali ke database error.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>DataSet dengan data diambil dari database ketika Anda mengeset error.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader data diambil dari database ketika Anda mengatur kesalahan dikeluarkan.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>Loading XML lokal, mengkonversi data set, telah terjadi kesalahan.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>Bila Anda menulis DataSet XML, kesalahan yang terjadi.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>Bila Anda mengkonversi dari XML data diatur ke data, dengan kesalahan</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>Bila Anda menghapus catatan dalam tabel data, ada kesalahan.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>Tidak dapat mendapatkan style standar.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>Kami tidak dapat menemukan yang diperlukan XML.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) maksimum adalah jumlah gaji yang minimum, silakan menentukan jumlah besar.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) maksimum dari usia minimum, silakan menentukan nilai yang banyak.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA antara jumlah digit, (1) Masukkan angka atau kurang.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) ke (2) Anda dapat memasukkan angka.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>Nama organisasi yang sudah ada.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>No. Tidak ada usaha.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>Silakan tentukan tanggal didirikan untuk waktu yang terakhir.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>File tidak ada.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>Gagal meng-upload file.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>File removal gagal.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>Menghapus file tidak ada.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>Update file tidak ada.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>Gagal untuk meng-update file.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>Silakan pilih file-upload.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>Password dan konfirmasi password tidak cocok.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>Bergabung dengan &amp;quot;subdomain&amp;quot; sudah digunakan. Silakan memilih sub-domain.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>Untuk mencerminkan pembaruan atau menghapus operasi, pilih konfirmasi.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>Bagaimana cara menghapusnya?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>Nama account atau password salah.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>Nama account tidak ada.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>Mungkin memiliki masalah dengan rekening keamanan. Dari waktu kemudian, periksa lagi.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>Jenis file yang di-upload JPG, GIF, PNG hanya mendukung.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) adalah tidak sah Format nomor telepon, masukkan nomor telepon yang benar.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) adalah tidak sah Format nomor telepon, masukkan nomor telepon yang benar.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) adalah nomor FAX format tidak valid, masukkan nomor telepon yang benar.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>Upload file adalah nama alfanumerik atau &amp;quot;_&amp;quot; file saja.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>Tidak ada nama file ekstensi nama, atau nama file tidak valid.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>Angka (0) (1) (2) Anda dapat memasukkan angka.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) adalah digandakan.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) Hapus itu?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>Mail yang tidak terdaftar untuk menghubungi perusahaan, mengubah password anda melalui email.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>Nama account tidak benar atau tidak ada.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>Proses gagal untuk mengirim sandi informasi melalui e-mail, dari berdiri untuk beberapa saat, coba lagi.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>Jika Anda tidak memeriksa Ketentuan Layanan ini, Anda tidak dapat melanjutkan proses.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>Nama account yang sudah terdaftar.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA bentuk alamat e-mail Harap masukkan alamat email yang valid.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) yang sudah dikonfirmasi. Untuk memeriksa, silakan kembali operasi.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>URL yang Anda masukkan tidak dalam bentuk URL.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>Password dan konfirmasi password tidak cocok.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) masukan kesalahan, harap masukkan kembali.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>Membatalkan layanan dan perbaikan sistem sandi sekarang.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA input, silakan masukkan kembali.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>Silakan pilih domain (s)</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>Kami ingin bahwa jumlah</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) sudah di keranjang belanja.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) adalah tidak benar dalam nama domain</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) telah terdaftar,</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>Tidak setuju dengan Ketentuan Layanan situs ini, layanan ini tidak tersedia.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>Anda tidak memiliki cukup seimbang, saya perlu uang jaminan deposito emas.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>Kami membuka layanan.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>Nama domain yang sudah dibeli, hapus item.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>Tidak ada nama domain dapat diterapkan.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>Silakan masukkan nama domain.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>Silakan pilih nama domain.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>Silakan pilih salah satu pertanyaan.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>Tidak sesuai dengan alamat email yang Anda masukkan.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>Sambungan ke server gagal konversi, server yang telah ditentukan, silakan cek IP dan nomor port.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>Waktu habis telah login, silahkan login dan coba lagi.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>Saya mencoba untuk kapal server untuk menyimpan file konversi tidak berlaku di toko.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>Gagal untuk membuat dan menciptakan lagi silakan.</value>
+  </data>
+</root>

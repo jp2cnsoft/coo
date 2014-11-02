@@ -1,0 +1,8 @@
+﻿@import url("../Common/Global.css");
+.language
+{
+	font-family:宋体;
+}
+
+/*激活网站头背景*/
+.headerPic{margin-right:auto;margin-left:auto;background:url("../../Images/TAIWAN_kj08.png") no-repeat;width:996px;height:104px;}

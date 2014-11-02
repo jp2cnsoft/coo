@@ -1,0 +1,30 @@
+﻿@import url("../Common/Global.css");
+.language
+{
+	font-family:宋体;
+}
+
+/*管理中心左侧头部分*/
+.contentleftHead
+{
+	/*background:url("../../Images/leftHead.png");
+	background-repeat:no-repeat;
+	height:60px;
+	width:200px;
+	float:left;*/
+	
+	height:75px;background:url('../../Images/China_managetitlebg.png') no-repeat;
+}
+
+/*激活网站头背景*/
+.headerPic{margin-right:auto;margin-left:auto;background:url("../../Images/CHINA_kj08.png") no-repeat;width:996px;height:104px;}
+
+/*管理中心设置*/
+.manageCenterSet{padding-top:4px;background:url('../../Images/china_set.png') no-repeat;width:80px;height:22px;color:#FFFFFF;font-size:13px;}
+/*管理中心查看*/
+.manageCenterView{padding-top:4px;background:url('../../Images/china_view.png');background-repeat:no-repeat;width:80px;height:22px;cursor:hand;color:#FFFFFF;font-size:13px;}
+/*管理中心创建*/
+.manageCenterCreat{padding-top:4px;font-size:13px;background:url('../../Images/china_create.png') no-repeat;width:80px;height:22px;color:#8F8F8F;}
+/*管理中心删除*/
+.manageCenterDel{padding-top:4px;font-size:13px;background:url('../../Images/china_delete_mc.png') no-repeat;width:80px;height:22px;color:#8F8F8F;}
+

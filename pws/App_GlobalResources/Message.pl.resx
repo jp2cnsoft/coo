@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>Połączenia z bazą danych nie powiodła się</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>Niepowodzenie przetwarzania transakcji połączenia z bazą danych.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>Napotkaliśmy nieoczekiwany błąd systemu, skontaktuj się z administratorem.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) wymagany jest wpis.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>Nieprawidłowe cyfry (0), (1) Proszę wprowadzić cyfry.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1) liczba cyfr i znaków.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) Proszę podać poprawną datę.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) dla numerów, nie numerycznej znaki nie są dozwolone.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) alfanumerycznych lub &amp;quot;_&amp;quot; nie mogą wejść na nią.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) przedmioty alfanumerycznych. Brak znaków alfanumerycznych nie są dozwolone.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) przedmioty listu. Pozostałe litery są niedozwolone.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) przedmioty są dwubajtowych. Inne dwubajtowe znaki nie są dozwolone.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) adres e-mail jest nieprawidłowy format, prosimy podać adres e-mail.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) typ pliku nie ma zastosowania.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] jest (0) rozmiar pliku, proszę podać następujące pliku.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) nie pasuje do formatu witryny.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) nie pasuje do formatu kwoty.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) nie jest możliwe określenie 0.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA Format kodem pocztowym, proszę podać poprawny kod pocztowy.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA postaci numer telefonu komórkowego, proszę wpisać poprawny numer telefonu komórkowego.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] Wielkość pliku (1) KB Proszę wybrać plik z rozszerzeniem.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO SHINPURUMODO można określić jednym pliku.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>Maksymalna pliku (0) może być wybrany.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>W tym samym czasie nie dodać tę samą nazwę pliku na liście.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) do (2) można wprowadzić cyfry.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) jest duplikatem. Nie powinno być dwóch egzemplarzach.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>Proszę wybrać (0) do ostatecznej warstwy.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>Nie powiodło się połączenie z serwerem.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>Przetwarzanie danych z serwerem.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA określonej dacie. Proszę podać datę w przeszłości.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA określonej dacie. Proszę podać datę w przyszłości.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase w GetData funkcja nie może być wywołane bezpośrednio, musi być uzyskane.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>I zamknął połączenie z bazą danych proces nie powiedzie się.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>Po uruchomieniu polecenia SQL błąd.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>Zdjęcia związane z wykonywania poleceń SQL, gdy wystąpił błąd.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>Baza danych transakcji ROLLBACK Operacja nie powiodła się.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>Po ponownym do bazy danych wystąpił błąd.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>DataSet dane pobierane z bazy danych podczas ustawić błąd.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader dane pobierane z bazy danych po ustawieniu błąd został wydany.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>Ładowanie lokalnych XML, konwertowania zbioru danych, wystąpił błąd.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>Podczas pisania DataSet pliku XML, wystąpił błąd.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>Podczas konwersji z danych XML zestaw danych, z błędami</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>Po usunięciu zapisu danych w tabeli, wystąpił błąd.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>Nie można uzyskać domyślnego stylu.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>Nie można znaleźć wymaganego XML.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) maksymalna wysokość wynagrodzenia jest minimalna kwota, proszę podać dużych kwot.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) maksymalny wiek od minimalnego wieku, należy określić wartość danej partii.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA między cyfry, (1) Proszę wpisać cyfry lub mniej.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) do (2) można wprowadzić cyfry.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>Organizacja nazwie już istnieje.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>No nie ma biznesu.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>Proszę podać daty ustanowionej w ostatnim czasie.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>Plik nie istnieje.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>Nie można przesyłać pliki na serwer.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>Plik nie usunięcie.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>Usuwanie plików nie istnieje.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>Zaktualizuj plik nie istnieje.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>Nie można zaktualizować pliku.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>Wybierz pliku.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>Hasło i Potwierdź hasło nie pasuje.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>Dołącz do &amp;quot;poddomena&amp;quot; jest już w użyciu. Wybierz sub-domeny.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>Dla odzwierciedlenia tej aktualizacji lub usunąć operacji, proszę wybrać potwierdzenie.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>Jak ją usunąć?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>Nazwa konta lub hasło jest nieprawidłowe.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>Nazwa konta nie istnieje.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>Mogą mieć problem z konta bezpieczeństwa. W późniejszym czasie, proszę sprawdzić jeszcze raz.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>Wpisz w pliku JPG, GIF, PNG obsługuje tylko.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) jest nieprawidłowy format numeru telefonu, należy wprowadzić prawidłowe numer telefonu.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) jest nieprawidłowy format numeru telefonu, należy wprowadzić prawidłowe numer telefonu.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) jest numer faksu format jest nieprawidłowy, należy wprowadzić prawidłowe numer telefonu.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>Nazwa pliku jest alfanumerycznych lub &amp;quot;_&amp;quot; tylko pliki.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>Nie ma nazwę rozszerzenie nazwy pliku, lub nazwa pliku jest nieprawidłowa.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>Cyfr (0) (1) do (2) można wprowadzić cyfry.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) jest duplikatem.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) Usunąć go?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>Poczta nie jest zarejestrowany do kontaktu spółki, zmiana hasła przez e-mail.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>Nazwa konta jest nieprawidłowa lub nie istnieje.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>Procesu nie udało się wysłać hasła przez e-mail, od stojącego na chwilę, proszę spróbować ponownie.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>Jeśli nie zaznaczysz Warunki korzystania z usługi, nie można kontynuować procesu.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>Nazwa konta jest już zarejestrowana.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA postaci adresu e-mail Podaj prawidłowy adres e-mail.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) jest już uwierzytelniony. Aby to sprawdzić, proszę ponownie operację.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>Wprowadzony adres URL jest w postaci adresu URL.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>Hasło i Potwierdź hasło nie pasuje.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) wejście błąd, należy ponownie wprowadzić.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>Zrezygnować z usługi i naprawy systemu hasło teraz.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA wejściowych, należy ponownie wprowadzić.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>Proszę wybrać domenę (y)</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>Chcemy tę kwotę</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) jest już w koszyku.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) nie jest prawidłową nazwą domeny</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) została już zarejestrowana,</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>Nie zgadzasz się z warunkami korzystania z tej witryny, usługa nie jest dostępna.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>Nie masz wystarczającej równowagi, muszę depozytu złota depozytów.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>Mamy otwarte usługi.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>Nazwy domen są już zakupione, usuń przedmiot.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>Nie ma nazwy domeny może ubiegać.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>Proszę podać nazwę domeny.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>Proszę wybrać nazwę domeny.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>Proszę wybrać pytanie.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>Nie pasuje do Ciebie adres e-mail.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>Połączenie z serwerem nie powiodło się konwersji, określonego serwera, należy sprawdzić IP i numer portu.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>Time-out okres był zalogowany, Zaloguj się i spróbuj ponownie.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>Próbowałem statku serwer do przechowywania plików konwersji nie jest ważny w sklepach.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>Nie można utworzyć i utworzyć ponownie proszę.</value>
+  </data>
+</root>

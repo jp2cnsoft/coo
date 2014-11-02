@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="R000000010" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000020" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000030" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000040" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000050" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000060" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000070" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000080" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000090" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000100" xml:space="preserve">
+    <value>A.Ş.</value>
+  </data>
+  <data name="R000000110" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000120" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000130" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000140" xml:space="preserve">
+    <value>Yabancı şirketler</value>
+  </data>
+  <data name="R000000150" xml:space="preserve">
+    <value>SOEs</value>
+  </data>
+  <data name="R000000160" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000170" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000180" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000190" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000200" xml:space="preserve">
+    <value>Ltd</value>
+  </data>
+  <data name="R000000210" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000220" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000230" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000240" xml:space="preserve">
+    <value>Perakende satış</value>
+  </data>
+  <data name="R000000250" xml:space="preserve">
+    <value>Toptan ticaret</value>
+  </data>
+  <data name="R000000260" xml:space="preserve">
+    <value>Şube</value>
+  </data>
+  <data name="R000000270" xml:space="preserve">
+    <value>Ofis</value>
+  </data>
+  <data name="R000000280" xml:space="preserve">
+    <value>Ofis</value>
+  </data>
+  <data name="R000000300" xml:space="preserve">
+    <value>5 kişi</value>
+  </data>
+  <data name="R000000310" xml:space="preserve">
+    <value>50 veya daha az</value>
+  </data>
+  <data name="R000000320" xml:space="preserve">
+    <value>100 veya daha az</value>
+  </data>
+  <data name="R000000330" xml:space="preserve">
+    <value>500 kişi</value>
+  </data>
+  <data name="R000000340" xml:space="preserve">
+    <value>Daha az 1000 daha</value>
+  </data>
+  <data name="R000000350" xml:space="preserve">
+    <value>1000 üzerinde</value>
+  </data>
+  <data name="R000000360" xml:space="preserve">
+    <value>Adam</value>
+  </data>
+  <data name="R000000370" xml:space="preserve">
+    <value>Kadın</value>
+  </data>
+  <data name="R000000380" xml:space="preserve">
+    <value>Junior lise mezunu ya da daha yüksek</value>
+  </data>
+  <data name="R000000390" xml:space="preserve">
+    <value>Lise mezunlarının fazla</value>
+  </data>
+  <data name="R000000400" xml:space="preserve">
+    <value>Okul fazla</value>
+  </data>
+  <data name="R000000410" xml:space="preserve">
+    <value>Kolej fazla</value>
+  </data>
+  <data name="R000000420" xml:space="preserve">
+    <value>Üniversite mezunları Than</value>
+  </data>
+  <data name="R000000430" xml:space="preserve">
+    <value>Master veya daha yüksek</value>
+  </data>
+  <data name="R000000440" xml:space="preserve">
+    <value>Ofis işçisi</value>
+  </data>
+  <data name="R000000450" xml:space="preserve">
+    <value>Iş</value>
+  </data>
+  <data name="R000000460" xml:space="preserve">
+    <value>25 yaşında</value>
+  </data>
+  <data name="R000000470" xml:space="preserve">
+    <value>35 yaşında</value>
+  </data>
+  <data name="R000000480" xml:space="preserve">
+    <value>45 yaşında</value>
+  </data>
+  <data name="R000000490" xml:space="preserve">
+    <value>1 yıl</value>
+  </data>
+  <data name="R000000500" xml:space="preserve">
+    <value>2 yıl</value>
+  </data>
+  <data name="R000000510" xml:space="preserve">
+    <value>5 yıl</value>
+  </data>
+  <data name="R000000520" xml:space="preserve">
+    <value>8 yıl</value>
+  </data>
+  <data name="R000000530" xml:space="preserve">
+    <value>1 ay</value>
+  </data>
+  <data name="R000000540" xml:space="preserve">
+    <value>3 ay</value>
+  </data>
+  <data name="R000000550" xml:space="preserve">
+    <value>1 yıl</value>
+  </data>
+  <data name="R000000560" xml:space="preserve">
+    <value>Dr Than</value>
+  </data>
+  <data name="R000001000" xml:space="preserve">
+    <value>Çin Yuan</value>
+  </data>
+  <data name="R000002000" xml:space="preserve">
+    <value>¥</value>
+  </data>
+  <data name="R000003000" xml:space="preserve">
+    <value>S. Ü. Dolar</value>
+  </data>
+  <data name="R000004000" xml:space="preserve">
+    <value>DOITSUMARUKU</value>
+  </data>
+  <data name="R000005000" xml:space="preserve">
+    <value>CAD</value>
+  </data>
+  <data name="R000006000" xml:space="preserve">
+    <value>Fransız Frangı</value>
+  </data>
+  <data name="R000010000" xml:space="preserve">
+    <value>Sorular</value>
+  </data>
+  <data name="R000011000" xml:space="preserve">
+    <value>Hong Kong Doları</value>
+  </data>
+  <data name="R000012000" xml:space="preserve">
+    <value>MAKAOPATAKA</value>
+  </data>
+  <data name="R000013000" xml:space="preserve">
+    <value>Güney Kore Wonu</value>
+  </data>
+  <data name="R000020000" xml:space="preserve">
+    <value>Şikayetler</value>
+  </data>
+  <data name="R000030000" xml:space="preserve">
+    <value>Fikir</value>
+  </data>
+  <data name="R000040000" xml:space="preserve">
+    <value>Rapor</value>
+  </data>
+  <data name="R000050000" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="R000060000" xml:space="preserve">
+    <value>Ayarlamak</value>
+  </data>
+  <data name="R000070000" xml:space="preserve">
+    <value>. Com</value>
+  </data>
+  <data name="R000071000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000080000" xml:space="preserve">
+    <value>. NET</value>
+  </data>
+  <data name="R000081000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000090000" xml:space="preserve">
+    <value>. Org</value>
+  </data>
+  <data name="R000091000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000100000" xml:space="preserve">
+    <value>. Jp</value>
+  </data>
+  <data name="R001000010" xml:space="preserve">
+    <value>Common Stil</value>
+  </data>
+  <data name="R001000020" xml:space="preserve">
+    <value>Eğitim</value>
+  </data>
+  <data name="R001000030" xml:space="preserve">
+    <value>餐饮tekel</value>
+  </data>
+  <data name="R001000040" xml:space="preserve">
+    <value>Seyahat Acentaları</value>
+  </data>
+  <data name="R001000050" xml:space="preserve">
+    <value>Bilgisayar</value>
+  </data>
+  <data name="R001000060" xml:space="preserve">
+    <value>Giyim饰时尚</value>
+  </data>
+  <data name="R001001000" xml:space="preserve">
+    <value>Standart Stil</value>
+  </data>
+  <data name="R001001010" xml:space="preserve">
+    <value>绿色之风</value>
+  </data>
+  <data name="R001001020" xml:space="preserve">
+    <value>蓝色duygular</value>
+  </data>
+  <data name="R001001030" xml:space="preserve">
+    <value>红色Metal</value>
+  </data>
+  <data name="R001001040" xml:space="preserve">
+    <value>Metalik gri</value>
+  </data>
+  <data name="R001001050" xml:space="preserve">
+    <value>蓝色okullar园</value>
+  </data>
+  <data name="R001001060" xml:space="preserve">
+    <value>蓝色Sahil</value>
+  </data>
+  <data name="R001001070" xml:space="preserve">
+    <value>红色tekel</value>
+  </data>
+  <data name="R001001080" xml:space="preserve">
+    <value>蓝色畅想büro计算</value>
+  </data>
+  <data name="R001001090" xml:space="preserve">
+    <value>Geçmiş olaylar咖啡</value>
+  </data>
+  <data name="R001001100" xml:space="preserve">
+    <value>假日altın</value>
+  </data>
+  <data name="R001001110" xml:space="preserve">
+    <value>绿色vahşi hayat</value>
+  </data>
+  <data name="R001001120" xml:space="preserve">
+    <value>简单时尚</value>
+  </data>
+  <data name="R001001130" xml:space="preserve">
+    <value>Doğal tazelik</value>
+  </data>
+  <data name="R001001140" xml:space="preserve">
+    <value>标准风格(Japonya语)</value>
+  </data>
+  <data name="R001001150" xml:space="preserve">
+    <value>红色简单</value>
+  </data>
+  <data name="R001001160" xml:space="preserve">
+    <value>Doğal蓝色</value>
+  </data>
+  <data name="R001001170" xml:space="preserve">
+    <value>Doğal ev</value>
+  </data>
+  <data name="R001001180" xml:space="preserve">
+    <value>Bilim</value>
+  </data>
+  <data name="R010000000" xml:space="preserve">
+    <value>Türü organizasyon</value>
+  </data>
+  <data name="R020000000" xml:space="preserve">
+    <value>Iş</value>
+  </data>
+  <data name="R030000000" xml:space="preserve">
+    <value>Organizasyon Tipi</value>
+  </data>
+  <data name="R040000000" xml:space="preserve">
+    <value>Personel</value>
+  </data>
+  <data name="R050000000" xml:space="preserve">
+    <value>Türü Coins</value>
+  </data>
+  <data name="R060000000" xml:space="preserve">
+    <value>Türü soru</value>
+  </data>
+  <data name="R070000000" xml:space="preserve">
+    <value>Birim Miktar</value>
+  </data>
+  <data name="R080000000" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="R090000000" xml:space="preserve">
+    <value>Çin alan</value>
+  </data>
+  <data name="R100000000" xml:space="preserve">
+    <value>Cinsiyet</value>
+  </data>
+  <data name="R110000000" xml:space="preserve">
+    <value>Eğitim</value>
+  </data>
+  <data name="R120000000" xml:space="preserve">
+    <value>İstihdam formu</value>
+  </data>
+  <data name="R130000000" xml:space="preserve">
+    <value>Yaş</value>
+  </data>
+  <data name="R140000000" xml:space="preserve">
+    <value>Kariyer Hizmetleri</value>
+  </data>
+  <data name="R150000000" xml:space="preserve">
+    <value>Başlangıç tarihi açıkladı</value>
+  </data>
+</root>

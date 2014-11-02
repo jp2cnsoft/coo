@@ -1,0 +1,38 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.png" />
+--%>
+<asp:Label runat="server" />
+<asp:ImageButton SkinId="SkinImgbtn" ImageUrl="../../Images/china_save.png" onmouseover="javascript:this.src='../../Images/china_save_over.png';" onmouseout="javascript:this.src='../../Images/china_save.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnDelete" ImageUrl="../../Images/china_delete.png" onmouseover="javascript:this.src='../../Images/china_delete_over.png';" onmouseout="javascript:this.src='../../Images/china_delete.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnRemove" ImageUrl="../../Images/china_remove.png"  runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnRefeash" ImageUrl="../../Images/china_refreash.png" onmouseover="javascript:this.src='../../Images/china_refreash_over.png';" onmouseout="javascript:this.src='../../Images/china_refreash.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnUndo" ImageUrl="../../Images/china_return.png" onmouseover="javascript:this.src='../../Images/china_return_over.png';" onmouseout="javascript:this.src='../../Images/china_return.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnAdd" ImageUrl="../../Images/china_add.png" onmouseover="javascript:this.src='../../Images/china_add_over.png';" onmouseout="javascript:this.src='../../Images/china_add.png'" runat="server"></asp:ImageButton>
+
+
+
+<asp:ImageButton SkinId="SkinImgbtnUpdate" ImageUrl="../../Images/china_update.png" onmouseover="javascript:this.src='../../Images/china_update_over.png';" onmouseout="javascript:this.src='../../Images/china_update.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnEnter" ImageUrl="../../Images/china_enter.png" onmouseover="javascript:this.src='../../Images/china_enter_over.png';" onmouseout="javascript:this.src='../../Images/china_enter.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnCancel" ImageUrl="../../Images/china_cancel.png" onmouseover="javascript:this.src='../../Images/china_cancel_over.png';" onmouseout="javascript:this.src='../../Images/china_cancel.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnInvoice" ImageUrl="../../Images/china_invoice.png" onmouseover="javascript:this.src='../../Images/china_invoice_over.png';" onmouseout="javascript:this.src='../../Images/china_invoice.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnMove" ImageUrl="../../Images/china_move.png" onmouseover="javascript:this.src='../../Images/china_move_over.png';" onmouseout="javascript:this.src='../../Images/china_move.png'" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="SkinImgbtnDeleteMC" ImageUrl="../../Images/china_delete_mc.png" onmouseover="javascript:this.src='../../Images/china_delete_mc_over.png';" onmouseout="javascript:this.src='../../Images/china_delete_mc.png'" runat="server"></asp:ImageButton>
+
+<asp:TextBox SkinId="SkinRegisterTB" style="width:200px;" runat="server"></asp:TextBox>
+<asp:TextBox SkinId="SkinRegisterTbBg" style="width:200px;border:1px solid highlight;height:18px;" BackColor="lightyellow" runat="server"></asp:TextBox>
+<asp:TextBox SkinId="SkinRegisterBg" BackColor="lightyellow" style="border:1px solid highlight;height:18px;" runat="server"></asp:TextBox>
+<asp:Label SkinId="SkinErrorBg" BackColor="lightyellow" style="float:left; border:1px solid #FFBB34; 
+font-size:12px;width:62%;margin:auto 10% auto 10%;line-height:8px;*line-height:5px;text-align:left;
+padding-left:150px; background:url('../../Images/error.png'); padding-top:30px; *padding-top:40px;padding-bottom:12px;" runat="server" ForeColor="#8c3f01" Visible="false"></asp:Label>

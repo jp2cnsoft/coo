@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>Veritabanı bağlantısı başarısız</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>Başarısız işlem işleme veritabanı bağlantısı.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>Biz, yöneticinize başvurun beklenmedik bir sistem hatası oluştu.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) girişi gereklidir.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>Basamaklı (0) Yanlış numara, (1) Lütfen rakam girin.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1) basamak ve basamak sayısı.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) Lütfen doğru tarih girin.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) öğesini numaraları olmayan sayısal karakterler için izin verilmez.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) veya alfasayısal &amp;quot;_&amp;quot; girmek değil.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) öğeler alfasayısal. Sigara alfasayısal karakterlere izin verilmez.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) öğeler mektubu. Diğer harfler izin verilmez.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) öğeleri olan çift baytlık karakterler. Diğer çift baytlık karakterlere izin verilmez.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) e-posta adresi biçimi, geçerli bir e-posta adresinizi girin lütfen yanlış.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) geçerli değildir dosya türünü.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] (0) dosya boyutu, aşağıdaki dosya belirtin lütfen.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) sitenin biçimi uygun değildir.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) miktarını biçimi uygun değildir.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) 0 belirlemek mümkün değildir.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA posta kodunun biçimi, doğru posta kodu girin.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA bir cep telefonu numarası şeklinde, geçerli bir cep numarasını girin.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] Lütfen bir dosya seçin (1) KB dosya boyutu.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO SHINPURUMODO tek bir dosya belirtin.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>Maksimum dosya (0) seçilebilir.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>Aynı zamanda listede aynı dosya adı eklemeyin.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) (2) rakam girebilirsiniz için.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) yinelenmiş. Bir kopyası olmamalıdır.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>Lütfen seçin (0) son katmana.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>Sunucuya bağlantı başarısız.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>Sunucuyla veri işleme başarısız olmuştur.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA belirtilen tarih. Lütfen geçmişte bir tarih belirleyin.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA belirtilen tarih. Lütfen ileride bir tarih belirleyin.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase ve GetData fonksiyonu doğrudan adı olamaz, elde olmalıdır.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>Ben veritabanına bağlanma süreci başarısız kapandı.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>Ne zaman SQL komutunu çalıştırdığınızda bir hata oluştu.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>Görüntüler SQL komutları ile ilgili bir hata oluştu.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>Veritabanı işlem ROLLBACK operasyon başarısız oldu.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>Bir veritabanı hata yeniden oluştu.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>DataSet veri veritabanı Hata ayarlamak alınır ile oluştu.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader veri veritabanı Hata grubundan yayınlanan alınır.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>Yükleniyor yerel XML, veri ayarlamak dönüştürmek, bir hata oluştu.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>Ne zaman DataSet XML dosyası yazmak, hata oluştu.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>Ne zaman hatalar ile XML veri ayarlı, kimden dönüştürmek</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>Ne zaman masa veri kaydını silmek için, bir hata oluştu.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>Varsayılan stil alınamadı.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>Biz gerekli XML bulamadık.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) maaş en fazla miktar minimum tutarı büyük miktarda belirtin lütfen.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) minimum yaş en yüksek yaş, bir çok değeri lütfen belirtiniz.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA basamak sayısı arasında, (1) Lütfen rakam veya daha az girin.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) (2) rakam girebilirsiniz için.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>Organizasyon adı zaten var.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>No hiçbir iş.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>Lütfen tarih son kez kurulan belirtin.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>Dosya yok.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>Yükleme dosyaları Başarısız.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>Dosyayı kaldırma başarısız oldu.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>Dosya silme yok.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>Güncelleştirme dosyası mevcut değil.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>Dosya güncellenemedi.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>Lütfen bir dosya yükleyin seçin.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>Şifre ve şifresi eşleşmiyor onaylayın.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>&amp;quot;Ile&amp;quot; alt alan katıl zaten kullanılıyor. Lütfen bir alt etki alanı seçin.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>, Bir onay seçin işlem güncelleme veya silmek yansıtmak için.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>Nasıl kaldırabilirim?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>Hesap adı veya şifre yanlış.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>Hesap adı yok.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>May hesabı güvenlik ile ilgili bir sorun var. Daha sonra zaman, tekrar kontrol edin.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>Türü JPG, GIF, PNG dosya yükleme yalnızca destekler.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) Geçersiz telefon numarası biçimi doğru telefon numarasını girin lütfen.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) Geçersiz telefon numarası biçimi doğru telefon numarasını girin lütfen.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) bir faks numarası formatı geçersiz, doğru telefon numarasını girin.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>Yükleme Dosya adı ya da &amp;quot;_&amp;quot; dosyası alfasayısal olduğunu.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>Geçersiz Bu dosya adı uzantısı, herhangi bir isim veya isim dosyasıdır.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>Basamaklı (0) (1) (2) rakam girebilirsiniz için.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) yinelenmiş.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) kaldırılsın mı?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>Posta şirket iletişim için, e-posta şifrenizi değiştirmek kayıtlı değil.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>Hesap adı veya yanlış yok.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>İşlem e-mail ile şifre bilgilerini göndermek için, bir an için ayakta kimden, lütfen tekrar deneyin başarısız oldu.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>Eğer Hizmet Şartlarını kontrol değil, işlemi devam edemiyor.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>Hesap adı zaten kayıtlı.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA e-posta adresi Lütfen geçerli bir e-posta adresinizi girin formu.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) zaten yetkilendirilir. , Yeniden çalışma lütfen kontrol etmek için.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>Girdiğiniz URL bir URL şeklinde değil.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>Şifre ve şifresi eşleşmiyor onaylayın.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) girişini hata, lütfen girin.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>Şimdi servis ve sistem parola onarımı İptal.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA girişi, lütfen girin.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>Lütfen) alan (seçin</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>Bu miktar istiyorum</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) zaten alışveriş sepeti içinde.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) doğru etki alanı adını değil</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) daha önce, kaydedilmemiş</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>Kullanılamaz Hizmeti bu sitenin Şartları kabul etmiyorsanız, bir hizmettir.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>Yeterli denge yoksa, altın, mevduat bir ödemesi gerekir.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>Biz servis açıldı.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>Etki alanı adları zaten, öğe kaldırmak lütfen satın bulunmaktadır.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>Burada geçerli hiçbir etki alanı adıdır.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>Lütfen etki alanı adını girin.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>Lütfen bir etki alanı adı seçin.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>Lütfen bir soru seçin.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>Girdiğiniz e-posta adresini eşleşmiyor.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>Sunucu bağlantısı, belirtilen sunucu, lütfen IP ve bağlantı noktası numarasını kontrol dönüşüm başarısız oldu.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>Zaman aşımı süresi gönlüğe, giriş lütfen tekrar deneyin.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>Ben dosya dönüştürme saklamak için sunucu gemi çalıştı mağazalarında geçerli değil.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>Oluşturulamadı ve tekrar lütfen oluşturun.</value>
+  </data>
+</root>

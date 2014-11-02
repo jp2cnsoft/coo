@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>डाटाबेस कनेक्शन असफल</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>असफल लेनदेन प्रसंस्करण डेटाबेस कनेक्शन.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>हम, व्यवस्थापक से संपर्क करें कृपया एक अप्रत्याशित प्रणाली त्रुटि आई.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) प्रवेश आवश्यक है.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>अंक (0) के ग़लत नंबर, (1) कृपया अंक दर्ज करें.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1) अंक और अंकों की संख्या.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) कृपया सही तारीख दर्ज करें.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) या अक्षरांकीय &amp;quot;_&amp;quot; यह दर्ज नहीं कर सकते.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) आइटम अक्षरांकीय. गैर अक्षरांकीय अक्षर की अनुमति नहीं है.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) आइटम पत्र. अन्य अक्षरों की अनुमति नहीं है.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) आइटम डबल हैं बाइट वर्ण. अन्य डबल बाइट अक्षरों की अनुमति नहीं है.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) ई मेल पते स्वरूप, एक मान्य ईमेल पता दर्ज करें कृपया गलत है.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) लागू नहीं होती है प्रकार फ़ाइल.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] (0) फ़ाइल आकार, निम्न फ़ाइल निर्दिष्ट कृपया है.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) साइट के प्रारूप में फिट नहीं है.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) की राशि के प्रारूप में फिट नहीं है.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) 0 निर्दिष्ट करने के लिए संभव नहीं है.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA को डाक कोड का प्रारूप, सही ज़िप कोड दर्ज करें कृपया.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA एक मोबाइल नंबर का रूप है, एक मान्य मोबाइल नंबर दर्ज करें कृपया.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] के कृपया के साथ एक फ़ाइल चुनें (1) KB फ़ाइल का आकार.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO तुम SHINPURUMODO एक फ़ाइल निर्दिष्ट करें.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>अधिकतम फ़ाइल (0) का चयन किया जा सकता है.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>इसके साथ ही इस सूची में एक ही फाइल का नाम जोड़ नहीं है.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) (2) आप अंकों में प्रवेश करने के लिए कर सकते हैं.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) दोहराया गया है. एक नकली नहीं होना चाहिए.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>कृपया चुनें (0) अंतिम परत करने के लिए.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>सर्वर से कनेक्शन असफल.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>सर्वर के साथ डेटा प्रोसेसिंग विफल रही है.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA निर्दिष्ट तिथि. कृपया अतीत में एक दिनांक निर्दिष्ट करें.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA निर्दिष्ट तिथि. कृपया भविष्य में एक दिनांक निर्दिष्ट करें.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase इस समारोह GetData सीधे नहीं कहा जा सकता है, तो प्राप्त होगा.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>मैं डेटाबेस कनेक्शन प्रक्रिया विफल को बंद कर दिया.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>जब आप SQL आदेश चलाने एक त्रुटि थी.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>छवियाँ SQL आज्ञाओं क्रियान्वित करने से संबंधित है जब त्रुटि हो गई.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>इस डाटाबेस लेनदेन ROLLBACK आपरेशन असफल रहा.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>जब आप एक डेटाबेस त्रुटि के reconnect हुई.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>DataSet डेटा को डेटाबेस जब आप त्रुटि सेट से निकाली के साथ हुआ.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader डेटा को डेटाबेस जब आप त्रुटि सेट से जारी किया गया था छुड़वाया है.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>लोड हो रहा है स्थानीय XML, डेटा सेट कन्वर्ट, एक त्रुटि हो गई.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>जब आप DataSet XML फ़ाइल लिखने में त्रुटि हुई.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>जब आप त्रुटियों के साथ XML आंकड़ा डेटा करने के लिए सेट से कन्वर्ट</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>जब आप तालिका डेटा में एक रिकार्ड नष्ट, एक त्रुटि हो गई.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>डिफ़ॉल्ट शैली प्राप्त करने में असमर्थ.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>हम अपेक्षित एक्सएमएल नहीं मिला.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) वेतन की अधिकतम राशि न्यूनतम राशि, बड़ी मात्रा निर्दिष्ट कृपया है.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) न्यूनतम उम्र से अधिक से अधिक उम्र का है, बहुत कुछ के मूल्य निर्दिष्ट कृपया.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA अंकों की संख्या के बीच, (1) कृपया अंकों या उससे कम दर्ज करें.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) (2) आप अंकों में प्रवेश करने के लिए कर सकते हैं.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>संगठन का नाम पहले से ही मौजूद है.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>नहीं, कोई व्यवसाय है.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>कृपया तारीख को पिछली बार की स्थापना के लिए निर्दिष्ट करें.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>फ़ाइल मौजूद नहीं है.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>फ़ाइलें अपलोड करने में विफल.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>फ़ाइल हटाने में विफल रहा है.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>फ़ाइलों को हटाना मौजूद नहीं है.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>अद्यतन फ़ाइल मौजूद नहीं है.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>फ़ाइल को अद्यतन करने में असफल.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>कृपया एक फ़ाइल अपलोड करें चुनें.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>और पासवर्ड मेल नहीं खाते पासवर्ड की पुष्टि करें.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>&amp;quot;को&amp;quot; उपडोमेन जुड़ें पहले से ही प्रयोग में है. कृपया एक उप डोमेन का चयन करें.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>, एक पुष्टि चुन कृपया आपरेशन अद्यतन या हटाने को प्रतिबिंबित करने के लिए.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>मैं कैसे इसे हटाने है?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>खाता नाम या पासवर्ड गलत है.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>इस खाते का नाम मौजूद नहीं है.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>मई खाते की सुरक्षा के साथ एक समस्या है. बाद के समय से, फिर से जाँच कृपया.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>प्रकार JPG, GIF, PNG में फाइल अपलोड ही समर्थन करता है.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) अमान्य फ़ोन नंबर स्वरूप, सही फ़ोन नंबर दर्ज कृपया है.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) अमान्य फ़ोन नंबर स्वरूप, सही फ़ोन नंबर दर्ज कृपया है.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) एक फैक्स नंबर प्रारूप है अमान्य है, सही फोन नंबर दर्ज करें कृपया.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>अपलोड फ़ाइल नाम या &amp;quot;_&amp;quot; सिर्फ फाइलों अक्षरांकीय है.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>अवैध है इस फ़ाइल नाम एक्सटेंशन का कोई नाम नहीं है या नाम दर्ज है.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>अंक (0) (1) (2) आप अंकों में प्रवेश करने के लिए कर सकते हैं.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) दोहराया गया है.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) निकालें?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>मेल कंपनी से संपर्क करने के लिए, ईमेल द्वारा अपना पासवर्ड बदल पंजीकृत नहीं है.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>इस खाते के नाम या गलत है मौजूद नहीं है.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>प्रक्रिया ई मेल द्वारा पासवर्ड जानकारी भेजने के लिए, एक पल के लिए खड़े से, कृपया पुन: प्रयास करें असफल रहा.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>यदि आप सेवा की शर्तों की जाँच नहीं करते हैं, तो आप इस प्रक्रिया को जारी नहीं रख सकते.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>इस खाते का नाम पहले से ही पंजीकृत है.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA ई के मेल पता कृपया एक वैध ईमेल पता दर्ज करें फार्म.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) पहले से ही प्रमाणीकृत है. , फिर से ऑपरेशन कृपया जाँच करने के लिए.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>यह यूआरएल आपके द्वारा दर्ज एक यूआरएल के रूप में नहीं है.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>और पासवर्ड मेल नहीं खाते पासवर्ड की पुष्टि करें.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) इनपुट त्रुटि, कृपया पुनः दर्ज करें.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>अब इस सेवा और पासवर्ड प्रणाली की मरम्मत रद्द करें.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA इनपुट, कृपया पुनः दर्ज करें.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>कृपया) डोमेन (ओं चुनें</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>हम चाहते हैं कि राशि</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) पहले से ही खरीददारी कार्ट में है.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) सही डोमेन नाम में नहीं है</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) पहले से ही पंजीकृत किया गया है</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>उपलब्ध नहीं है इस साइट की सेवा की शर्तों से सहमत नहीं है, इस सेवा है.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>तुमने बहुत शेष नहीं है, मैं सोने की जमा राशियों के एक जमा की आवश्यकता है.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>हम इस सेवा को खोला.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>डोमेन नाम पहले से ही है, आइटम हटा कृपया खरीद रहे हैं.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>इसमें आवेदन कर सकते हैं कोई डोमेन नाम है.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>कृपया इस डोमेन के नाम दर्ज करें.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>कृपया एक डोमेन नाम का चयन करें.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>कृपया एक सवाल का चयन करें.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>को आपके द्वारा दर्ज ईमेल पते से मेल नहीं है.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>सर्वर का कनेक्शन, निर्दिष्ट सर्वर, तो कृपया आईपी और पोर्ट संख्या की जाँच करें रूपांतरण असफल रहा.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>टाइम आउट अवधि लॉग इन था, प्रवेश कृपया और फिर कोशिश करें.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>मैं फ़ाइल रूपांतरण स्टोर करने के लिए सर्वर जहाज करने की कोशिश की दुकानों में मान्य नहीं है.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>बनाने में असफल और फिर कृपया बनाएँ.</value>
+  </data>
+</root>

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="ADDRESS" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="ADSERVICE" xml:space="preserve">
+    <value>廣告服務</value>
+  </data>
+  <data name="ALLMESSAGE" xml:space="preserve">
+    <value>所有留言</value>
+  </data>
+  <data name="ALLPRODUCT" xml:space="preserve">
+    <value>所有産品</value>
+  </data>
+  <data name="ALLSEL" xml:space="preserve">
+    <value>全選/全不選</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="AREA" xml:space="preserve">
+    <value>地域</value>
+  </data>
+  <data name="AREACODE" xml:space="preserve">
+    <value>區號</value>
+  </data>
+  <data name="BRANCHCODE" xml:space="preserve">
+    <value>分機碼</value>
+  </data>
+  <data name="BROWSER" xml:space="preserve">
+    <value>浏覽</value>
+  </data>
+  <data name="CALLING" xml:space="preserve">
+    <value>行業</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CHECKEMAIL" xml:space="preserve">
+    <value>驗證郵件</value>
+  </data>
+  <data name="CLASSNAME" xml:space="preserve">
+    <value>分類名稱</value>
+  </data>
+  <data name="CLEAR" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="CLOSE" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="CMPADDRESS" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="CMPHOMEPAGE" xml:space="preserve">
+    <value>公司主頁</value>
+  </data>
+  <data name="COMMEMO" xml:space="preserve">
+    <value>公司簡介</value>
+  </data>
+  <data name="COMPANY" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="COMPANYNAME" xml:space="preserve">
+    <value>公司名稱</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="COUNTRY" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="COUNTRYCODE" xml:space="preserve">
+    <value>國家碼</value>
+  </data>
+  <data name="CREATE" xml:space="preserve">
+    <value>創建</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="DISPLAY" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="EMAILADDRESS" xml:space="preserve">
+    <value>電子郵件地址</value>
+  </data>
+  <data name="EMAILFROM" xml:space="preserve">
+    <value>coo@seikasoft.com</value>
+  </data>
+  <data name="EMAILFROMPASS" xml:space="preserve">
+    <value>coo-0</value>
+  </data>
+  <data name="EMAILNAME" xml:space="preserve">
+    <value>電子郵件名</value>
+  </data>
+  <data name="EMAILREMARK" xml:space="preserve">
+    <value>(格式如:sample@company.com)</value>
+  </data>
+  <data name="EMAILSAVESUCCESS" xml:space="preserve">
+    <value>郵件發送成功</value>
+  </data>
+  <data name="FAMILYNAME" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="FAXNUMBER" xml:space="preserve">
+    <value>傳真號碼</value>
+  </data>
+  <data name="HOSTPAGE" xml:space="preserve">
+    <value>主頁地址</value>
+  </data>
+  <data name="IMAGE" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="LASTNAME" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="LINK" xml:space="preserve">
+    <value>聯系方法</value>
+  </data>
+  <data name="LINKME" xml:space="preserve">
+    <value>點擊這裏給我發消息</value>
+  </data>
+  <data name="LOOK" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="MAILADDRESS" xml:space="preserve">
+    <value>電子信箱</value>
+  </data>
+  <data name="MAILCONTENT" xml:space="preserve">
+    <value>{0} {1} 用戶在您的主頁上發布了留言信息</value>
+  </data>
+  <data name="MAILSUBJECT" xml:space="preserve">
+    <value>用戶{0}在您的主頁上的留言信息</value>
+  </data>
+  <data name="MANAGER" xml:space="preserve">
+    <value>管理員</value>
+  </data>
+  <data name="MANAGERREPLY" xml:space="preserve">
+    <value>[管理員回複]</value>
+  </data>
+  <data name="MESSAGEBOARD" xml:space="preserve">
+    <value>留言板</value>
+  </data>
+  <data name="MESSAGECONTENT" xml:space="preserve">
+    <value>留言內容</value>
+  </data>
+  <data name="MESSAGENAME" xml:space="preserve">
+    <value>您的大名</value>
+  </data>
+  <data name="MESSAGETHEME" xml:space="preserve">
+    <value>留言主題</value>
+  </data>
+  <data name="MOBILENUMBER" xml:space="preserve">
+    <value>移動電話</value>
+  </data>
+  <data name="MODIFY" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MORE" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="MSGDEL" xml:space="preserve">
+    <value>[刪除]</value>
+  </data>
+  <data name="MSGDELCONTENT" xml:space="preserve">
+    <value>確認要刪除選中的留言信息嗎？</value>
+  </data>
+  <data name="MSGDELERR" xml:space="preserve">
+    <value>刪除失敗</value>
+  </data>
+  <data name="MSGERRFAIL" xml:space="preserve">
+    <value>留言失敗！</value>
+  </data>
+  <data name="MSGERRPAGE" xml:space="preserve">
+    <value>頁面無法載入！請與管理員聯系！</value>
+  </data>
+  <data name="MSGERRTIME" xml:space="preserve">
+    <value>操作錯誤！兩次留言間隔時間不得少于10秒鍾！</value>
+  </data>
+  <data name="MSGMANAGEMENT" xml:space="preserve">
+    <value>留言管理</value>
+  </data>
+  <data name="MSGNAME" xml:space="preserve">
+    <value>留言姓名</value>
+  </data>
+  <data name="MSGOK" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MSGREPLYERR" xml:space="preserve">
+    <value>回複失敗</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="NEXT" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="NEXTPAGE" xml:space="preserve">
+    <value>下一頁</value>
+  </data>
+  <data name="ONLINELINK" xml:space="preserve">
+    <value>在線聯系</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>公開</value>
+  </data>
+  <data name="PAGE_FIRST" xml:space="preserve">
+    <value>開始頁</value>
+  </data>
+  <data name="PAGE_LAST" xml:space="preserve">
+    <value>結束頁</value>
+  </data>
+  <data name="PAGE_NEXT" xml:space="preserve">
+    <value>後一頁</value>
+  </data>
+  <data name="PAGE_PIECE" xml:space="preserve">
+    <value>件</value>
+  </data>
+  <data name="PAGE_PROV" xml:space="preserve">
+    <value>前一頁</value>
+  </data>
+  <data name="PAGE_TOTAL" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="PICTURE" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>職位</value>
+  </data>
+  <data name="PREV" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="PREVPAGE" xml:space="preserve">
+    <value>上一頁</value>
+  </data>
+  <data name="PRICE" xml:space="preserve">
+    <value>價格</value>
+  </data>
+  <data name="PRODUCT" xml:space="preserve">
+    <value>産品</value>
+  </data>
+  <data name="PRODUCTCLASS" xml:space="preserve">
+    <value>産品類別</value>
+  </data>
+  <data name="PROJECTNAME" xml:space="preserve">
+    <value>企業在線ONE</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="QUESTION" xml:space="preserve">
+    <value>常見問題</value>
+  </data>
+  <data name="README" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>參照</value>
+  </data>
+  <data name="REFRESH" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="REGEMAILFROM" xml:space="preserve">
+    <value>企業在線ONE</value>
+  </data>
+  <data name="REGEMAILSUBJECT" xml:space="preserve">
+    <value>企業在線ONE注冊確認郵件</value>
+  </data>
+  <data name="REGIST" xml:space="preserve">
+    <value>注冊</value>
+  </data>
+  <data name="REGMAILCONTENT" xml:space="preserve">
+    <value>&lt;html xmlns:copyRight="http://xml.sz.luohuedu.net/"&gt;
+ &lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Language" content="CHINA"&gt;
+  &lt;title&gt;激活確認郵件&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body style="text-align:center;"&gt;
+  &lt;div style="margin-left:auto;margin-right:auto;width:648px;text-align:left;"&gt;
+   &lt;div style="width:100%;"&gt;
+    &lt;div style="float:left;"&gt;&lt;a href="http://www.{domainname}" target="_blank"&gt;&lt;img src="http://www.{domainname}/Images/coo.png" border="0" title="企業在線ONE"/&gt;&lt;/a&gt;&lt;/div&gt;  
+    &lt;div style="float:right;padding-top:18px;font-size:14px;"&gt;
+     &lt;div style="float:left;margin-right:5px;"&gt;
+      &lt;span style="color:orange;margin:0 5px 0 5px;"&gt;&amp;bull;&lt;/span&gt;&lt;a href="http://www.{domainname}/Pages/P3000/P3000P0000.aspx" target="_blank" style="text-decoration:none;"&gt;網站首頁&lt;/a&gt;
+     &lt;/div&gt;
+     &lt;div style="float:left;margin-right:5px;"&gt;
+      &lt;span style="color:orange;margin:0 5px 0 5px;"&gt;&amp;bull;&lt;/span&gt;&lt;a href="http://www.{domainname}/Pages/P3000/P3000P0100.aspx" target="_blank" style="text-decoration:none;"&gt;企業搜索&lt;/a&gt;
+     &lt;/div&gt;
+     &lt;div style="float:left;margin-right:5px;"&gt;
+      &lt;span style="color:orange;margin:0 5px 0 5px;"&gt;&amp;bull;&lt;/span&gt;&lt;a href="http://www.{domainname}/Pages/P3000/P3000P0120.aspx" target="_blank" style="text-decoration:none;"&gt;産品搜索&lt;/a&gt;
+     &lt;/div&gt;
+     &lt;div style="float:left;margin-right:5px;"&gt;
+      &lt;span style="color:orange;margin:0 5px 0 5px;"&gt;&amp;bull;&lt;/span&gt;&lt;a href="http://www.{domainname}/Pages/P3000/P3000P0160.aspx" target="_blank" style="text-decoration:none;"&gt;企業招聘&lt;/a&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div style="clear:both;"&gt;&lt;/div&gt;
+   &lt;div style="margin-top:3px;border:1px solid #BACF84;text-align:left;"&gt;
+    &lt;div style="width:100%;"&gt;
+     &lt;img src="http://www.{domainname}/Images/headPic04.png" border="0" title="企業在線ONE"/&gt;
+    &lt;/div&gt;
+    &lt;div style="width:100%;padding-top:10px;"&gt;
+     &lt;table style="width:100%;font-size:14px;line-height:25px;color:#000080;"&gt;
+      &lt;tr&gt;
+       &lt;td style="width:5%;"&gt;&lt;/td&gt;
+       &lt;td style="width:90%;"&gt;
+         &lt;span style="font-weight:800;color:#000000;"&gt;尊敬的用戶，您好:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;歡迎您注冊企業在線ONE，您的注冊帳號是：&lt;span style="font-weight:800;"&gt;{0}&lt;/span&gt;&lt;br/&gt;您注冊時填寫的郵箱 &lt;span style="font-weight:800;margin:0 5px 0 5px;"&gt;{1}&lt;/span&gt;還未通過驗證，點擊下面鏈接完成注冊：&lt;br/&gt;
+  &lt;a href="{2}" target="_blank"&gt;&lt;span style="font-size:12px;"&gt;{2}&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;爲了確保您的帳戶安全，該鏈接僅&lt;font style="color:red;margin:0 5px 0 5px;"&gt;7天&lt;/font&gt;內訪問有效&lt;br/&gt;&lt;br/&gt;如果點擊鏈接不工作...&lt;br/&gt;請您選擇並複制整個鏈接，打開浏覽器窗口並將其粘貼到地址欄中。然後單擊“轉到”按鈕或按鍵盤上的Enter鍵。&lt;br/&gt;&lt;span style="color:red"&gt;(本郵件爲系統自動發出，請勿回複)&lt;/span&gt;&lt;br/&gt;
+       &lt;/td&gt;
+       &lt;td style="width:5%;"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td&gt;&lt;/td&gt;
+       &lt;td style="border-top:1px solid #BACF84;"&gt;
+        &lt;br/&gt;企業在線ONE是撫順正佳軟件開發有限公司推出的企業網站平台。&lt;br/&gt;激活帳號之後，您可以享受以下網絡服務：&lt;br/&gt;&lt;br/&gt;
+        &lt;span style="margin:0 15px 0 5px;"&gt;&amp;bull;&lt;/span&gt;多國語的企業網站&lt;br/&gt;
+        &lt;span style="margin:0 15px 0 5px;"&gt;&amp;bull;&lt;/span&gt;手機網站同步網頁&lt;br/&gt;
+        &lt;span style="margin:0 15px 0 5px;"&gt;&amp;bull;&lt;/span&gt;多種風格樣式&lt;br/&gt;
+        &lt;span style="margin:0 15px 0 5px;"&gt;&amp;bull;&lt;/span&gt;SEO搜索引擎優化&lt;br/&gt;
+        &lt;span style="margin:0 15px 0 5px;"&gt;&amp;bull;&lt;/span&gt;多種遊覽器移定浏覽&lt;br/&gt;&lt;br/&gt;
+       &lt;/td&gt;
+       &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+     &lt;/table&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="RELEASED" xml:space="preserve">
+    <value>發表于</value>
+  </data>
+  <data name="REMAILADDRESS" xml:space="preserve">
+    <value>再次輸入郵件地址</value>
+  </data>
+  <data name="REMOVE" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="REPLY" xml:space="preserve">
+    <value>回複</value>
+  </data>
+  <data name="REPLYCONTENT" xml:space="preserve">
+    <value>回複內容</value>
+  </data>
+  <data name="REPLYDELCONTENT" xml:space="preserve">
+    <value>確認要刪除選中的回複信息嗎？</value>
+  </data>
+  <data name="REPLYED" xml:space="preserve">
+    <value>回複于</value>
+  </data>
+  <data name="RESEND" xml:space="preserve">
+    <value>重新發送</value>
+  </data>
+  <data name="RESET" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SAVESUCCESS" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>檢索</value>
+  </data>
+  <data name="SELECT" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+ s  <data name="SETUP" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="SUBMIT" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="TELNUMBER" xml:space="preserve">
+    <value>電話號碼</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="TOURISTS" xml:space="preserve">
+    <value>遊客</value>
+  </data>
+  <data name="VERIFYCODE" xml:space="preserve">
+    <value>附加碼</value>
+  </data>
+  <data name="VERIFYCODEMSG" xml:space="preserve">
+    <value>(請正確輸入驗證碼)</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="ZIPCODE" xml:space="preserve">
+    <value>郵政編碼</value>
+  </data>
+  <data name="USERSITEDEL" xml:space="preserve">
+    <value>是否刪除該語言網站，刪除後該語言網站的所有信息將被刪除</value>
+  </data>
+  <data name="USERSITEDEFDEL" xml:space="preserve">
+    <value>默認語言不允許刪除</value>
+  </data>
+  <data name="CONTROLSUCCESS" xml:space="preserve">
+    <value>操作成功</value>
+  </data>
+  <data name="SITEMANAGE" xml:space="preserve">
+    <value>網站管理</value>
+  </data>
+  <data name="ALLNEWS" xml:space="preserve">
+    <value>所有新聞</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="GOSHOP" xml:space="preserve">
+    <value>繼續購物</value>
+  </data>
+  <data name="OVERSHOP" xml:space="preserve">
+    <value>結帳</value>
+  </data>
+  <data name="LOGO" xml:space="preserve">
+    <value>http://www.{domainname}/bbs/images/logo.png</value>
+  </data>
+  <data name="LANGSITEMAG" xml:space="preserve">
+    <value>語言網站管理</value>
+  </data>
+  <data name="ERRORMESSAGE" xml:space="preserve">
+    <value>請您完善以下信息：</value>
+  </data>
+</root>

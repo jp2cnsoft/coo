@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="ADDRESS" xml:space="preserve">
+    <value>ตำแหน่ง</value>
+  </data>
+  <data name="ADSERVICE" xml:space="preserve">
+    <value>โฆษณา</value>
+  </data>
+  <data name="ALLMESSAGE" xml:space="preserve">
+    <value>คำถามทั้งหมด</value>
+  </data>
+  <data name="ALLPRODUCT" xml:space="preserve">
+    <value>ผลิตภัณฑ์ทั้งหมด</value>
+  </data>
+  <data name="ALLSEL" xml:space="preserve">
+    <value>เลือกทั้งหมด / ยกเลิกทั้งหมด</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>นัมเบอร์</value>
+  </data>
+  <data name="AREA" xml:space="preserve">
+    <value>ท้องถิ่น</value>
+  </data>
+  <data name="AREACODE" xml:space="preserve">
+    <value>หมายเลขท้องถิ่น</value>
+  </data>
+  <data name="BRANCHCODE" xml:space="preserve">
+    <value>หมายเลขส่วนขยาย</value>
+  </data>
+  <data name="BROWSER" xml:space="preserve">
+    <value>แสดงตัวอย่าง</value>
+  </data>
+  <data name="CALLING" xml:space="preserve">
+    <value>อุตสาหกรรม</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>เลิกทำ</value>
+  </data>
+  <data name="CHECKEMAIL" xml:space="preserve">
+    <value>ที่อยู่อีเมลยืนยัน</value>
+  </data>
+  <data name="CLASSNAME" xml:space="preserve">
+    <value>คลาสชื่อ</value>
+  </data>
+  <data name="CLEAR" xml:space="preserve">
+    <value>ชัดเจน</value>
+  </data>
+  <data name="CLOSE" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="CMPADDRESS" xml:space="preserve">
+    <value>ตำแหน่ง</value>
+  </data>
+  <data name="CMPHOMEPAGE" xml:space="preserve">
+    <value>บริษัทเว็บไซต์</value>
+  </data>
+  <data name="COMMEMO" xml:space="preserve">
+    <value>ข้อมูลบริษัท</value>
+  </data>
+  <data name="COMPANY" xml:space="preserve">
+    <value>บริษัท</value>
+  </data>
+  <data name="COMPANYNAME" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>ยืนยัน</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>ข่าวอื่นๆ</value>
+  </data>
+  <data name="COUNTRY" xml:space="preserve">
+    <value>ประเทศ</value>
+  </data>
+  <data name="COUNTRYCODE" xml:space="preserve">
+    <value>รหัสประเทศ</value>
+  </data>
+  <data name="CREATE" xml:space="preserve">
+    <value>ใหม่</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>วัน</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="DISPLAY" xml:space="preserve">
+    <value>ดู</value>
+  </data>
+  <data name="EMAILADDRESS" xml:space="preserve">
+    <value>ที่อยู่อีเมล</value>
+  </data>
+  <data name="EMAILFROM" xml:space="preserve">
+    <value>coo@seikasoft.com</value>
+  </data>
+  <data name="EMAILFROMPASS" xml:space="preserve">
+    <value>กระจู๋กระจี๋-0</value>
+  </data>
+  <data name="EMAILNAME" xml:space="preserve">
+    <value>ชื่อที่อยู่อีเมล</value>
+  </data>
+  <data name="EMAILREMARK" xml:space="preserve">
+    <value>(ตัวอย่าง: sample@company.com)</value>
+  </data>
+  <data name="EMAILSAVESUCCESS" xml:space="preserve">
+    <value>ส่งสำเร็จ</value>
+  </data>
+  <data name="FAMILYNAME" xml:space="preserve">
+    <value>นามสกุล</value>
+  </data>
+  <data name="FAXNUMBER" xml:space="preserve">
+    <value>หมายเลขโทรสาร</value>
+  </data>
+  <data name="HOSTPAGE" xml:space="preserve">
+    <value>URL เว็บไซต์</value>
+  </data>
+  <data name="IMAGE" xml:space="preserve">
+    <value>อิมเมจ</value>
+  </data>
+  <data name="LASTNAME" xml:space="preserve">
+    <value>ผู้เข้าร่วม</value>
+  </data>
+  <data name="LINK" xml:space="preserve">
+    <value>ติดต่อสมัครงาน</value>
+  </data>
+  <data name="LINKME" xml:space="preserve">
+    <value>ติดต่อผู้ดูแลระบบ</value>
+  </data>
+  <data name="LOOK" xml:space="preserve">
+    <value>ดูเว็บไซต์</value>
+  </data>
+  <data name="MAILADDRESS" xml:space="preserve">
+    <value>ตอบที่อยู่อีเมล</value>
+  </data>
+  <data name="MAILCONTENT" xml:space="preserve">
+    <value>(0) (1) ได้รับการลงทะเบียนสำหรับไซต์ใหม่.</value>
+  </data>
+  <data name="MAILSUBJECT" xml:space="preserve">
+    <value>(0) ได้ลงทะเบียนใหม่ติดต่อ.</value>
+  </data>
+  <data name="MANAGER" xml:space="preserve">
+    <value>ผู้จัดการ</value>
+  </data>
+  <data name="MANAGERREPLY" xml:space="preserve">
+    <value>[ตอบผู้ดูแลระบบ]</value>
+  </data>
+  <data name="MESSAGEBOARD" xml:space="preserve">
+    <value>ติดต่อเรา</value>
+  </data>
+  <data name="MESSAGECONTENT" xml:space="preserve">
+    <value>สอบถาม</value>
+  </data>
+  <data name="MESSAGENAME" xml:space="preserve">
+    <value>ชื่อของคุณ</value>
+  </data>
+  <data name="MESSAGETHEME" xml:space="preserve">
+    <value>ชื่อประวัติ</value>
+  </data>
+  <data name="MOBILENUMBER" xml:space="preserve">
+    <value>โมบายโทรศัพท์</value>
+  </data>
+  <data name="MODIFY" xml:space="preserve">
+    <value>เปลี่ยน</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>ดวงจันทร์</value>
+  </data>
+  <data name="MORE" xml:space="preserve">
+    <value>มากกว่า</value>
+  </data>
+  <data name="MSGDEL" xml:space="preserve">
+    <value>[ลบ]</value>
+  </data>
+  <data name="MSGDELCONTENT" xml:space="preserve">
+    <value>คุณต้องการลบการเลือกของคุณ?</value>
+  </data>
+  <data name="MSGDELERR" xml:space="preserve">
+    <value>การลบล้มเหลว</value>
+  </data>
+  <data name="MSGERRFAIL" xml:space="preserve">
+    <value>ติดต่อลงทะเบียนล้มเหลว</value>
+  </data>
+  <data name="MSGERRPAGE" xml:space="preserve">
+    <value>ไม่สามารถโหลดหน้าโปรดติดต่อผู้ดูแล.</value>
+  </data>
+  <data name="MSGERRTIME" xml:space="preserve">
+    <value>10 สามารถติดต่อคุณอีกครั้งภายในวินาที.</value>
+  </data>
+  <data name="MSGMANAGEMENT" xml:space="preserve">
+    <value>ติดต่อจัดการ</value>
+  </data>
+  <data name="MSGNAME" xml:space="preserve">
+    <value>ติดต่อบุคคล</value>
+  </data>
+  <data name="MSGOK" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="MSGREPLYERR" xml:space="preserve">
+    <value>คำตอบที่ล้มเหลว</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="NEXT" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="NEXTPAGE" xml:space="preserve">
+    <value>หน้าถัดไป</value>
+  </data>
+  <data name="ONLINELINK" xml:space="preserve">
+    <value>ติดต่อออนไลน์</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>เว็บไซต์ขบวน</value>
+  </data>
+  <data name="PAGE_FIRST" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="PAGE_LAST" xml:space="preserve">
+    <value>หน้าสุดท้าย</value>
+  </data>
+  <data name="PAGE_NEXT" xml:space="preserve">
+    <value>หน้าถัดไป</value>
+  </data>
+  <data name="PAGE_PIECE" xml:space="preserve">
+    <value>ผลลัพธ์</value>
+  </data>
+  <data name="PAGE_PROV" xml:space="preserve">
+    <value>หน้าก่อนหน้านี้</value>
+  </data>
+  <data name="PAGE_TOTAL" xml:space="preserve">
+    <value>โทเทล</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="PICTURE" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>ตำแหน่ง</value>
+  </data>
+  <data name="PREV" xml:space="preserve">
+    <value>ขึ้น</value>
+  </data>
+  <data name="PREVPAGE" xml:space="preserve">
+    <value>หน้าก่อนหน้านี้</value>
+  </data>
+  <data name="PRICE" xml:space="preserve">
+    <value>ราคารายการ</value>
+  </data>
+  <data name="PRODUCT" xml:space="preserve">
+    <value>ผลิตภัณฑ์</value>
+  </data>
+  <data name="PRODUCTCLASS" xml:space="preserve">
+    <value>ประเภทของผลิตภัณฑ์</value>
+  </data>
+  <data name="PROJECTNAME" xml:space="preserve">
+    <value>ออนไลน์บริษัท</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>ซื้อ</value>
+  </data>
+  <data name="QUESTION" xml:space="preserve">
+    <value>ถาม &amp;amp; ตอบ</value>
+  </data>
+  <data name="README" xml:space="preserve">
+    <value>คำอธิบาย</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>อ้างอิง</value>
+  </data>
+  <data name="REFRESH" xml:space="preserve">
+    <value>อัปเดต</value>
+  </data>
+  <data name="REGEMAILFROM" xml:space="preserve">
+    <value>ออนไลน์บริษัท</value>
+  </data>
+  <data name="REGEMAILSUBJECT" xml:space="preserve">
+    <value>เมลออนไลน์การตรวจสอบบริษัท</value>
+  </data>
+  <data name="REGIST" xml:space="preserve">
+    <value>ล็อกอิน</value>
+  </data>
+  <data name="REGMAILCONTENT" xml:space="preserve">
+    <value>&lt;html xmlns:copyRight="http://xml.sz.luohuedu.net/"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta http-equiv="Content-Language" content="JAPAN"&gt;&lt;title&gt; ที่อยู่อีเมลยืนยัน &lt;/title&gt;&lt;/head&gt;&lt;body style="text-align:center;font-family:ＭＳ ゴシック;"&gt;&lt;div style="margin-left:auto;margin-right:auto;width:648px;text-align:left;"&gt;&lt;div style="width:100%;"&gt;&lt;div style="float:left;"&gt; &lt;a href="http://www.{domainname}" target="_blank"&gt;&lt;img src="http://www.{domainname}/Images/jpcoo.png" border="0" title="ออนไลน์บริษัท"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;div style="float:right;padding-top:18px;font-size:14px;"&gt;&lt;div style="float:left;margin-right:5px;"&gt;เว็บไซต์ &lt;br/&gt;</value>
+  </data>
+  <data name="RELEASED" xml:space="preserve">
+    <value>วันที่</value>
+  </data>
+  <data name="REMAILADDRESS" xml:space="preserve">
+    <value>Retype อีเมล</value>
+  </data>
+  <data name="REMOVE" xml:space="preserve">
+    <value>ลบออกจากการจำแนก</value>
+  </data>
+  <data name="REPLY" xml:space="preserve">
+    <value>Yahoo! รู้รอบ</value>
+  </data>
+  <data name="REPLYCONTENT" xml:space="preserve">
+    <value>Yahoo! รู้รอบเนื้อหา</value>
+  </data>
+  <data name="REPLYDELCONTENT" xml:space="preserve">
+    <value>คุณต้องการลบการเลือกของคุณ?</value>
+  </data>
+  <data name="REPLYED" xml:space="preserve">
+    <value>วันที่ตอบ</value>
+  </data>
+  <data name="RESEND" xml:space="preserve">
+    <value>ส่งอีกครั้ง</value>
+  </data>
+  <data name="RESET" xml:space="preserve">
+    <value>ชัดเจน</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>หลัง</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่าน</value>
+  </data>
+  <data name="SAVESUCCESS" xml:space="preserve">
+    <value>ที่ประสบความสำเร็จแก้.</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="SELECT" xml:space="preserve">
+    <value>ซีเล็ค</value>
+  </data>
+  <data name="SETUP" xml:space="preserve">
+    <value>ผู้บริหารเว็บไซต์</value>
+  </data>
+  <data name="SUBMIT" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="TELNUMBER" xml:space="preserve">
+    <value>โทรศัพท์</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>ชื่อประวัติ</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>ด้านบน</value>
+  </data>
+  <data name="TOURISTS" xml:space="preserve">
+    <value>ลูกค้า</value>
+  </data>
+  <data name="VERIFYCODE" xml:space="preserve">
+    <value>รหัสยืนยัน</value>
+  </data>
+  <data name="VERIFYCODEMSG" xml:space="preserve">
+    <value>(กรุณาใส่รหัสการรับรองความถูกต้อง)</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>ปี</value>
+  </data>
+  <data name="ZIPCODE" xml:space="preserve">
+    <value>รหัสไปรษณีย์</value>
+  </data>
+  <data name="USERSITEDEL" xml:space="preserve">
+    <value>ลบภาษาจริงๆการลบจะไม่สามารถเรียกคืนข้อมูลที่.</value>
+  </data>
+  <data name="USERSITEDEFDEL" xml:space="preserve">
+    <value>คุณไม่สามารถลบภาษาเริ่มต้น</value>
+  </data>
+  <data name="CONTROLSUCCESS" xml:space="preserve">
+    <value>การดำเนินการสำเร็จแล้ว.</value>
+  </data>
+  <data name="SITEMANAGE" xml:space="preserve">
+    <value>ผู้บริหารเว็บไซต์</value>
+  </data>
+  <data name="ALLNEWS" xml:space="preserve">
+    <value>ข่าวทั้งหมด</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>ล็อกอิน</value>
+  </data>
+  <data name="GOSHOP" xml:space="preserve">
+    <value>ซื้อเพิ่มเติม</value>
+  </data>
+  <data name="OVERSHOP" xml:space="preserve">
+    <value>การบัญชี</value>
+  </data>
+  <data name="LOGO" xml:space="preserve">
+    <value>http://www. (domainname) / bbs / รูปภาพ / logo.png</value>
+  </data>
+  <data name="LANGSITEMAG" xml:space="preserve">
+    <value>ญี่ปุ่นจัดการเว็บไซต์</value>
+  </data>
+  <data name="ERRORMESSAGE" xml:space="preserve">
+    <value>โปรดป้อนข้อมูลและอ้างอิงข้อมูล.</value>
+  </data>
+  <data name="WAITING" xml:space="preserve">
+    <value>ข้อมูลจะถูกประมวลผล. อึดใจโปรด. ... ... ... ...</value>
+    <comment>2009-05-08需要翻译</comment>
+  </data>
+  <data name="PLASECHOOSE" xml:space="preserve">
+    <value>โปรดเลือกประเภทชื่อ.</value>
+  </data>
+</root>

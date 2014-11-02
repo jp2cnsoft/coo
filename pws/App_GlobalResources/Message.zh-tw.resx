@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>數據庫打開失敗</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>數據庫事務操作失敗</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>系統發生不知名錯誤,請聯系本軟件開發公司</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>{0}不允許爲空</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>{0}長度不符合規定，長度爲{1}個字符</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>{0}規定長度{1}字符,低于規定長度</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>{0}不符合有效日期</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>{0}只允許輸入數字</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>{0}只允許輸入字母數字及下劃線</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>{0}只允許輸入字母和數字</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>{0}只允許輸入字母</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>{0}只允許輸入漢字</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>{0}不符合電子郵件格式</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[{0}]文件不符合{1}類型</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[{0}]文件尺寸不能大于{0}</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>{0}不符合主頁格式</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>{0}只允許貨幣類型</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>{0}不允許爲零</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>{0}不符合郵編內容</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>{0}不符合移動電話號碼格式</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[{0}]文件大小請調整在{1}k內</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>在單上傳模式下只允許保存單個附件</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>圖片數量過多,不允許大于{0}張</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>保存列表中不能存在同名文件</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>{0}字符長度必須在{1}至{2}之間</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>{0}不允許重複</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>{0}不正確</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>請選擇{0}到最後一級</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>服務連接失敗</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>向服務發送數據失敗</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>{0}不允許大于當前日期</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>{0}不允許小于當前日期</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase的GetData函數不能直接調用,必須重載該函數</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>數據庫關閉失敗</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>執行普通操作SQL語句失敗</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>執行圖片操作SQL語句失敗</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>事務回滾失敗</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>與數據庫重新建立連接失敗</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>讀取數據庫數據到DataSet失敗</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>讀取數據庫數據到SqlDataReader失敗</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>讀取本地XML並轉成DataSet失敗</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>DataSet寫XML流失敗</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>DataSet讀XML流失敗</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>DataTable行數據刪除失敗</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>未取得默認樣式</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>未找到系統所需XML文件</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>{0}最低月薪不能大于最高月薪</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>{0}最小年齡不能大于最大年齡</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>{0}長度不符合規定，長度不大于{1}個字符</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>{0}長度必須在{1}至{2}字節之間</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>組織名已存在</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>營業執照號已存在</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>成立年月日不能大于當天</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>文件不存在</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>文件上傳失敗</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>文件刪除失敗</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>要刪除的文件不存在</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>要更新的文件不存在</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>文件更新失敗</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>請選擇要上傳的文件</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>兩次輸入的密碼不一致</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>注冊公司ID重複</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>請先完成追加修改操作</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>確定要刪除{0}嗎?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>用戶名或密碼錯誤</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>用戶名不存在</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>您的帳號可能存在安全問題，爲了保護您的帳戶安全，請您稍後再試</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>上傳文件僅支持圖片格式</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>{0}只允許輸入正確的電話號碼</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>您輸入的電話號碼不是有效的電話號碼</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>您輸入的傳真號碼不是有效的傳真號碼</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>上傳文件名只允許數據字母及下劃線</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>上傳文件名沒有後綴或無文件名稱</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>{0}長度不符合規定,長度爲{1}~{2}個字符</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>{0}已經存在不允許重複</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>確認要刪除當前{0}嗎？</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>公司注冊時未輸入郵箱地址，無法使用郵箱修複密碼</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>用戶帳號輸入錯誤或不存在</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>系統當前向您的郵箱地址發送管理密碼不成功，請稍後再試</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>您未同意本網站的服務條款，無法激活帳號</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>該帳號已經被注冊，請重新輸入</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>輸入的電子郵件不是有效有郵件地址</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>{0}已被激活，確認後重新輸入</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>輸入的公司主頁不符合公司主頁格式</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>輸入的確認密碼與新密碼不一致</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>{0}輸入有誤,請重新輸入</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>系統暫時無法修改密碼,請您稍後再試</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>{0}無效，確認後重新輸入</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>請任選一種或多種域名類型</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>付款金額不能爲0元</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>{0}已經存在，不允許重複購買</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>{0}不符合域名格式</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>{0}已被注冊，確認後重新輸入</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>您未同意本網站的服務條款，無法注冊帳號</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>您的余額不足,請充值後再進行激活.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>服務開啓成功</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>域名已被注冊,請刪除此服務,重新購買</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>無可注冊域名</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>請輸入域名名稱</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>請選擇您要購買的域名</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>請對問題進行選擇</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>兩次輸入的電子郵箱不一致</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>不能正確連接到轉換服務器，請確認服務器的IP及端口是否正確。</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>用戶連接超時,請重新登陸</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>向轉換服務器發送文件時，沒有得到一個正確的文件流參數。</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>激活失敗,請重新激活</value>
+  </data>
+</root>
+                                                                                                                                                                                                        

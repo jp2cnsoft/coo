@@ -1,0 +1,378 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{margin: 0px;padding: 0px;font: normal normal 14px;}
+ul,ol,li{list-style:none;}
+.clear {height:0px;line-height:0;font-size:0;display:block;clear:both;visibility:hidden;}
+/*==================================================================================*/
+#top {min-height:22px;height:18px;margin:0 3px;padding:8px 4px 0px 4px;border-bottom:1px solid #666666;color:#999999;
+	    background:url(../../Images/Images_Index/bgH1.png) center top no-repeat;line-height:18px;vertical-align:middle;}
+#lefttop{float:left;text-align:left;}
+#lefttop span{padding-right:10px;}
+#lefttop span a{text-decoration:none;color:#999999;}
+#lefttop span a:hover{color:red;}
+#righttop{float:right;text-align:right;}
+#righttop span a{text-decoration:none;color:#999999;}
+#righttop span a:hover{color:red;}
+/*a,a:link,a:visited {color:#0000ff;text-decoration:underline;}
+a:hover,a:active {color:#00ccff;text-decoration:underline;}
+/*=========================================container=========================================*/
+#wrapper{text-align:center;background-repeat: repeat-y;background-position: center top;background-image: url(../../Images/Images_Index/bgBody.png);}
+#main {margin:auto auto auto auto;width:905px;background:url(../../Images/Images_Index/bgMain.png) left top repeat-y;}
+/*=========================================header=========================================*/
+#header{margin:auto auto auto auto;width:905px;height:104px;}
+.headerleft {float:left;width:278px;height:81px;padding:0 0 0 3px;}
+.headerleft  h2 {width:278px;height:81px;}
+.headerleft  h2 a {display:block;width:278px;height:81px;background:url(../../Images/Images_Index/logo_ai.png) left top no-repeat;}
+.headerright{float:right;width:425px;padding:0 3px 0 0;}
+.headTel {float:right;width:425px;height:25px;background:url(../../Images/Images_Index/head_tel.png) 205px top no-repeat;margin-top:20px;margin-right:10px;}
+/*=========================================*headerNavi*=========================================*/
+#hnaviright{float:right;width:388px;margin:0;padding:0;*margin-right:5px!important;*margin-right:-10px;}
+#hnaviright ul li{float:left;}
+/*home*/
+#hnavi00 a,#hnavi00 a:link,#hnavi00 a:visited {display:block;width:60px;height:28px;
+         background:url(../../Images/Images_Index/China_hnavi00_off.png) left top no-repeat;text-indent:-9999px;}
+#hnavi00 a:hover,#hnavi00 a:active{display:block;width:60px;height:28px;
+	     background:url(../../Images/Images_Index/China_hnavi00_on.png) left top no-repeat;text-indent:-9999px;}
+/*headerNavi_sitemap*/
+#hnavi01 a,#hnavi01 a:link,#hnavi01 a:visited {display:block;width:88px;height:28px;
+	     background:url(../../Images/Images_Index/China_hnavi01_off.png) left top no-repeat;	text-indent:-9999px;}
+#hnavi01 a:hover,#hnavi01 a:active{display:block;width:88px;height:28px;
+         background:url(../../Images/Images_Index/China_hnavi01_on.png) left top no-repeat;	text-indent:-9999px;}
+
+/*headerNavi_group*/
+#hnavi02 a,#hnavi02 a:link,#hnavi02 a:visited {display:block;width:70px;height:28px;
+	     background:url(../../Images/Images_Index/China_hnavi02_off.png) left top no-repeat;text-indent:-9999px;}
+#hnavi02 a:hover,#hnavi02 a:active{display:block;width:70px;height:28px;
+	     background:url(../../Images/Images_Index/China_hnavi02_on.png) left top no-repeat;text-indent:-9999px;}
+/*headerNavi_faq*/
+#hnavi03 a,#hnavi03 a:link,#hnavi03 a:visited {display:block;width:56px;height:28px;
+         background:url(../../Images/Images_Index/China_hnavi03_off.png) left top no-repeat;text-indent:-9999px;}
+#hnavi03 a:hover,#hnavi03 a:active{display:block;width:56px;height:28px;
+         background:url(../../Images/Images_Index/China_hnavi03_on.png) left top no-repeat;text-indent:-9999px;}
+#hnavi04{float:right;text-align:right}
+/*headerNavi_email*/
+#hnavi04 a,#hnavi04 a:link,#hnavi04 a:visited {display:block;width:113px;height:28px;
+	     background:url(../../Images/Images_Index/China_headMail_off.png) left top no-repeat;text-indent:-9999px;}
+#hnavi04 a:hover,#hnavi04 a:active{display:block;width:113px;height:28px;
+	     background:url(../../Images/Images_Index/China_headMail_on.png) left top no-repeat;text-indent:-9999px;}
+/*=========================================navi=========================================*/
+#gnavi{margin:auto auto auto auto;clear:both;width:905px;height:78px;background:#ffffff url(../../Images/Images_Index/bgTop.png) left bottom no-repeat;}
+#gnavi li {float:left;}
+/*01*/
+#gnavi li#gnavi01 a,#gnavi li#gnavi01 a:link,#gnavi li#gnavi01 a:visited {display:block;color:white;text-align:center;
+	   width:151px;height:62px;text-decoration:none;padding-top:10px;background:url(../../Images/Images_Index/China_gnavi01_off.png) left top no-repeat;}
+#gnavi li#gnavi01 a span,#gnavi li#gnavi01 a:link span,#gnavi li#gnavi01 a:visited span{display:block;color:white;
+       width:90%;text-align:center;margin:auto auto auto auto;cursor:hand;text-decoration:none;font-size:16px;font-weight:800;}
+#gnavi li#gnavi01 a:hover,#gnavi li#gnavi01Curr a:active,#gnavi li#gnavi01Curr{display:block;width:151px;height:62px;color:white;
+	   text-decoration:none;background:url(../../Images/Images_Index/China_gnavi01_on.png) left top no-repeat;text-align:center;}
+#gnavi li#gnavi01 a:hover span,#gnavi li#gnavi01Curr a:active span,#gnavi li#gnavi01Curr a {display:block;width:90%;font-size:16px;font-weight:800;
+	   text-align:center;color:white;margin:auto auto auto auto;cursor:hand;text-decoration:none;}
+/*02*/
+#gnavi li#gnavi02 a,#gnavi li#gnavi02 a:link,#gnavi li#gnavi02 a:visited {display:block;width:151px;height:62px;text-decoration:none;
+       color:white;background:url(../../Images/Images_Index/China_gnavi02_off.png) left top no-repeat;text-align:center;padding-top:10px;}
+#gnavi li#gnavi02 a span,#gnavi li#gnavi02 a:link span,#gnavi li#gnavi02 a:visited span{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+#gnavi li#gnavi02 a:hover,#gnavi li#gnavi02Curr a:active,#gnavi li#gnavi02Curr{display:block;width:151px;height:62px;color:white;
+       text-decoration:none;background:url(../../Images/Images_Index/China_gnavi02_on.png) left top no-repeat;text-align:center;	}
+#gnavi li#gnavi02 a:hover span,#gnavi li#gnavi02Curr a:active span,#gnavi li#gnavi02Curr a{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+/*03*/
+#gnavi li#gnavi03 a,#gnavi li#gnavi03 a:link,#gnavi li#gnavi03 a:visited {display:block;width:151px;height:62px;text-decoration:none;
+       color:white;background:url(../../Images/Images_Index/China_gnavi03_off.png) left top no-repeat;text-align:center;padding-top:10px;}
+#gnavi li#gnavi03 a span,#gnavi li#gnavi03 a:link span,#gnavi li#gnavi03 a:visited span{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+#gnavi li#gnavi03 a:hover,#gnavi li#gnavi03Curr a:active,#gnavi li#gnavi03Curr{display:block;width:151px;height:62px;color:white;
+       text-decoration:none;background:url(../../Images/Images_Index/China_gnavi03_on.png) left top no-repeat;text-align:center;	}
+#gnavi li#gnavi03 a:hover span,#gnavi li#gnavi03Curr a:active span,#gnavi li#gnavi03Curr a{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+/*04*/
+#gnavi li#gnavi04 a,#gnavi li#gnavi04 a:link,#gnavi li#gnavi04 a:visited {display:block;width:151px;height:62px;text-decoration:none;
+       color:white;background:url(../../Images/Images_Index/China_gnavi04_off.png) left top no-repeat;text-align:center;padding-top:10px;}
+#gnavi li#gnavi04 a span,#gnavi li#gnavi04 a:link span,#gnavi li#gnavi04 a:visited span{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+#gnavi li#gnavi04 a:hover,#gnavi li#gnavi04Curr a:active,#gnavi li#gnavi04Curr{display:block;width:151px;height:62px;color:white;
+       text-decoration:none;background:url(../../Images/Images_Index/China_gnavi04_on.png) left top no-repeat;text-align:center;	}
+#gnavi li#gnavi04 a:hover span,#gnavi li#gnavi04Curr a:active span,#gnavi li#gnavi04Curr a{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+/*05*/
+#gnavi li#gnavi05 a,#gnavi li#gnavi05 a:link,#gnavi li#gnavi05 a:visited {display:block;width:151px;height:62px;text-decoration:none;
+       color:white;background:url(../../Images/Images_Index/China_gnavi05_off.png) left top no-repeat;text-align:center;padding-top:10px;}
+#gnavi li#gnavi05 a span,#gnavi li#gnavi05 a:link span,#gnavi li#gnavi05 a:visited span{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+#gnavi li#gnavi05 a:hover,#gnavi li#gnavi05Curr a:active,#gnavi li#gnavi05Curr{display:block;width:151px;height:62px;color:white;
+       text-decoration:none;background:url(../../Images/Images_Index/China_gnavi05_on.png) left top no-repeat;text-align:center;	}
+#gnavi li#gnavi05 a:hover span,#gnavi li#gnavi05Curr a:active span,#gnavi li#gnavi05Curr a{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+/*06*/
+#gnavi li#gnavi06 a,#gnavi li#gnavi06 a:link,#gnavi li#gnavi06 a:visited {display:block;width:150px;height:62px;color:white;
+       background:url(../../Images/Images_Index/China_gnavi07_off.png) left top no-repeat;text-align:center;padding-top:10px;text-decoration:none;}
+#gnavi li#gnavi06 a span,#gnavi li#gnavi06 a:link span,#gnavi li#gnavi06 a:visited span{display:block;color:white;width:90%;
+	   margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;}
+#gnavi li#gnavi06 a:hover,#gnavi li#gnavi06Curr a:active,#gnavi li#gnavi06Curr{display:block;width:150px;height:62px;color:white;
+	   background:url(../../Images/Images_Index/China_gnavi07_on.png) left top no-repeat;text-align:center;text-decoration:none;}
+#gnavi li#gnavi06 a:hover span,#gnavi li#gnavi06Curr a:active span,#gnavi li#gnavi06Curr a{display:block;color:white;width:90%;
+	   text-align:center;margin:auto auto auto auto;cursor:hand;font-size:16px;font-weight:800;	}
+/*=========================================content=========================================*/
+.content {float:left;width:672px;margin-left:5px;}
+/*=========================================联系我们=========================================*/
+.side_lianxi a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_lianxi_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_lianxi a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_linaxi_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_online a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_onlinelianxi_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_online a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_onlinelianxi_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.lianxi{width:640px;height:250px;background:url(../../Images/Images_Index/China_lianxi.png) left top no-repeat;}
+.lianxi_mainmiddle{width:640px;height:150px;background:url(../../Images/Images_Index/China_mainmiddle.png) left top repeat-y;}
+.lianxi_bottom{width:640px;height:250px;background:url(../../Images/Images_Index/mainbottom.png) left top no-repeat;}
+.lianxi_bottom img{margin-left:60px;margin-top:-120px;position:relative;}
+/*=========================================常见问题=========================================*/
+/*.side_question a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_q_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_question a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_q_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ly a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_ly_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ly a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_ly_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ad a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_ad_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ad a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_ad_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_tm a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_tm_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_tm a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_tm_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.main_questionbg{border:1px solid #C0E6F6;width:660;margin-bottom:20px;height:200px;background:url(../../Images/Images_Index/q_a_ichiran_back.png) left top repeat-x;}
+.main_questionbg img{width:14px;height:20px;margin-right:4px;}
+.main_questionbg div{margin-top:8px;}
+.main_questionCon{width:90%;margin-top:10px;margin-left:45px; text-align:left;}
+.main_questionbgtitle{width:662px;height:42px;margin-bottom:10px; background:url(../../Images/Images_Index/q_a_tit.png) left top no-repeat;}
+.questionheader{width:642px;padding-top:10px;height:32px;background:url(../../Images/Images_Index/q_a_q_tit.png) left top no-repeat;}
+.questionheader span{padding-left:48px;color:#11406B;font-weight:800;}
+.questioncon{width:580px;background:url(../../Images/Images_Index/q_a_a_tit.png) left top no-repeat;padding-top:8px;}
+.questioncon div{line-height:20px;font-size:12px;max-width:86%;width:98%;margin-left:55px;}
+.questionbottom{width:642px;height:20px;background:url(../../Images/Images_Index/q_a_foot.png) left top no-repeat;}*/
+.side_question a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_q_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_question a:hover,.side_shenqing a:active{width:195px;height:40px;
+      background:url(../../Images/Images_Index/China_q_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ly a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_ly_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ly a:hover,.side_shenqing a:active{width:195px;height:40px;
+      background:url(../../Images/Images_Index/China_ly_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ad a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_ad_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_ad a:hover,.side_shenqing a:active{width:195px;height:40px;
+      background:url(../../Images/Images_Index/China_ad2_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_tm a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_tm_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_tm a:hover,.side_shenqing a:active{width:195px;height:40px;
+      background:url(../Images/China_tm_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.main_questionbg{border:1px solid #C0E6F6;width:660;margin-bottom:20px;height:200px;background:url(../../Images/Images_Index/q_a_ichiran_back.png) left top repeat-x;}
+.main_questionbg img{width:14px;height:20px;margin-right:4px;}
+.main_questionbg div{margin-top:8px;}
+.main_questionCon{width:90%;margin-top:10px;margin-left:45px;text-align:left;}
+.main_questionbgtitle{width:662px;height:42px;margin-bottom:10px;background:url(../../Images/Images_Index/q_a_tit.png) left top no-repeat;}
+.questionheader{width:642px;padding-top:10px;height:32px;background:url(../../Images/Images_Index/q_a_q_tit.png) left top no-repeat;}
+.questionheader span{padding-left:48px;color:#11406B;font-weight:800;}
+.questioncon{width:642px;background:url(../../Images/Images_Index/q_a_a_tit.png) left top no-repeat;padding-top:8px;text-align:left;}
+.questioncon div{line-height:20px;font-size:12px;max-width:86%;width:85%;margin-left:55px;}
+.questionbottom{width:642px;height:20px;background:url(../../Images/Images_Index/q_a_foot.png) left top no-repeat;}
+/*=========================================项目=========================================*/
+.maincontent{margin:0px 0px 20px 15px;width:660px;background:url(../../Images/Images_Index/contentmiddle.png) left top repeat-y;}
+.mainpic{width:660px;height:250px;background:url(../../Images/Images_Index/China_mainpic.png) left top no-repeat;margin-bottom:30px;}
+.mainbtm{width:660px;height:300px;background:url(../../Images/Images_Index/China_mainbtm.png) left top no-repeat;}
+.mainstyle{width:660px;height:300px;background:url(../../Images/Images_Index/China_style.png) left top no-repeat;margin-bottom:40px;}
+.mainstyle div{margin-top:240px;}
+.mainmoblie{width:660px;height:194px;background:url(../../Images/Images_Index/China_moblie.png) left top no-repeat;margin-bottom:30px;}
+.mainmoblie div{margin-top:170px;}
+.mainlanuage{width:660px;height:229px;background:url(../../Images/Images_Index/China_language.png) left top no-repeat;margin-bottom:40px;}
+.mainlanuage div{margin-left:300px;*margin-right:30px;margin-top:170px;}
+.yuming{width:660px;height:200px;background:url(../../Images/Images_Index/China_yuming.png) left top no-repeat;margin-bottom:30px;}
+.yuming div{margin-top:160px;}
+.liulan{width:660px;height:229px;background:url(../../Images/Images_Index/China_liulan.png) left top no-repeat;margin-bottom:30px;}
+.liulan div{margin-top:180px;}
+.yangxi{float:right;width:140;height:40px;background:url(../../Images/Images_Index/index_btn.png) left top no-repeat;
+        margin-right:50px;*margin-right:30px;padding-top:12px;}
+.yangxi a{float:left;text-decoration:none;width:140px;}
+.yangxi span a{text-decoration:none;color:white;text-align:center;}
+.yangxi span a:hover{color:red;}
+/*=========================================网站地图=========================================*/
+.mapcontent {float:left;width:672px;margin-left:5px;}
+.mapmaincontent{margin:0px 0px 20px 0px;width:650px;}
+.mapmaincontent table{margin-bottom:10px;}
+.mapheadbg{width:662px;height:41px;background:url(../../Images/xx_title.png) left top no-repeat;}
+
+.mapheadbg span{float:left;color:white;text-align:left;padding:6px 0 0 20px;*padding:8px 0 0 20px;letter-spacing:5px;font-size:26px;font-weight:800;}
+.mapcon{float:left;width:100%;text-align:left;font-size:14px;font-weight:400;margin:8px 0 150px 0px;}
+.mapcon tr td{}
+.mapimg{text-align:right;}
+.mapfont{width:100%;text-align:left;line-height:18px;padding-left:20px;}
+.mapfont a span{color:#0A5378;text-decoration:none;}
+.maptitle{width:642px;height:26px;background:url(../../Images/mapbg.png) left top no-repeat;}
+.maptitle a span{padding-left:12px;font-size:16px;color:#006599;font-family:"黑体";text-decoration:none;}
+.mapno{float:left;width:4%;}
+.mapleftpad{padding-left:28px;}
+/*=========================================项目详细画面=========================================*/
+.xxcontent {float:left;width:672px;margin-left:5px;}
+.xxmaincontent{margin:0px;}
+
+.xxheadbg{width:662px;height:41px;background:url(../../Images/xx_title.png) left top no-repeat;}
+.xxheadbg span{float:left;color:white;text-align:left;padding:6px 0 0 20px;*padding:8px 0 0 15px;letter-spacing:5px;font-size:26px;font-weight:800;}
+.xxcon{float:left;width:100%;text-align:left;font-size:16px;font-weight:400;margin:8px 0 0 0px;border-bottom:1px dashed #999999;}
+.xxcon tr td{padding-top:4px;}
+.xxconimg{width:6%;text-align:right;}
+.xxconimg img{margin-top:4px;}
+.xxconfont{float:left;text-align:left;line-height:24px;}
+.fanhui{margin-left:613px;margin-bottom:5px;}
+.fanhui a img{width:27px;border:0;}
+/*=========================================side=========================================*/
+#side{float:left;width:215px;margin:0 0 20px 0;}
+.side_shenqing a,.side_shenqing a:link,.side_shenqing a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_snaviC02_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_shenqing a:hover,.side_shenqing a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_snaviC02_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_denglu a,.side_denglu a:link,.side_denglu a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_denglu_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_denglu a:hover,.side_denglu a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_denglu_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_mima a,.side_mima a:link,.side_mima a:visited {float:left;width:195px;height:40px;
+         background:url(../../Images/Images_Index/China_password_off.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+.side_mima a:hover,.side_mima a:active{width:195px;height:40px;
+	     background:url(../../Images/Images_Index/China_password_on.png) left top no-repeat;margin-left:20px;margin-bottom:10px;}
+
+#side_manageHead{width:195px;height:23px;margin:0 0 6px 20px;background:url(../../Images/Images_Index/sideDt_user.png) left top no-repeat;
+                 font-weight:600;color:white;text-align:center;padding-top:3px;}
+#side_manage{margin:-10px 0 6px 20px;text-align:center;}
+#side_manage div {padding:5px 0 3px 0;border-width:0 1px 1px 1px;border-style:solid;border-color:#336667;}
+#side_manage div a{text-decoration:none;}
+#side_tiyan{width:195px;height:100px;margin:10px 0 6px 20px;background:url(../../Images/Images_Index/snaviB01_on.png) left top no-repeat;}
+#side_tiyanheader{font-weight:600;font-size:16px;padding-top:7px;padding-left:85px;}
+#side_tiyancon{padding-top:12px;color:red;padding-left:85px;}
+
+.select_navi{width:195px;margin:20px 0 10px 20px;padding:0 0 4px 0;background:url(../../Images/Images_Index/bgDot.png) left bottom no-repeat;}
+.select_navi ul{background: url(../../Images/Images_Index/sub_menu_bg.png) repeat-y;margin:0 0 7px 0;}
+.select_navi ul li{width:195px;margin:0 0 0px 0;}
+.select_top{display:block;padding:3px 0 0px 0;text-align:center;color:white;font-weight:800;width:195px;height:25px;
+            background:url(../../Images/Images_Index/China_sub_menu_tit.png) left top no-repeat;}
+.select_bottom{display:block;width:195px;height:4px;background:url(../../Images/Images_Index/sub_menu_foot.png) left top no-repeat;font-size:1px;}
+/*-----------------------------------------其他搜索---------------------------------------------------*/
+#side_commendjob{width:200px;height:100px;margin:0 0 6px 17px;background:url(../../Images/Images_Index/China_commendjob.png) left top no-repeat;}
+#side_commendpro{width:200px;height:100px;margin:0 0 6px 17px;background:url(../../Images/Images_Index/China_commendpro.png) left top no-repeat;}
+.JobTitle{margin-left:3px;margin-bottom:10px;width:662px;height:41px;background:url(../../Images/Images_Index/China_Job_title.png) left top no-repeat;}
+.ProTitle{margin-left:3px;margin-bottom:10px;width:662px;height:41px;background:url(../../Images/Images_Index/China_Pro_title.png) left top no-repeat;}
+.jobheaderbg{width:200px;height:25px;padding-top:3px;margin:0 0 6px 17px;background:url(../../Images/Images_Index/sub_menu_tit.png) left top repeat-x;}
+.jobheaderbg span{color:white;}
+/*-----------------------------------------企业搜索---------------------------------------------------*/
+#side_commend{width:200px;height:100px;margin:0 0 6px 17px;background:url(../../Images/Images_Index/China_commend.png) left top no-repeat;}
+#side_commendCon{text-align:left;margin-left:17px;margin-bottom:5px;padding-left:2px;
+      padding-right:2px;font-size:12px;}
+/*#side_commendCon{max-height:50px;height:50px;max-width:195px;width:200px;border-top:1px solid #cccccc;
+      border-right:1px solid #666666;border-bottom:1px solid #666666;border-left:1px solid #cccccc;
+	  background:#d2eafb url(../Images/form_back.png) left top repeat-x;font-weight:normal;text-align:left;
+	  margin-left:17px;margin-bottom:5px;padding-left:2px;padding-right:2px;padding-top:4px;}*/
+
+#side_commendCon a{text-decoration:none;color:#AE1D1D;}
+#side_commendCon a:hover{color:#00ccff;}
+/*=========================================上线公司=========================================*/                 
+.companybg{margin:auto auto auto auto;width:662px;height:135px;background:url(../../Images/Images_Index/companybg01.png) center top no-repeat;}
+.companybg table{margin-left:28px;}
+.jobbg{margin:auto auto auto auto;width:662px;height:108px;background:url(../../Images/Images_Index/Jobbg.png) center top no-repeat;}
+.CompanyTitle{margin-left:3px;margin-bottom:10px;width:662px;height:41px;background:url(../../Images/Images_Index/China_Com_title.png) left top no-repeat;}
+.CompanyCon{width:93%;}
+.CompanyCon tr td a{text-decoration:none;color:#003466;margin-top:-5px;}
+.CompanyCon tr td a span{text-decoration:none;color:#003466;margin-top:-5px;}
+.CompanyCon tr td a:hover span{color:red;}
+.companyname img{margin-top:5px;height:20px;width:12px;}
+
+
+.companyheaderbg{width:330px;height:60px;background:url(../../Images/Images_Index/companyHeader.png) left top no-repeat;}
+.companyheaderbg tr td a{text-decoration:none;color:white;}
+.companyheaderbg tr td a span{text-decoration:none;color:white;}
+.companyheaderbg tr td a:hover span{color:red;}
+.companyconrbg{width:330px;height:129px;background:url(../../Images/Images_Index/companyCon.png) left top no-repeat;}
+.companyconrbg table{height:129px;}
+.companyPic{max-width:80px;max-height:80px;
+   width:expression(document.body.clientWidth/document.body.clientHeight >= 1 ? "80px":"auto");
+   height:expression(document.body.clientWidth/document.body.clientHeight < 1 ? "80px":"auto");
+   *border:0px;
+   *width:expression(width >= height ? "80px":"8000px/heiht%");
+   *height:expression(width < height ? "80px":"8000px/width%");}
+.China_companycon{font-size:12px;padding-top:7px;}
+.companyserCon{float:left;margin-left:16px!important;margin-left:8px;margin-bottom:11px;width:200px;background:url(../../Images/Images_Index/shousuobg.png) left top repeat-y;
+   border-width:1px 0 1px 0;border-style:solid;border-color:black;}
+/*.companyserCon{margin-left:25px;margin-bottom:11px;width:622px;height:35px;background:url(../Images/shousuobg.png) center top repeat-y;
+   border-width:1px 0 1px 0;border-style:solid;border-color:black;}
+/*-----------------------------------------end---------------------------------------------------*/
+.select_navi{width:195px;margin:20px 0 10px 20px;padding:0 0 4px 0;background:url(../../Images/Images_Index/bgDot.png) left bottom no-repeat;}
+.select_navi ul{background: url(../../Images/Images_Index/sub_menu_bg.png) repeat-y;margin:0 0 7px 0;}
+.select_navi ul li{width:195px;margin:0 0 0px 0;}
+.select_top{display:block;padding:3px 0 0px 0;text-align:center;color:white;font-weight:800;width:195px;height:25px;
+            background:url(../../Images/Images_Index/China_sub_menu_tit.png) left top no-repeat;}
+.select_bottom{display:block;width:195px;height:4px;background:url(../../Images/Images_Index/sub_menu_foot.png) left top no-repeat;font-size:1px;}
+/*--------------------------------------------------------------------------------------------*/
+.select_A a,.select_A a:link,.select_A a:visited {display:block;text-align:center;margin-left:3px;*margin-top:1px;width:189px;
+        height:25px;background: url(../../Images/Images_Index/China_sub_menu01_on.png) left top no-repeat;color:#003366;font-weight:600;
+		padding:3px 0 0 0px;text-decoration:none;}
+.select_A a:hover,.select_A a:active {display:block;margin:0px auto;width:189px;height:25px;margin-left:3px;*margin-top:1px;
+	    background: url(../../Images/Images_Index/China_sub_menu01_off.png) left top no-repeat;color:white;font-weight:600;}
+.select_B a,.select_B a:link,.select_B a:visited {display:block;text-align:center;margin-left:3px;*margin-top:1px;width:189px;
+        height:25px;background: url(../../Images/Images_Index/China_sub_menu02_on.png) left top no-repeat;color:#003366;font-weight:600;
+		padding:3px 0 0 0px;text-decoration:none;}
+.select_B a:hover,.select_B a:active {display:block;margin:0px auto;width:189px;height:25px;margin-left:3px;*margin-top:1px;
+	    background: url(../../Images/Images_Index/China_sub_menu02_off.png) left top no-repeat;color:white;font-weight:600;}
+.select_C a,.select_C a:link,.select_C a:visited {display:block;text-align:center;margin-left:3px;*margin-top:1px;width:189px;
+        height:25px;background: url(../../Images/Images_Index/China_sub_menu03_on.png) left top no-repeat;color:#003366;font-weight:600;
+		padding:3px 0 0 0px;text-decoration:none;}
+.select_C a:hover,.select_C a:active {display:block;margin:0px auto;width:189px;height:25px;margin-left:3px;*margin-top:1px;
+	    background: url(../../Images/Images_Index/China_sub_menu03_off.png) left top no-repeat;color:white;font-weight:600;}
+.select_D a,.select_D a:link,.select_D a:visited {display:block;text-align:center;margin-left:3px;*margin-top:1px;width:189px;
+        height:25px;background: url(../../Images/Images_Index/China_sub_menu04_on.png) left top no-repeat;color:#003366;font-weight:600;
+		padding:3px 0 0 0px;text-decoration:none;}
+.select_D a:hover,.select_D a:active {display:block;margin:0px auto;width:189px;height:25px;margin-left:3px;*margin-top:1px;
+	    background: url(../../Images/Images_Index/China_sub_menu04_off.png) left top no-repeat;color:white;font-weight:600;}
+
+/*=========================================main_footer=========================================*/
+#mainFoot {clear:both;width:898px;margin-left:3px;*margin-left:0px;background:#d7d7d7 url(../../Images/Images_Index/bgMainFoot.png) left bottom no-repeat;}
+#mainFoot ul {margin:2px 0;text-align:center;}
+#mainFoot li {display:inline;}
+#mainFoot li a{color:#999999;text-decoration:none;}
+#mainFoot li a:hover{color:#00ccff}
+/*=========================================footer=========================================*/
+#footer_index{clear:both;width:899px;margin:10px auto 0 auto;padding:0;}
+#footerTel{text-align:center;width:899px;height:48px;background:url(../../Images/Images_Index/footer_time.png) 508px bottom no-repeat;}
+.clear{clear:both;}
+/*=========================================公告=========================================*/
+.linkBoxCon{float:left;width:662px;height:262px;margin-left:4px;*margin-left:3px;background:url(../../Images/Images_Index/flash_img.png) left top no-repeat;}
+.linkBoxCon ul li{background:url(../../Images/Images_Index/point.png) left top no-repeat;line-height:22px;
+                  margin-left:25px;margin-top:5px;padding-left:25px;padding-top:1px;}
+/*=========================================域名查询=========================================*/   
+.findSer{float:left;margin-top:20px;margin-left:4px;}
+.findSerHeader{float:left;width:662px;height:36px;background:url(../../Images/Images_Index/h3_pro.png) left top no-repeat;}
+.findSerHeader span{line-height:40px;padding-left:30px;font-size:24px;color:White;font-weight:800;}
+.findSerCon{float:left;width:662px;*margin-top:-4px;background:url(../../Images/Images_Index/bgPro.png) left top repeat-y;padding-top:12px;}
+.findSerConL{float:left;width:70%;}
+.findSerConR{float:left;width:30%;background:url(../../Images/Images_Index/voice_btn01on.png) left top no-repeat;width:180px;height:41px;}
+.findSerConR a{text-decoration:none;display:block;padding-top:10px;}
+.findSerConR a span{color:black;font-weight:800;text-decoration:none;padding-left:40px;text-align:center;font-size:18px;}
+.findSerBtm{float:left;width:662px;height:20px;background:url(../../Images/Images_Index/bgPro_foot.png) left top no-repeat;}
+/*=========================================模版展示=========================================*/ 
+.pattern{float:left;margin-top:20px;margin-left:4px;}
+.patternHeader{float:left;width:662px;height:55px;background:url(../../Images/Images_Index/listBoxheader.png) left top no-repeat;}
+.patternHeader span{line-height:50px;padding-left:30px;font-size:20px;font-weight:800;}
+.patternCon{float:left;width:662px;background:url(../../Images/Images_Index/listBoxbg.png) left top repeat-y;}
+.patternCon marquee{margin-left:3px;width:99%;padding-top:10px;}
+.patternBtm{float:left;width:662px;height:11px;background:url(../../Images/Images_Index/listBoxbottom.png) left top no-repeat;}
+/*=========================================最新上线公司=========================================*/                 
+.NewCompany{float:left;margin-top:20px;}
+.NewCompanyHeader{width:662px;height:62px;background:url(../../Images/Images_Index/box_head.png) left top no-repeat;}
+.NewCompanyHeader span{line-height:60px;padding-left:30px;font-size:24px;color:White;font-weight:800;}
+.NewCompanyHeaderR{float:right;margin-top:-60px;}
+.NewCompanyHeaderR a{color:White;text-decoration:none;}
+.NewCompanyHeaderR a span{text-align:right;text-decoration:none;color:White;padding-right:30px;font-size:14px;}
+.NewCompanyCon{width:662px;background:url(../../Images/Images_Index/box_body.png) left top repeat-y;}
+.NewCompanyCon table{margin-left:15px;width:96%;}
+.NewCompanyCon table td a{text-decoration:none;}
+.NewCompanyCon table td a span{text-decoration:none;color:#1975A6;}
+.NewCompanyCon table td a:hover span{text-decoration:none;color:red;}
+.NewCompanyBtm{width:662px;height:20px;background:url(../../Images/Images_Index/box_btm.png) left top no-repeat;}

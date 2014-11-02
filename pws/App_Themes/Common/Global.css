@@ -1,0 +1,525 @@
+﻿body 
+{
+        PADDING:0px;
+		COLOR:#000;
+		margin-top:0px;
+		margin-bottom:0px;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		/*word-wrap:break-word;*/
+		font:normal normal 400 14px normal;  
+}
+table{width:100%;}
+/*默认输入框*/
+input.text {
+	border:1px solid highlight;height:18px;
+}
+input[type="text"] {
+	border:1px solid highlight;height:18px;
+}
+/*- [页面容器]--------------------------- */
+#container {float: none;min-width:1000px;width:1000px;margin:1px auto 10px auto;height:auto;}/*网站整体框架*/
+#containerOther {float: none;min-width:950px;width:950px;margin:1px auto 0px auto;height:auto;}/*网站整体框架(网站设置)*/
+.contentSubmenuManage{float:left;width:100%;min-height:500px;height:auto !important;*height:500px;background:url("../../Images/submenu.png") repeat-y;}/*管理页内容样式带子菜单*/
+.contentManage{float:left;width:100%;min-height:500px;height:auto !important;*height:500px;}/*管理页内容样式不带子菜单*/
+.contentManageOther{float:left; margin-left:2px;*margin-left:1px; _margin-left:0px;width:995px;height:auto !important;*height:500px;min-height:500px;border-right: 1px solid #698CC3; border-left:1px solid #698CC3}/*其他页内容样式不带子菜单*/
+/*- [主菜单]--------------------------- */
+#mainmenu
+{
+	float:left;
+	text-align:left;
+	width:100%;
+	background:url("../../Images/mainmenubg1.png") repeat-x;
+	height:32px;
+}
+#mainmenu ul 
+{
+	margin:0;
+	padding:0px;
+	list-style:none;
+}
+#mainmenu li 
+{
+	display:inline;
+	margin:0; 
+	padding:0;
+}
+#mainmenu a 
+{
+	float:left;height:32px;max-height:24px;padding:8px 0px 0 0px;text-decoration:none;text-align:center;width:131px;
+}
+#mainmenu a span {color:#001D4C;font-weight:600;}
+/*- [主菜单当前选择样式]--------------------------- */
+#mainmenuCurr a
+{
+	float:left;
+	background:url("../../Images/mainmenuCrr.png") no-repeat;
+	text-align:center;width:131px;height:32px;float:left;padding:8px 0 0 0px;text-decoration:none;
+ }
+#mainmenuCurr a span {color:#001D4C;font-weight:600;}
+#mainmenu a:hover span{color:#698CC3;text-align:center;}
+/*- [退出管理]--------------------------- */
+.exitManage{float:right;font-size:14px;text-align:right;margin-top:0px;}
+
+/* =-=-=-=-=-=-=[头部分]=-=-=-=-=-=-=- */
+.companyname{float:left;font-size:30px;text-align:left;}
+.header {float:left;width:100%;}
+.logo{float:left;width:auto;}
+.logo img{float:left;height:40px;border:0;}
+
+/* =-=-=-=-=-=-=[登录画面的头部分]=-=-=-=-=-=-=- 杨李*/
+/*.headerPic{margin-right:auto;margin-left:auto;background:url("../../Images/kj08.png") no-repeat;width:996px;height:104px;}*/
+.headerPic img{}
+.loginTitleLang{margin:0px; padding:5px 35px 0px 0px;text-align:right;font-size:11px;height:60px;}
+.login_label
+{ 
+	padding:8px 0 5px 0;
+}
+.login_button
+{
+	height:25px;
+	width:100px;
+}
+/* =-=-=-=-=-=-=-[Link]-=-=-=-=-=-=-=- */
+a:link,a:visited{color:#0044DD;text-decoration:none;}
+a:hover,a:active{color:#FF5500;text-decoration:none;cursor:hand;}
+a:hover span{ color:#ff5500;cursor:hand; } 
+a:focus{text-decoration:none; color: #993300; }
+
+/* =-=-=-=-=-=-=--[其他]--=-=-=-=-=-=-=- */
+.clear-float{clear:both;}
+#footer{max-width:1012px;width:938px;height:40px;background-color:#f6f6f6; float:left;
+	    border-width:1px 0 0 0;border-style:solid;border-color:#698CC3;padding:6px;}/*管理中心FOOTER*/
+#footerOther{max-width:1012px;width:990px;height:40px;background-color:#f6f6f6; margin:0px auto;
+	    border-width:1px 0 0 0;border-style:solid;border-color:#698CC3;padding:6px;}/*其他页FOOTER*/
+
+/* =-=-=-=-=-=-=--[说明]--=-=-=-=-=-=-=- */
+.leaderFont{font-size:12px;color:#888888;}
+/* =-=-=-=-=-=-=--[管理中心]--=-=-=-=-=-=-=- */
+
+/*- [管理中心左侧部分]--------------------------- */
+#contentleft{float:left;width:20%;}/*管理中心左侧框架*/
+
+/*管理中心左侧头部分*/
+/*.contentleftHead
+{
+	background:url("../../Images/leftHead.png");
+	background-repeat:no-repeat;
+	height:60px;
+	width:200px;
+	float:left;
+}*/
+
+/*管理中心左侧页脚部分*/
+.contentleftFoot
+{
+	background:url("../../Images/leftFoot.png");
+	background-repeat:no-repeat;
+	height:50px; 
+	width:200px;
+	float:left;
+}
+
+/*管理中心左侧头背景*/
+.contentleftBg
+{
+	background:url("../../Images/leftHeadL.png");
+	background-repeat:repeat-y;
+	height:600px;
+	width:200px;
+	float:left;
+}
+
+/*管理中心左侧菜单title部分*/
+.SubmenuName
+{
+	background:url("../../Images/qaConHead.png");
+	background-repeat:repeat-x;	
+	height:25px;
+	width:185px;
+	margin-left:14px;
+	float:left;
+	text-align:left;
+}
+/*管理中心左侧菜单title图标部分*/
+.listPic
+{
+	background:url("../../Images/list.png");
+	background-repeat:no-repeat;
+	width:12px;
+	height:12px;
+	margin:5px 5px auto 18px;
+	padding-left:14px;
+	float:left;
+	width:145px;
+}
+/*管理中心左侧菜单内容部分*/
+.SubmenuCon
+{
+	float:left;
+	height:20px;
+	width:185px;
+	margin-top:10px;
+}
+
+/*管理中心左侧菜单内容链接部分*/
+.SubmenuCon a
+{
+	float:left;
+	text-align:left;
+	padding-left:45px;
+	padding-bottom:8px;
+}
+
+
+/*- [管理中心右侧部分]--------------------------- */
+#contentright{float:left;width:80%; }/*管理中心右侧框架*/
+
+/*管理中心右头部背景*/
+.contentrightHeadBg
+{
+	width:100%;
+	height:30px;
+	background:url("../../Images/righthead.png");
+	background-repeat:repeat-x;
+	margin-left:-1px;
+}
+/*管理中心右侧头部内容*/
+.contentrightHeadCon
+{
+	float:left;
+	text-align:left;
+}
+.contentrightHeadCon div
+{
+	float:left;
+	margin-left:30px;
+	*margin-left:15px;
+	padding-top:8px;
+}
+/*管理中心右侧特殊名称为橙红色*/
+.Namecolor{color:orangered;}
+
+/*管理中心右侧头部补充内容*/
+.rHeadPic
+{
+	background:url("../../Images/rightheadR.png");
+	background-repeat:no-repeat;
+	height:30px;
+	float:right;
+	width:17px;
+}
+/*管理中心右侧管理内容*/
+#ManageContent
+{
+	float:left;
+	min-width:804px;
+	width:798px;
+	line-height:25px;
+	border-width:0px 1px 0px 0px;
+	border-style:solid;
+	border-color:#B9C3F8;
+	*margin-right:-1px;
+	*height:600px;min-height:600px;height:auto;
+}
+/*管理中心右侧管理内容信息*/
+.ManageInfo
+{
+	float:left;
+	margin:12px 0 8px 28px;
+	text-align:left;
+	width:96%;
+}
+/*管理中心右侧右边线*/
+.ManageInfoLine
+{
+	float:left;
+	width:100%;
+	border-width:1px 0 0 0;
+	border-style:dashed;
+	border-color:#CFD4FA;
+}
+/*管理中心右侧提示内容*/
+.ManagePoint
+{
+	float:left;
+	width:100%;
+}
+/*管理中心右侧管理用户信息*/
+.ManageUserInfo{float:left;width:100%;}
+.languageMessage
+{
+	float:left;
+	text-align:left;
+	margin-top:5px;
+	margin-left:30px;
+}
+/*管理中心右侧提示内容*/
+.saveMessage
+{
+	float:right;
+	margin-top:5px;
+	margin-right:25px;
+	font-size:13px;
+	color:threedshadow;
+}
+/*管理中心右侧网站语言下的线*/
+.languageMessageLine
+{
+	float:left;
+	width:100%;
+	background:url("../../Images/languageLine.png");
+	background-repeat:no-repeat;
+	margin-bottom:15px;
+	height:3px;
+}
+/*- [管理中心页脚部分]--------------------------- */
+.ManagefooterLine
+{
+	float:left;
+	background:url("../../Images/footerLine.png");
+	background-repeat:no-repeat;
+	height:2px;
+	width:100%;
+}
+.ManagefooterBg
+{
+	float:left;
+	background:#EDEFFB;
+	max-height:60px;
+	height:60px;
+	width:100%;
+
+}
+.ManageFont
+{
+	font-size:13px;
+	color:#000000;
+	padding-top:10px;
+}
+
+/*- [子菜单]--------------------------- */
+.SubColumn{float:left;width:20%;height:1070px;min-height:1070px;}
+/*- [子菜单头部分]--------------------------- */
+.Submenuhead
+{
+	max-width:98%;
+	width:100%;
+	height:40px;
+	background:url("../../Images/titleBg1.png");
+	background-repeat:repeat-x;
+}
+/*- [子菜单头内容]--------------------------- */
+.SubmenuheadCon 
+{
+	text-align:left;
+	font-size:16px;
+	float:left;
+	padding:6px 0 0 25px;
+}
+/*- [子菜单]--------------------------- */
+.Submenu
+{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+/*- [子菜单滑过时的效果]--------------------------- */
+.Sub_over
+{
+	background-color:#a1bbe8;
+	width:100%;
+}/*- [子菜单移开时的效果]--------------------------- */
+.Sub_out
+{
+	background-color:#F5F5F5;
+	width:100%;
+}
+/*- [子菜单图标]--------------------------- */
+.Submenuimg
+{
+	float:left;
+	width:20%;
+	text-align:right;
+	padding-top:10px;
+	padding-bottom:8px;
+	padding-right:8px;
+}
+.Submenuimg img
+{
+	border:0; 
+	width:13px;
+	height:13px;
+}
+/*- [子菜单内容]--------------------------- */
+.Submenucon
+{
+	float:left;
+	width:75%;
+	text-align:left;
+	padding-bottom:8px;
+	padding-top:10px;
+}
+
+/*- [内容]--------------------------- */
+/*--.ConColumn{float:right;min-width:80%;width:79%;}--*/	
+.ConColumn{float:right;min-width:80%;width:79%; }	
+.ConHead
+{
+	height:40px;
+	background:url("../../Images/titleBg1.png");
+	background-repeat:repeat-x;
+}
+/*- [保存按钮]--------------------------- */
+.savebtn{float:right;width:30px;margin-right:4px;}
+.saveControl{float:right;padding-top:2px;padding-right:13px;}
+/*- [当前页面定义字体][使用页:P3010P0341/P3010P0371/P3010P0321/P3010P0361]-------- */
+.styleFont
+{
+	width:100%;
+	margin-top:5px;	
+    margin-left:auto;
+    margin-right:auto;
+	vertical-align:bottom;
+	text-align:left;
+	text-indent:15px;
+	font-size:15px;
+	color:orange;
+	font-weight:bold;	
+	border-width:0 0 1px 0;
+	border-style:solid;
+	border-color:#DCDCDC;
+}
+/*- [当前页面定义粗分隔线][使用页:P3010P0341/P3010P0371/P3010P0321/P3010P0361]-------- */
+.theadBottom
+{
+	border-top:1px solid #698CC3; 
+    padding:1px;
+	background-color: #e4e8f3;
+	max-width:99%;
+	width:100%;
+	font-size:1px;
+}
+/*- [当前页面定义粗上分隔线][使用页:P3010P0341/P3010P0371/P3010P0321/P3010P0361]-------- */
+.topBottom
+{
+    border-top:1px solid #DCDCDC; 
+    padding:1px;
+    max-width:99%;
+	width:100%;
+	text-align:right;
+}
+/*- [当前页面定义详细信息分隔线][使用页:P3010P0341/P3010P0371/P3010P0321/P3010P0361]-------- */
+.detailTitle
+{
+	width:97%;
+	border-bottom:1px dashed #DCDCDC;
+	border-top:1px dashed #DCDCDC;
+	background-color:#F4FAFF;
+	font-size:13px;
+}
+/*- [按钮样式:新闻发布/产品发布/职位发布]------------------------------------*/
+.styleBtn
+{
+	border:0;
+    /*background-color:#F48D29;*/
+    background:url("../../Images/linkbuttonbg.png");
+    padding-right: 1px;
+    padding-left: 1px;
+    cursor: pointer;
+    color:  Black;
+    padding-top: 1px;
+}
+/* =-=-=-=-=-=-=-图片等比缩放-=-=-=-=-=-=-=- */
+.primg 
+{
+   max-width:80px;
+   max-height:80px;
+
+   width:expression(document.body.clientWidth/document.body.clientHeight >= 1 ? "80px":"auto");
+   height:expression(document.body.clientWidth/document.body.clientHeight < 1 ? "80px":"auto");
+
+   *border:0px;
+   *width:expression(width >= height ? "80px":"8000px/heiht%");
+   *height:expression(width < height ? "80px":"8000px/width%");
+ }
+ /*- [风格选择与新闻设置蓝背景]------------------------------------*/
+
+.Titlebluebg
+{
+	border-bottom:1px solid #DCDCDC; 
+	padding:0; margin:10px 0 0 0; 
+	width:100%;
+	background:#e1f0ff;
+}
+/*- [公司注册样式]------------------------------------*/
+#trColor tr
+{
+	 background-color: expression(((this.sectionRowIndex%2==0) ? "#F4FAFF" : "#FFFFFF"));
+}
+#trColor th 
+{
+	 font-weight:800;
+	 height:30px;
+	 text-align:left;
+	 text-indent:20px;
+	 background-color:#E1F0FF;
+}
+
+.tdLeft
+{
+	width:160px;
+	height:30px;
+}
+.tdeLineTop
+{
+	border-top:1px solid #DCDCDC;
+}
+
+/*- [密码修复\在线激活]------------------------------------*/
+.headtitleblue
+{
+	border-left:1px solid royalblue;
+	border-top:1px solid #66CCCC;
+	border-right:1px solid #66CCCC;
+	border-color:#66CCCC;
+	color:#4169e1;
+	font-weight:800;
+	float:left;
+	background-color:#e1f0ff;
+}
+.headtitlelightbule
+{	
+	color:#708090;
+	border-bottom:1px solid #66CCCC;
+	float:left;
+	background-color:#F4FAFF;
+	height: 28px;
+}
+.tableborder
+{
+    border:1px solid #b0e0e6;
+}
+.tdbg
+{
+    background-color:#e1f0ff;
+}
+.tableborder_1
+{
+    border:1px solid #66CCCC;
+	margin:20px 0 10px 0;
+}
+.tablePic{max-width:80px;max-height:80px;
+   width:expression(document.body.clientWidth/document.body.clientHeight >= 1 ? "150px":"auto");
+   height:expression(document.body.clientWidth/document.body.clientHeight < 1 ? "150px":"auto");
+   *border:0px;
+   *width:expression(width >= height ? "150px":"8000px/heiht%");
+   *height:expression(width < height ? "150px":"8000px/width%");}
+/*- [主页设置样式]------------------------------------*/
+.trColor tr
+{
+	 background-color: expression(((this.sectionRowIndex%2==0) ? "#F4FAFF" : "#FFFFFF"));
+}
+/*- [服务]------------------------------------*/
+.serviceName{width:100%;border-bottom:1px dashed #dcdcdc;border-top:1px dashed #dcdcdc;line-height:35px;font-size:15px;text-indent:35px;color:blue;font-weight:800;background:#F7FCFC;}

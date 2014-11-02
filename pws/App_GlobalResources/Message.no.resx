@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>Database mislyktes</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>Kunne transaksjonsbehandling database tilkobling.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>Det oppstod et uventet systemfeil, kan du kontakte administrator.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) innføringen er obligatorisk.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>Feil antall sifre (0), (1) Fyll inn sifre.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1) antall sifre og tall.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) Fyll inn riktig dato.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) for elementet tall, ikke-numeriske tegn er ikke tillatt.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) alfanumeriske eller &amp;quot;_&amp;quot; kan ikke skrive det inn.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) eks alfanumerisk. Ikke-alfanumeriske tegn er ikke tillatt.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) eks bokstav. Andre bokstaver er ikke tillatt.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) elementer dobbelbytetegn. Andre dobbelbytetegn er ikke tillatt.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) e-postadresse format er feil, kan du angi en gyldig e-postadresse.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) Filtypen gjelder ikke.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] er (0) filstørrelse, kan du angi følgende fil.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) ikke passer formatet på nettstedet.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) ikke passer formatet på beløpet.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) er ikke mulig å angi 0.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA Formatet på postnummer, må du angi riktig postnummer.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA form av en mobiltelefon, skriver du inn et gyldig mobilnummer.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] filstørrelsen (1) KB Velg en fil med.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO SHINPURUMODO du spesifiserer en enkelt fil.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>Maksimum fil (0) kan velges.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>Samtidig er ikke legge samme filnavn i listen.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) til (2) kan du legge inn tall.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) er dupliseres. Bør ikke være et duplikat.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>Velg (0) til det endelige laget.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>Kunne forbindelse til serveren.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>Databehandling med serveren mislyktes.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA den angitte datoen. Angi en dato i fortiden.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA den angitte datoen. Angi en dato i fremtiden.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase den GetData funksjonen ikke kan kalles direkte, må utledes.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>Jeg lukket database tilkobling mislykkes.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>Når du kjører SQL kommando var en feil.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>Bilder relatert til kjøre SQL-kommandoer da feilen oppstod.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>Databasen transaksjonen Tilbakerulling Operasjonen mislyktes.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>Når du kobler til en database feil.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>Datasett med data hentes fra databasen når du angir feil.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader data hentes fra databasen når du setter opp feilen ble utstedt.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>Loading lokale XML, konvertere data sett, det oppstod en feil.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>Når du skriver inn datasett XML fil, feilen oppstod.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>Når du konverterer fra XML data satt til data, med feil</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>Når du sletter en oppføring i data-tabellen, det oppstod en feil.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>Kan ikke få standardstil.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>Vi kunne ikke finne de nødvendige XML.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) den maksimale lønn er minimumsbeløpet, spesifiser store mengder.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) maksimal alder fra lavalder, kan du angi verdien for mye.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA mellom antall sifre, (1) Fyll inn sifre eller mindre.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) til (2) kan du legge inn tall.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>Organisasjonen finnes allerede.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>Nei Det er ingen virksomhet.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>Angi Etableringsdato for siste gang.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>Fil finnes ikke.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>Kunne ikke laste opp filer.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>Filen fjerning mislyktes.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>Sletting av filer som ikke eksisterer.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>Oppdateringsfilen finnes ikke.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>Kunne ikke oppdatere filen.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>Velg en fil lastes opp.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>Passord og Bekreft passord samsvarer ikke.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>Bli med på &amp;quot;underdomene&amp;quot; er allerede i bruk. Velg et sub-domene.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>Å reflektere oppdatere eller slette drift, kan du velge en bekreftelse.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>Hvordan fjerner jeg det?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>Kontonavn eller passord er feil.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>Kontonavnet finnes ikke.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>Kan ha et problem med kontoen din sikkerhet. Fra den senere tid, kan du sjekke igjen.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>Skriv filopplasting i JPG, GIF, PNG støtter bare.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) er ugyldig telefonnummer format, må du angi riktig telefonnummer.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) er ugyldig telefonnummer format, må du angi riktig telefonnummer.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) er et faksnummer formatet er ugyldig, må du angi riktig telefonnummer.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>Filopplasting heter alfanumeriske eller &amp;quot;_&amp;quot; filer bare.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>Det er ikke navnet på filtype eller filnavnet er ugyldig.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>Siffer (0) (1) til (2) kan du legge inn tall.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) er dupliseres.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) Fjern det?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>Mail er ikke registrert for å kontakte selskapet endre passordet på e-post.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>Kontonavnet er feil eller ikke finnes.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>Prosessen mislyktes å sende passord informasjon via e-post fra stående et øyeblikk, prøv igjen.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>Hvis du ikke merker vilkårene for bruk, kan du ikke fortsette prosessen.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>Kontoen er allerede registrert.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA form av e-post adresse Vennligst oppgi en gyldig e-postadresse.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) er allerede godkjent. Hvis du vil sjekke, re-operasjon takk.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>Webadressen du angav, er ikke i form av en nettadresse.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>Passord og Bekreft passord samsvarer ikke.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) skriving feil, kan du gå inn igjen.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>Avbryte tjenesten og reparasjon av systemet passord nå.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA skriving, kan du gå inn igjen.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>Velg domene (r)</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>Vi ønsker at beløpet</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) er allerede i handlekurven.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) er ikke i riktig domenenavn</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) er allerede registrert</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>Ikke godtar vilkårene for bruk av dette nettstedet, tjenesten er ikke tilgjengelig.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>Du har ikke nok balanse, jeg trenger en forekomst av gull forekomster.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>Vi åpnet tjenesten.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>Domenenavn er allerede kjøpt, må du fjerne elementet.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>Det er ingen domenenavn kan søke.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>Fyll inn navnet på domenet.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>Velg et domenenavn.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>Velg et spørsmål.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>Samsvarer ikke med e-postadressen du oppga.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>Tilkoblingen til serveren mislyktes konvertering, den angitte serveren, kan du sjekke IP og portnummer.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>Tidsavbruddsperioden ble logget, vennligst logg deg inn og prøv igjen.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>Jeg prøvde å sende serveren til å lagre filkonvertering er ikke gyldig i butikkene.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>Kunne ikke opprette og opprette igjen takk.</value>
+  </data>
+</root>

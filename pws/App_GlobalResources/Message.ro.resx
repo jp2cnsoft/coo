@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>Baza de date de conectare a eşuat</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>Eşuare tranzacţie de prelucrare a bazei de date de conectare.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>Am întâmpinat o eroare neaşteptată sistem, vă rugăm să contactaţi administratorul.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0) intrarea este necesară.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>Incorect de numărul de cifre (0), (1) Vă rugăm să introduceţi cifre.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) (1), numărul de cifre si cifre.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) Vă rugăm să introduceţi data corectă.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) pentru numere de articol, non-numerice caractere nu sunt permise.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) alfanumerice sau &amp;quot;_&amp;quot; nu poate să-l introduceţi.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) elemente alfanumerice. Non-alfanumerice caractere nu sunt permise.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) elemente scrisoare. Alte scrisori nu sunt permise.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) sunt elemente dublu-byte de caractere. Alte dublu-byte caractere nu sunt permise.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) adresa de e-mail este format incorecte, vă rugăm să introduceţi o adresă de email validă.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0)] (1) tip de fişier nu se aplică.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0)] este (0) de dimensiune a fişierului, vă rugăm să specificaţi în următorul fişier.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) nu se încadrează în format al site-ului.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) nu se potriveste format din suma.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0) nu este posibil pentru a specifica 0.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)间违IMASHITA Formatul codul poştal, vă rugăm să introduceţi codul poştal corect.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0)间违IMASHITA, sub forma unui număr de mobil, vă rugăm să introduceţi un număr de mobil valabil.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0)] de mărime a fişierului (1) KB Vă rugăm să selectaţi un fişier cu.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>APPURODOMODO SHINPURUMODO să specificaţi un singur fişier.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>Maximă a fişierului (0) pot fi selectate.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>În acelaşi timp, nu adăuga acelaşi nume de fişier în listă.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0), (1) la (2) ai posibilitatea de a introduce cifre.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0) este duplicat. Nu ar trebui să fie un duplicat.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)间违IMASHITA.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>Vă rugăm să selectaţi (0) la final strat.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>Eşuare conexiune la server.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>De prelucrare a datelor cu serverul, nu a reuşit.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0)间违IMASHITA data specificată. Vă rugăm să specificaţi o dată în trecut.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0)间违IMASHITA data specificată. Vă rugăm să specificaţi o data in viitor.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase de GetData funcţie nu poate fi numit direct, trebuie să fie derivate.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>Am închis baza de date de conectare proces eşuează.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>Când executaţi comanda SQL a fost o eroare.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>Imagini legate de SQL pentru a executa comenzi de eroare atunci când a apărut.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>Baza de date tranzacţie Rollback operaţiunea nu a reuşit.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>Când vă reconectaţi la o bază de date produs eroarea.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>De date cu date extrase din baza de date, atunci când l-aţi stabilit în eroare.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>SqlDataReader de date Adus de la baza de date atunci când l-aţi stabilit de eroare a fost eliberat.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>Se incarca local XML, converti setul de date, a apărut o eroare.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>Când scrieţi de fişier de date XML, a produs eroarea.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>Când conversia de la XML set de date pentru a datelor, cu erori</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>Când ştergeţi o înregistrare în tabelul de date, a apărut o eroare.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>Imposibil de a obtine implicit stil.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>Nu am putut găsi necesare XML.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) cantitatea maximă de salariu este suma minimă pe care, vă rugăm să specificaţi cantităţi mari.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) maxime de vârstă de la vârsta minimă, vă rugăm să specificaţi o valoare a lotului.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0)违MASHITA dintre numărul de cifre, (1) Vă rugăm să introduceţi cifre sau mai puţin.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0), (1) la (2) ai posibilitatea de a introduce cifre.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>Organizaţia nume există deja.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>Nu există nici o afacere.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>Vă rugăm să specificaţi la data stabilită pentru ultima data.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>Fişier nu există.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>Nu a reuşit să încarce fişiere.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>Fişierul eliminarea nu a reuşit.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>Ştergerea fişierelor nu există.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>Update dosar nu există.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>Eşuare de actualizare a fişierului.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>Vă rugăm să selectaţi un fişier de încărcare.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>Parola şi confirma parola nu se potrivesc.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>Alăturaţi-vă la &amp;quot;subdomeniu&amp;quot; este deja în uz. Vă rugăm să selectaţi un sub-domeniu.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>Pentru a reflecta actualizare sau şterge operaţie, vă rugăm să alegeţi o confirmare.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>Cum pot scoate?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>Nume cont sau parola sunt incorecte.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>Numele contului nu există.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>Mai avea o problemă cu contul de securitate. De la ora mai târziu, vă rugăm să verificaţi din nou.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>Tip de fişier de încărcare în JPG, GIF, PNG acceptă numai.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0) este invalid format numărul de telefon, vă rugăm să introduceţi corect numărul de telefon.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0) este invalid format numărul de telefon, vă rugăm să introduceţi corect numărul de telefon.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0) este un număr de fax format este incorect, vă rugăm să introduceţi corect numărul de telefon.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>Upload nume este alfanumerice sau &amp;quot;_&amp;quot; fişiere numai.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>Nu există nici un nume de extensie de nume de fişier, sau numele de fişier este invalid.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>Cifre (0) (1) (2) ai posibilitatea de a introduce cifre.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) este duplicat.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>(0) Eliminaţi-o?宜SHII?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>E-mail nu este înregistrat la contact a companiei, a vă schimba parola prin e-mail.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>Numele contului este incorectă sau nu există.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>Procesul nu a reuşit să trimită informaţii parola prin e-mail, de la picioare pentru un moment, vă rugăm să încercaţi din nou.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>Dacă nu verifica Termenii de serviciu, nu aveţi posibilitatea să continue procesul.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>Numele contului este deja înregistrat.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>间违IMASHITA sub formă de e-mail Vă rugăm să introduceţi o adresă de email validă.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0) este deja autentificat. Pentru a verifica, vă rugăm să re-operaţie.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>URL-ul care le-aţi introdus nu este in forma de URL.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>Parola şi confirma parola nu se potrivesc.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0) intrare eroare, vă rugăm să re-enter.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>Anulare de serviciu şi de reparaţie a sistemului parolă acum.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)间违IMASHITA de intrare, vă rugăm să re-enter.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>Vă rugăm să selectaţi de domeniu (e)</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>Ne dorim ca suma</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0) este deja în coşul de cumpărături.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0) nu este corect, în nume de domeniu</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) a fost deja înregistrată,</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>Nu sunt de acord cu Termenii de serviciu de pe acest site, serviciul nu este disponibil.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>Nu aveţi suficient echilibru, am nevoie de un depozit de aur depozite.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>Am deschis acest serviciu.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>Numele de domenii sunt deja achiziţionate, vă rugăm să eliminaţi elementul.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>Nu există nici un nume de domeniu, se pot aplica.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>Vă rugăm să introduceţi numele de domeniu.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>Vă rugăm să alegeţi un nume de domeniu.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>Vă rugăm să selectaţi o întrebare.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>Nu se potriveşte cu adresa de email pe care le-aţi introdus.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>Conexiunea la server nu a reuşit conversie, specificat de server, vă rugăm să verificaţi de IP şi numărul portului.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>Time-out perioada a fost autentificat, vă rugăm să login şi încercaţi din nou.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>Am încercat să navă de server pentru a stoca fişier conversie nu este valabil în magazine.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>Nu a reuşit să creeze şi să creeze din nou, vă rog.</value>
+  </data>
+</root>

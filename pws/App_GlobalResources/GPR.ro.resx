@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="ADDRESS" xml:space="preserve">
+    <value>Locaţie</value>
+  </data>
+  <data name="ADSERVICE" xml:space="preserve">
+    <value>Reclama</value>
+  </data>
+  <data name="ALLMESSAGE" xml:space="preserve">
+    <value>Toate anchetele</value>
+  </data>
+  <data name="ALLPRODUCT" xml:space="preserve">
+    <value>Toate produsele</value>
+  </data>
+  <data name="ALLSEL" xml:space="preserve">
+    <value>Selectaţi Toate / Undo toate</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Numărul</value>
+  </data>
+  <data name="AREA" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="AREACODE" xml:space="preserve">
+    <value>Local numărul</value>
+  </data>
+  <data name="BRANCHCODE" xml:space="preserve">
+    <value>Număr de prelungire</value>
+  </data>
+  <data name="BROWSER" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="CALLING" xml:space="preserve">
+    <value>Industrie</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="CHECKEMAIL" xml:space="preserve">
+    <value>Adresa de e-mail de verificare</value>
+  </data>
+  <data name="CLASSNAME" xml:space="preserve">
+    <value>Clasa Nume</value>
+  </data>
+  <data name="CLEAR" xml:space="preserve">
+    <value>Limpede</value>
+  </data>
+  <data name="CLOSE" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="CMPADDRESS" xml:space="preserve">
+    <value>Locaţie</value>
+  </data>
+  <data name="CMPHOMEPAGE" xml:space="preserve">
+    <value>Compania Website</value>
+  </data>
+  <data name="COMMEMO" xml:space="preserve">
+    <value>Informatii despre companie</value>
+  </data>
+  <data name="COMPANY" xml:space="preserve">
+    <value>Companie</value>
+  </data>
+  <data name="COMPANYNAME" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>Confirmat</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>Alte ştiri</value>
+  </data>
+  <data name="COUNTRY" xml:space="preserve">
+    <value>Ţară</value>
+  </data>
+  <data name="COUNTRYCODE" xml:space="preserve">
+    <value>Cod ţară</value>
+  </data>
+  <data name="CREATE" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>Zi</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>Şterge</value>
+  </data>
+  <data name="DISPLAY" xml:space="preserve">
+    <value>Vedere</value>
+  </data>
+  <data name="EMAILADDRESS" xml:space="preserve">
+    <value>Adresa de email</value>
+  </data>
+  <data name="EMAILFROM" xml:space="preserve">
+    <value>coo@seikasoft.com</value>
+  </data>
+  <data name="EMAILFROMPASS" xml:space="preserve">
+    <value>gânguri-0</value>
+  </data>
+  <data name="EMAILNAME" xml:space="preserve">
+    <value>Nume Adresa de email</value>
+  </data>
+  <data name="EMAILREMARK" xml:space="preserve">
+    <value>(Exemplu: sample@company.com)</value>
+  </data>
+  <data name="EMAILSAVESUCCESS" xml:space="preserve">
+    <value>Trimite fost reuşită</value>
+  </data>
+  <data name="FAMILYNAME" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="FAXNUMBER" xml:space="preserve">
+    <value>FAX</value>
+  </data>
+  <data name="HOSTPAGE" xml:space="preserve">
+    <value>Website URL</value>
+  </data>
+  <data name="IMAGE" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="LASTNAME" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="LINK" xml:space="preserve">
+    <value>Contact Cariere</value>
+  </data>
+  <data name="LINKME" xml:space="preserve">
+    <value>Contact administratori</value>
+  </data>
+  <data name="LOOK" xml:space="preserve">
+    <value>Vezi site-ului</value>
+  </data>
+  <data name="MAILADDRESS" xml:space="preserve">
+    <value>Răspundeţi cu adrese de email</value>
+  </data>
+  <data name="MAILCONTENT" xml:space="preserve">
+    <value>(0) (1) a fost înregistrat pentru noul site.</value>
+  </data>
+  <data name="MAILSUBJECT" xml:space="preserve">
+    <value>(0) a înregistrat un nou contact.</value>
+  </data>
+  <data name="MANAGER" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="MANAGERREPLY" xml:space="preserve">
+    <value>[Răspundeţi administrator]</value>
+  </data>
+  <data name="MESSAGEBOARD" xml:space="preserve">
+    <value>Contactati-ne</value>
+  </data>
+  <data name="MESSAGECONTENT" xml:space="preserve">
+    <value>Anchetă</value>
+  </data>
+  <data name="MESSAGENAME" xml:space="preserve">
+    <value>Numele tau</value>
+  </data>
+  <data name="MESSAGETHEME" xml:space="preserve">
+    <value>Titlu Istorie</value>
+  </data>
+  <data name="MOBILENUMBER" xml:space="preserve">
+    <value>Telefoane mobile</value>
+  </data>
+  <data name="MODIFY" xml:space="preserve">
+    <value>Schimba</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>Lună</value>
+  </data>
+  <data name="MORE" xml:space="preserve">
+    <value>Mai mult</value>
+  </data>
+  <data name="MSGDEL" xml:space="preserve">
+    <value>[Delete]</value>
+  </data>
+  <data name="MSGDELCONTENT" xml:space="preserve">
+    <value>Doriţi să vă ştergeţi selecţie?</value>
+  </data>
+  <data name="MSGDELERR" xml:space="preserve">
+    <value>Ştergerea a eşuat</value>
+  </data>
+  <data name="MSGERRFAIL" xml:space="preserve">
+    <value>Contact înregistrare nu</value>
+  </data>
+  <data name="MSGERRPAGE" xml:space="preserve">
+    <value>Imposibil de încărcat pagină, vă rugăm să contactaţi administratorul.</value>
+  </data>
+  <data name="MSGERRTIME" xml:space="preserve">
+    <value>10 Puteţi contacta din nou în termen de secunde.</value>
+  </data>
+  <data name="MSGMANAGEMENT" xml:space="preserve">
+    <value>Contact Management</value>
+  </data>
+  <data name="MSGNAME" xml:space="preserve">
+    <value>Persoana de contact</value>
+  </data>
+  <data name="MSGOK" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="MSGREPLYERR" xml:space="preserve">
+    <value>Răspuns eşuat</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="NEXT" xml:space="preserve">
+    <value>Următorul</value>
+  </data>
+  <data name="NEXTPAGE" xml:space="preserve">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="ONLINELINK" xml:space="preserve">
+    <value>Contact Online</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>Site-ul de formare</value>
+  </data>
+  <data name="PAGE_FIRST" xml:space="preserve">
+    <value>Prima pagina</value>
+  </data>
+  <data name="PAGE_LAST" xml:space="preserve">
+    <value>Ultima pagină</value>
+  </data>
+  <data name="PAGE_NEXT" xml:space="preserve">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="PAGE_PIECE" xml:space="preserve">
+    <value>Rezultate</value>
+  </data>
+  <data name="PAGE_PROV" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="PAGE_TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="PICTURE" xml:space="preserve">
+    <value>Fotografie</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>Poziţia</value>
+  </data>
+  <data name="PREV" xml:space="preserve">
+    <value>Sus</value>
+  </data>
+  <data name="PREVPAGE" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="PRICE" xml:space="preserve">
+    <value>Preţul de listă</value>
+  </data>
+  <data name="PRODUCT" xml:space="preserve">
+    <value>Produse</value>
+  </data>
+  <data name="PRODUCTCLASS" xml:space="preserve">
+    <value>Categorie de produs</value>
+  </data>
+  <data name="PROJECTNAME" xml:space="preserve">
+    <value>Online companii</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>Cumpăra</value>
+  </data>
+  <data name="QUESTION" xml:space="preserve">
+    <value>Q &amp;amp; A</value>
+  </data>
+  <data name="README" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>Referinte</value>
+  </data>
+  <data name="REFRESH" xml:space="preserve">
+    <value>Actualizat</value>
+  </data>
+  <data name="REGEMAILFROM" xml:space="preserve">
+    <value>Online companii</value>
+  </data>
+  <data name="REGEMAILSUBJECT" xml:space="preserve">
+    <value>Mail online verificare companie</value>
+  </data>
+  <data name="REGIST" xml:space="preserve">
+    <value>Conecta</value>
+  </data>
+  <data name="REGMAILCONTENT" xml:space="preserve">
+    <value>&lt;html xmlns:copyRight="http://xml.sz.luohuedu.net/"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&lt;meta http-equiv="Content-Language" content="JAPAN"&gt;&lt;title&gt; Adresa de e-mail de verificare &lt;/title&gt;&lt;/head&gt;&lt;body style="text-align:center;font-family:ＭＳ ゴシック;"&gt;&lt;div style="margin-left:auto;margin-right:auto;width:648px;text-align:left;"&gt;&lt;div style="width:100%;"&gt;&lt;div style="float:left;"&gt; &lt;a href="http://www.{domainname}" target="_blank"&gt;&lt;img src="http://www.{domainname}/Images/jpcoo.png" border="0" title="Online companii"/&gt;&lt;/a&gt; &lt;/div&gt;&lt;div style="float:right;padding-top:18px;font-size:14px;"&gt;&lt;div style="float:left;margin-right:5px;"&gt;Site-ul &lt;br/&gt;</value>
+  </data>
+  <data name="RELEASED" xml:space="preserve">
+    <value>Dată</value>
+  </data>
+  <data name="REMAILADDRESS" xml:space="preserve">
+    <value>Repetă E-mail</value>
+  </data>
+  <data name="REMOVE" xml:space="preserve">
+    <value>Eliminaţi din Clasificarea</value>
+  </data>
+  <data name="REPLY" xml:space="preserve">
+    <value>Răspunsuri</value>
+  </data>
+  <data name="REPLYCONTENT" xml:space="preserve">
+    <value>Răspunsuri conţinut</value>
+  </data>
+  <data name="REPLYDELCONTENT" xml:space="preserve">
+    <value>Doriţi să vă ştergeţi selecţie?</value>
+  </data>
+  <data name="REPLYED" xml:space="preserve">
+    <value>Răspuns: Data</value>
+  </data>
+  <data name="RESEND" xml:space="preserve">
+    <value>Trimite din nou</value>
+  </data>
+  <data name="RESET" xml:space="preserve">
+    <value>Limpede</value>
+  </data>
+  <data name="RETURN" xml:space="preserve">
+    <value>Înapoi</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>Schimbare parolă</value>
+  </data>
+  <data name="SAVESUCCESS" xml:space="preserve">
+    <value>De succes de cura.</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>Căuta</value>
+  </data>
+  <data name="SELECT" xml:space="preserve">
+    <value>Selectaţi</value>
+  </data>
+  <data name="SETUP" xml:space="preserve">
+    <value>Site Management</value>
+  </data>
+  <data name="SUBMIT" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="TELNUMBER" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>Titlu Istorie</value>
+  </data>
+  <data name="TOP" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="TOURISTS" xml:space="preserve">
+    <value>Clienti</value>
+  </data>
+  <data name="VERIFYCODE" xml:space="preserve">
+    <value>Cod de verificare</value>
+  </data>
+  <data name="VERIFYCODEMSG" xml:space="preserve">
+    <value>(Vă rugăm să introduceţi codul de autentificare)</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="ZIPCODE" xml:space="preserve">
+    <value>Cod postal</value>
+  </data>
+  <data name="USERSITEDEL" xml:space="preserve">
+    <value>Eliminaţi limba adevărat, ştergerea nu poate restaura informaţii.</value>
+  </data>
+  <data name="USERSITEDEFDEL" xml:space="preserve">
+    <value>Nu puteţi şterge implicit limba</value>
+  </data>
+  <data name="CONTROLSUCCESS" xml:space="preserve">
+    <value>Operaţia a fost reuşită.</value>
+  </data>
+  <data name="SITEMANAGE" xml:space="preserve">
+    <value>Site Management</value>
+  </data>
+  <data name="ALLNEWS" xml:space="preserve">
+    <value>Toate ştirile</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Conecta</value>
+  </data>
+  <data name="GOSHOP" xml:space="preserve">
+    <value>Cumpara Mai mult</value>
+  </data>
+  <data name="OVERSHOP" xml:space="preserve">
+    <value>Pentru a contabile</value>
+  </data>
+  <data name="LOGO" xml:space="preserve">
+    <value>http://www. (numedomeniu) / BBS / imagini / logo.png</value>
+  </data>
+  <data name="LANGSITEMAG" xml:space="preserve">
+    <value>Japoneză Site Management</value>
+  </data>
+  <data name="ERRORMESSAGE" xml:space="preserve">
+    <value>Vă rugăm să introduceţi datele şi informaţiile de referinţă.</value>
+  </data>
+  <data name="WAITING" xml:space="preserve">
+    <value>De date este în curs de procesare. Un moment, va rog. ... ... ... ...</value>
+    <comment>2009-05-08需要翻译</comment>
+  </data>
+  <data name="PLASECHOOSE" xml:space="preserve">
+    <value>Vă rugăm să selectaţi categoria numele.</value>
+  </data>
+</root>

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="R000000010" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000020" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000030" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000040" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000050" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000060" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000070" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000080" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000090" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000100" xml:space="preserve">
+    <value>기업</value>
+  </data>
+  <data name="R000000110" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000120" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000130" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000140" xml:space="preserve">
+    <value>외자 기업</value>
+  </data>
+  <data name="R000000150" xml:space="preserve">
+    <value>국영 기업</value>
+  </data>
+  <data name="R000000160" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000170" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000180" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000190" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000200" xml:space="preserve">
+    <value>유한 회사</value>
+  </data>
+  <data name="R000000210" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000220" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000230" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000000240" xml:space="preserve">
+    <value>소매업</value>
+  </data>
+  <data name="R000000250" xml:space="preserve">
+    <value>도매업</value>
+  </data>
+  <data name="R000000260" xml:space="preserve">
+    <value>지사</value>
+  </data>
+  <data name="R000000270" xml:space="preserve">
+    <value>사무소</value>
+  </data>
+  <data name="R000000280" xml:space="preserve">
+    <value>출장소</value>
+  </data>
+  <data name="R000000300" xml:space="preserve">
+    <value>5 명 미만</value>
+  </data>
+  <data name="R000000310" xml:space="preserve">
+    <value>50 명 이하</value>
+  </data>
+  <data name="R000000320" xml:space="preserve">
+    <value>100 명 이하</value>
+  </data>
+  <data name="R000000330" xml:space="preserve">
+    <value>500 명 이하</value>
+  </data>
+  <data name="R000000340" xml:space="preserve">
+    <value>1000 명 미만</value>
+  </data>
+  <data name="R000000350" xml:space="preserve">
+    <value>1000 명 이상</value>
+  </data>
+  <data name="R000000360" xml:space="preserve">
+    <value>남성</value>
+  </data>
+  <data name="R000000370" xml:space="preserve">
+    <value>여성</value>
+  </data>
+  <data name="R000000380" xml:space="preserve">
+    <value>중졸 이상</value>
+  </data>
+  <data name="R000000390" xml:space="preserve">
+    <value>고졸 이상</value>
+  </data>
+  <data name="R000000400" xml:space="preserve">
+    <value>전문 학교 이상</value>
+  </data>
+  <data name="R000000410" xml:space="preserve">
+    <value>전문대 이상</value>
+  </data>
+  <data name="R000000420" xml:space="preserve">
+    <value>대졸 이상</value>
+  </data>
+  <data name="R000000430" xml:space="preserve">
+    <value>석사 이상</value>
+  </data>
+  <data name="R000000440" xml:space="preserve">
+    <value>회사원</value>
+  </data>
+  <data name="R000000450" xml:space="preserve">
+    <value>아르바이트</value>
+  </data>
+  <data name="R000000460" xml:space="preserve">
+    <value>25 세 이하</value>
+  </data>
+  <data name="R000000470" xml:space="preserve">
+    <value>35 세 이하</value>
+  </data>
+  <data name="R000000480" xml:space="preserve">
+    <value>45 세 이하</value>
+  </data>
+  <data name="R000000490" xml:space="preserve">
+    <value>일년 이상</value>
+  </data>
+  <data name="R000000500" xml:space="preserve">
+    <value>두 년 이상</value>
+  </data>
+  <data name="R000000510" xml:space="preserve">
+    <value>다섯 년 이상</value>
+  </data>
+  <data name="R000000520" xml:space="preserve">
+    <value>여덟 년 이상</value>
+  </data>
+  <data name="R000000530" xml:space="preserve">
+    <value>달에</value>
+  </data>
+  <data name="R000000540" xml:space="preserve">
+    <value>달 이내</value>
+  </data>
+  <data name="R000000550" xml:space="preserve">
+    <value>일년 이내</value>
+  </data>
+  <data name="R000000560" xml:space="preserve">
+    <value>박사 이상</value>
+  </data>
+  <data name="R000001000" xml:space="preserve">
+    <value>중국 위안</value>
+  </data>
+  <data name="R000002000" xml:space="preserve">
+    <value>엔</value>
+  </data>
+  <data name="R000003000" xml:space="preserve">
+    <value>미국 달러</value>
+  </data>
+  <data name="R000004000" xml:space="preserve">
+    <value>도이쯔마루쿠</value>
+  </data>
+  <data name="R000005000" xml:space="preserve">
+    <value>캐나다 달러</value>
+  </data>
+  <data name="R000006000" xml:space="preserve">
+    <value>프랑스 프랑</value>
+  </data>
+  <data name="R000010000" xml:space="preserve">
+    <value>질문</value>
+  </data>
+  <data name="R000011000" xml:space="preserve">
+    <value>홍콩 달러</value>
+  </data>
+  <data name="R000012000" xml:space="preserve">
+    <value>마카오빠타카</value>
+  </data>
+  <data name="R000013000" xml:space="preserve">
+    <value>대한민국 원</value>
+  </data>
+  <data name="R000020000" xml:space="preserve">
+    <value>불만</value>
+  </data>
+  <data name="R000030000" xml:space="preserve">
+    <value>의견</value>
+  </data>
+  <data name="R000040000" xml:space="preserve">
+    <value>신고</value>
+  </data>
+  <data name="R000050000" xml:space="preserve">
+    <value>연도</value>
+  </data>
+  <data name="R000060000" xml:space="preserve">
+    <value>세트</value>
+  </data>
+  <data name="R000070000" xml:space="preserve">
+    <value>. com</value>
+  </data>
+  <data name="R000071000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000080000" xml:space="preserve">
+    <value>. net</value>
+  </data>
+  <data name="R000081000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000090000" xml:space="preserve">
+    <value>. org</value>
+  </data>
+  <data name="R000091000" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="R000100000" xml:space="preserve">
+    <value>. jp</value>
+  </data>
+  <data name="R001000010" xml:space="preserve">
+    <value>일반 스타일</value>
+  </data>
+  <data name="R001000020" xml:space="preserve">
+    <value>교육</value>
+  </data>
+  <data name="R001000030" xml:space="preserve">
+    <value>술 상점餐饮</value>
+  </data>
+  <data name="R001000040" xml:space="preserve">
+    <value>여행사</value>
+  </data>
+  <data name="R001000050" xml:space="preserve">
+    <value>컴퓨터</value>
+  </data>
+  <data name="R001000060" xml:space="preserve">
+    <value>时尚복장饰</value>
+  </data>
+  <data name="R001001000" xml:space="preserve">
+    <value>표준 스타일</value>
+  </data>
+  <data name="R001001010" xml:space="preserve">
+    <value>绿色Of风</value>
+  </data>
+  <data name="R001001020" xml:space="preserve">
+    <value>蓝色심정</value>
+  </data>
+  <data name="R001001030" xml:space="preserve">
+    <value>红色금속</value>
+  </data>
+  <data name="R001001040" xml:space="preserve">
+    <value>회색 금속</value>
+  </data>
+  <data name="R001001050" xml:space="preserve">
+    <value>蓝色학교园</value>
+  </data>
+  <data name="R001001060" xml:space="preserve">
+    <value>蓝色해안</value>
+  </data>
+  <data name="R001001070" xml:space="preserve">
+    <value>红色주류 상점</value>
+  </data>
+  <data name="R001001080" xml:space="preserve">
+    <value>计算책상蓝色畅想</value>
+  </data>
+  <data name="R001001090" xml:space="preserve">
+    <value>咖啡고사</value>
+  </data>
+  <data name="R001001100" xml:space="preserve">
+    <value>금색假日</value>
+  </data>
+  <data name="R001001110" xml:space="preserve">
+    <value>绿色고원</value>
+  </data>
+  <data name="R001001120" xml:space="preserve">
+    <value>简单时尚</value>
+  </data>
+  <data name="R001001130" xml:space="preserve">
+    <value>새롭게 자연</value>
+  </data>
+  <data name="R001001140" xml:space="preserve">
+    <value>标准风格(일본语)</value>
+  </data>
+  <data name="R001001150" xml:space="preserve">
+    <value>简单红色</value>
+  </data>
+  <data name="R001001160" xml:space="preserve">
+    <value>蓝色자연</value>
+  </data>
+  <data name="R001001170" xml:space="preserve">
+    <value>자연 집안</value>
+  </data>
+  <data name="R001001180" xml:space="preserve">
+    <value>과학</value>
+  </data>
+  <data name="R010000000" xml:space="preserve">
+    <value>조직 유형</value>
+  </data>
+  <data name="R020000000" xml:space="preserve">
+    <value>업무 내용</value>
+  </data>
+  <data name="R030000000" xml:space="preserve">
+    <value>기관 분류</value>
+  </data>
+  <data name="R040000000" xml:space="preserve">
+    <value>종업 원수</value>
+  </data>
+  <data name="R050000000" xml:space="preserve">
+    <value>화폐 종류</value>
+  </data>
+  <data name="R060000000" xml:space="preserve">
+    <value>질문 유형</value>
+  </data>
+  <data name="R070000000" xml:space="preserve">
+    <value>수량 단위</value>
+  </data>
+  <data name="R080000000" xml:space="preserve">
+    <value>도메인</value>
+  </data>
+  <data name="R090000000" xml:space="preserve">
+    <value>중국 도메인</value>
+  </data>
+  <data name="R100000000" xml:space="preserve">
+    <value>성별</value>
+  </data>
+  <data name="R110000000" xml:space="preserve">
+    <value>학력</value>
+  </data>
+  <data name="R120000000" xml:space="preserve">
+    <value>채용 형태</value>
+  </data>
+  <data name="R130000000" xml:space="preserve">
+    <value>나이</value>
+  </data>
+  <data name="R140000000" xml:space="preserve">
+    <value>업무 경력</value>
+  </data>
+  <data name="R150000000" xml:space="preserve">
+    <value>자료 시작일</value>
+  </data>
+</root>

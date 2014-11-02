@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ED00000010" xml:space="preserve">
+    <value>데이터베이스 연결에 실패했습니다</value>
+  </data>
+  <data name="ED00000020" xml:space="preserve">
+    <value>데이터베이스 연결 트랜잭션 처리에 실패했습니다.</value>
+  </data>
+  <data name="ED00000030" xml:space="preserve">
+    <value>가정 외부 시스템 오류가 발생했습니다 관리자에게 문의하십시오.</value>
+  </data>
+  <data name="ED00000040" xml:space="preserve">
+    <value>(0)는 필수 입력 항목입니다.</value>
+  </data>
+  <data name="ED00000050" xml:space="preserve">
+    <value>(0) 자릿수가 잘못, (1) 자리까지 입력하십시오.</value>
+  </data>
+  <data name="ED00000051" xml:space="preserve">
+    <value>(0) 자릿수는 (1) 자리입니다.</value>
+  </data>
+  <data name="ED00000060" xml:space="preserve">
+    <value>(0) 정확한 날짜를 입력하십시오.</value>
+  </data>
+  <data name="ED00000070" xml:space="preserve">
+    <value>(0) 숫자 항목입니다 숫자가 아닌 문자를 입력할 수없습니다.</value>
+  </data>
+  <data name="ED00000080" xml:space="preserve">
+    <value>(0) 영숫자 또는 &amp;quot;_&amp;quot;그러나 입력할 수없습니다.</value>
+  </data>
+  <data name="ED00000081" xml:space="preserve">
+    <value>(0) 영숫자 항목입니다. 영숫자 이외에는 사용할 수없습니다.</value>
+  </data>
+  <data name="ED00000082" xml:space="preserve">
+    <value>(0) 문자 항목입니다. 문자 이외에는 사용할 수없습니다.</value>
+  </data>
+  <data name="ED00000083" xml:space="preserve">
+    <value>(0) 한글 한자 항목입니다. 한글 한자 이외에는 사용할 수없습니다.</value>
+  </data>
+  <data name="ED00000090" xml:space="preserve">
+    <value>(0) 주소 형식이 잘못되었습니다. 올바른 주소를 입력하십시오.</value>
+  </data>
+  <data name="ED00000100" xml:space="preserve">
+    <value>[(0) 파일 형식은 (1)에 적용되지 않습니다.</value>
+  </data>
+  <data name="ED00000110" xml:space="preserve">
+    <value>[(0) 파일의 크기는 (0) 다음 파일을 지정합니다.</value>
+  </data>
+  <data name="ED00000120" xml:space="preserve">
+    <value>(0) 사이트의 형식으로 적합하지 않습니다.</value>
+  </data>
+  <data name="ED00000130" xml:space="preserve">
+    <value>(0) 금액 형식으로 적합하지 않습니다.</value>
+  </data>
+  <data name="ED00000140" xml:space="preserve">
+    <value>(0)는 0을 지정할 수없습니다.</value>
+  </data>
+  <data name="ED00000150" xml:space="preserve">
+    <value>(0)는 우편 번호의 형식이 과실되었습니다 올바른 우편 번호를 입력하세요.</value>
+  </data>
+  <data name="ED00000160" xml:space="preserve">
+    <value>(0) 핸드폰 번호의 형식이 과실되었습니다 올바른 휴대폰 번호를 입력하세요.</value>
+  </data>
+  <data name="ED00000170" xml:space="preserve">
+    <value>[(0) 파일의 크기는 (1) KB 안에 파일을 선택하십시오.</value>
+  </data>
+  <data name="ED00000180" xml:space="preserve">
+    <value>앗뿌로도모도은 신뿌루모도의 경우 한 파일 지정되지 않습니다.</value>
+  </data>
+  <data name="ED00000190" xml:space="preserve">
+    <value>파일은 최대 (0) 개 선택할 수있습니다.</value>
+  </data>
+  <data name="ED00000200" xml:space="preserve">
+    <value>목록에 동일한 이름의 파일이 동시에 추가할 수없습니다.</value>
+  </data>
+  <data name="ED00000210" xml:space="preserve">
+    <value>(0) (1) - (2) 자리까지 입력할 수있습니다.</value>
+  </data>
+  <data name="ED00000220" xml:space="preserve">
+    <value>(0)은 중복됩니다. 이중해서는 안됩니다.</value>
+  </data>
+  <data name="ED00000230" xml:space="preserve">
+    <value>(0)가 과실되었습니다.</value>
+  </data>
+  <data name="ED00000240" xml:space="preserve">
+    <value>(0) 최종 계층까지 선택하십시오.</value>
+  </data>
+  <data name="ED00000250" xml:space="preserve">
+    <value>서버와의 연결이 실패했습니다.</value>
+  </data>
+  <data name="ED00000260" xml:space="preserve">
+    <value>서버와 데이터 처리에 실패했습니다.</value>
+  </data>
+  <data name="ED00000270" xml:space="preserve">
+    <value>(0) 날짜 지정이 과실되었습니다. 과거 날짜를 지정하십시오.</value>
+  </data>
+  <data name="ED00000271" xml:space="preserve">
+    <value>(0) 날짜 지정이 과실되었습니다. 미래의 날짜를 지정하십시오.</value>
+  </data>
+  <data name="ED00000280" xml:space="preserve">
+    <value>PageDataBase의 GetData 함수를 직접 호출할 수없습니다 파생시킬 필요가있습니다.</value>
+  </data>
+  <data name="ED00000290" xml:space="preserve">
+    <value>데이터베이스 연결 종료 작업이 실패했습니다.</value>
+  </data>
+  <data name="ED00000300" xml:space="preserve">
+    <value>SQL 명령을 실행할 때 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000310" xml:space="preserve">
+    <value>이미지 관련 SQL 명령을 실행할 때 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000320" xml:space="preserve">
+    <value>데이터베이스의 트랜잭션의 ROLLBACK 작업이 실패했습니다.</value>
+  </data>
+  <data name="ED00000330" xml:space="preserve">
+    <value>데이터베이스에 다시 연결할 때 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000340" xml:space="preserve">
+    <value>데이터베이스의 데이터를 DataSet으로 설정시 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000350" xml:space="preserve">
+    <value>데이터베이스에서 가져온 데이터를 SqlDataReader로 설정시 오류가 발하지했습니다.</value>
+  </data>
+  <data name="ED00000360" xml:space="preserve">
+    <value>로컬 XML로드하여 DataSet으로 변환시 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000370" xml:space="preserve">
+    <value>DataSet에서 XML 파일에 기록 할 때 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000380" xml:space="preserve">
+    <value>DataSet에서 XML 데이터로 변환시 오류가 발생했습니다</value>
+  </data>
+  <data name="ED00000390" xml:space="preserve">
+    <value>데이터 테이블의 기록을 삭제할 때 오류가 발생했습니다.</value>
+  </data>
+  <data name="ED00000400" xml:space="preserve">
+    <value>기본 스타일을 얻을 수없습니다.</value>
+  </data>
+  <data name="ED00000410" xml:space="preserve">
+    <value>필요 XML을 찾을 수없습니다.</value>
+  </data>
+  <data name="ED00000420" xml:space="preserve">
+    <value>(0) 월급 최대 금액은 최소 금액보다 큰 금액을 지정합니다.</value>
+  </data>
+  <data name="ED00000430" xml:space="preserve">
+    <value>(0) 최대 나이는 최소 연령보다 큰 값을 지정합니다.</value>
+  </data>
+  <data name="ED00000440" xml:space="preserve">
+    <value>(0) 자릿수가 틀리되었습니다, (1) 자리 이내를 입력하십시오.</value>
+  </data>
+  <data name="ED00000450" xml:space="preserve">
+    <value>(0) (1) - (2) 자리까지 입력할 수있습니다.</value>
+  </data>
+  <data name="ED01000010" xml:space="preserve">
+    <value>조직 이름이 이미 존재합니다.</value>
+  </data>
+  <data name="ED01000020" xml:space="preserve">
+    <value>영업 내용 번호는 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01000030" xml:space="preserve">
+    <value>설립 일은 과거의 시간을 지정합니다.</value>
+  </data>
+  <data name="ED01000040" xml:space="preserve">
+    <value>파일이 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01000050" xml:space="preserve">
+    <value>파일 업로드가 실패했습니다.</value>
+  </data>
+  <data name="ED01000060" xml:space="preserve">
+    <value>파일 삭제 작업이 실패했습니다.</value>
+  </data>
+  <data name="ED01000070" xml:space="preserve">
+    <value>삭제할 파일이없습니다.</value>
+  </data>
+  <data name="ED01000080" xml:space="preserve">
+    <value>업데이트 파일이 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01000090" xml:space="preserve">
+    <value>파일의 업데이 트가 실패했습니다.</value>
+  </data>
+  <data name="ED01000100" xml:space="preserve">
+    <value>업로드 파일을 선택하십시오.</value>
+  </data>
+  <data name="ED01000110" xml:space="preserve">
+    <value>암호와 확인 암호가 일치하지 않습니다.</value>
+  </data>
+  <data name="ED01000120" xml:space="preserve">
+    <value>등록하려고한다 &amp;quot;하위 도메인&amp;quot;이 이미 사용되고있습니다. 다른 하위 도메인을 지정합니다.</value>
+  </data>
+  <data name="ED01000140" xml:space="preserve">
+    <value>업데이트 또는 삭제 작업을 반영하기 위해 확인을 선택하십시오.</value>
+  </data>
+  <data name="ED01000150" xml:space="preserve">
+    <value>정말로 삭제하시겠습니까?</value>
+  </data>
+  <data name="ED01000160" xml:space="preserve">
+    <value>계정 이름과 암호가 잘못입니다.</value>
+  </data>
+  <data name="ED01000170" xml:space="preserve">
+    <value>계정 이름이 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01000180" xml:space="preserve">
+    <value>계정의 보안에 문제가있을 수있습니다. 잠시 후 다시 확인하세요.</value>
+  </data>
+  <data name="ED01000190" xml:space="preserve">
+    <value>업로드 파일의 형식은 JPG, GIF, PNG 만 지원합니다.</value>
+  </data>
+  <data name="ED01000200" xml:space="preserve">
+    <value>(0)는 전화 번호 형식이 잘못되었습니다 올바른 전화 번호를 입력하세요.</value>
+  </data>
+  <data name="ED01000210" xml:space="preserve">
+    <value>(0)는 전화 번호 형식이 잘못되었습니다 올바른 전화 번호를 입력하세요.</value>
+  </data>
+  <data name="ED01000220" xml:space="preserve">
+    <value>(0)는 FAX 번호 형식이 잘못되었습니다 올바른 전화 번호를 입력하세요.</value>
+  </data>
+  <data name="ED01000230" xml:space="preserve">
+    <value>업로드 파일 이름은 영숫자 &amp;quot;_&amp;quot;파일을 제한합니다.</value>
+  </data>
+  <data name="ED01000240" xml:space="preserve">
+    <value>파일 확장명 이름이 없거나, 파일 이름이 잘못되었습니다.</value>
+  </data>
+  <data name="ED01000250" xml:space="preserve">
+    <value>(0) 자릿수는 (1) - (2) 자리까지 입력할 수있습니다.</value>
+  </data>
+  <data name="ED01000260" xml:space="preserve">
+    <value>(0) 중복됩니다.</value>
+  </data>
+  <data name="ED01000270" xml:space="preserve">
+    <value>정말 (0)를 삭제합니다,宜しい일까요?</value>
+  </data>
+  <data name="ED01000280" xml:space="preserve">
+    <value>회사의 연락처 이메일이 등록되어 있지 않습니다 이메일로 비밀 번호를 변경하지 않습니다.</value>
+  </data>
+  <data name="ED01000290" xml:space="preserve">
+    <value>계정 이름이 실수하거나 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01000300" xml:space="preserve">
+    <value>메일 암호 정보를 전달하는 작업이 실패했습니다 잠시 서 후 다시 시도하십시오.</value>
+  </data>
+  <data name="ED01000310" xml:space="preserve">
+    <value>서비스 약관을 확인하지 않으면 작업을 계속할 수없습니다.</value>
+  </data>
+  <data name="ED01000320" xml:space="preserve">
+    <value>계정 이름이 이미 등록되어있습니다.</value>
+  </data>
+  <data name="ED01000330" xml:space="preserve">
+    <value>주소의 형식이 과실되었습니다 올바른 주소를 입력하십시오.</value>
+  </data>
+  <data name="ED01000340" xml:space="preserve">
+    <value>(0)는 이미 인증되었습니다. 확인 후 다시 작업하십시오.</value>
+  </data>
+  <data name="ED01000350" xml:space="preserve">
+    <value>입력한 URL은 URL의 형식으로되어있습니다.</value>
+  </data>
+  <data name="ED01000360" xml:space="preserve">
+    <value>암호와 확인 암호가 일치하지 않습니다.</value>
+  </data>
+  <data name="ED01000370" xml:space="preserve">
+    <value>(0)을 입력 실수 다시 입력하십시오.</value>
+  </data>
+  <data name="ED01000380" xml:space="preserve">
+    <value>안녕 시스템이 암호 복구 서비스를 중단합니다.</value>
+  </data>
+  <data name="ED01000390" xml:space="preserve">
+    <value>(0)을 입력 실수되었습니다, 다시 입력해주십시오.</value>
+  </data>
+  <data name="ED01000400" xml:space="preserve">
+    <value>도메인을 선택하세요 (복수 선택 가능)</value>
+  </data>
+  <data name="ED01000410" xml:space="preserve">
+    <value>결제 금액이 부족합니다</value>
+  </data>
+  <data name="ED01000420" xml:space="preserve">
+    <value>(0)는 이미 장바구니에 들어있습니다.</value>
+  </data>
+  <data name="ED01000430" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ED00000460" xml:space="preserve">
+    <value>(0)가 올바른 도메인 이름이없습니다</value>
+  </data>
+  <data name="ED01004000" xml:space="preserve">
+    <value>(0) 이미 등록되어있습니다,</value>
+  </data>
+  <data name="ED01004010" xml:space="preserve">
+    <value>본 사이트의 서비스 약관에 동의하지 않으면 서비스 이용은 불가능합니다.</value>
+  </data>
+  <data name="ED01004020" xml:space="preserve">
+    <value>잔액이 부족합니다, 보관 금 입금하시기 바랍니다.</value>
+  </data>
+  <data name="ED01004030" xml:space="preserve">
+    <value>서비스를 개통했습니다.</value>
+  </data>
+  <data name="ED01004040" xml:space="preserve">
+    <value>도메인 이름은 이미 구입한 제품을 삭제합니다.</value>
+  </data>
+  <data name="ED01004050" xml:space="preserve">
+    <value>등록 가능한 도메인 이름이 존재하지 않습니다.</value>
+  </data>
+  <data name="ED01004060" xml:space="preserve">
+    <value>도메인 이름을 입력하십시오.</value>
+  </data>
+  <data name="ED01004070" xml:space="preserve">
+    <value>도메인 이름을 선택하십시오.</value>
+  </data>
+  <data name="ED01004080" xml:space="preserve">
+    <value>문제를 선택하십시오.</value>
+  </data>
+  <data name="ED01004090" xml:space="preserve">
+    <value>입력한 주소가 일치하지 않습니다.</value>
+  </data>
+  <data name="ED01004100" xml:space="preserve">
+    <value>변환 서버 접속에 실패했습니다 지정된 서버 IP와 포트 번호를 확인하십시오.</value>
+  </data>
+  <data name="ED01004110" xml:space="preserve">
+    <value>로그인 기간에 타임아웃되었습니다 다시 로그인을 시도해보십시오.</value>
+  </data>
+  <data name="ED01004120" xml:space="preserve">
+    <value>변환 서버에 파일 저장소를 배송하려고했지만 효과적인 저장소가 아닙니다.</value>
+  </data>
+  <data name="ED01004130" xml:space="preserve">
+    <value>만드는 데 실패했습니다 다시 만들어야합니다.</value>
+  </data>
+</root>

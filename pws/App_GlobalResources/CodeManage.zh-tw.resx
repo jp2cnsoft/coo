@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="R000000010" xml:space="preserve">
+    <value>中外合資經營企業</value>
+  </data>
+  <data name="R000000020" xml:space="preserve">
+    <value>個體工商戶</value>
+  </data>
+  <data name="R000000030" xml:space="preserve">
+    <value>個人合夥</value>
+  </data>
+  <data name="R000000040" xml:space="preserve">
+    <value>個人獨資企業</value>
+  </data>
+  <data name="R000000050" xml:space="preserve">
+    <value>其他有限責任公司</value>
+  </data>
+  <data name="R000000060" xml:space="preserve">
+    <value>私營有限責任公司</value>
+  </data>
+  <data name="R000000070" xml:space="preserve">
+    <value>集體企業</value>
+  </data>
+  <data name="R000000080" xml:space="preserve">
+    <value>私營合夥企業</value>
+  </data>
+  <data name="R000000090" xml:space="preserve">
+    <value>國有企業</value>
+  </data>
+  <data name="R000000100" xml:space="preserve">
+    <value>股份有限公司</value>
+  </data>
+  <data name="R000000110" xml:space="preserve">
+    <value>私營獨資企業</value>
+  </data>
+  <data name="R000000120" xml:space="preserve">
+    <value>股份合作企業</value>
+  </data>
+  <data name="R000000130" xml:space="preserve">
+    <value>其他聯營企業</value>
+  </data>
+  <data name="R000000140" xml:space="preserve">
+    <value>外資企業</value>
+  </data>
+  <data name="R000000150" xml:space="preserve">
+    <value>國有獨資公司</value>
+  </data>
+  <data name="R000000160" xml:space="preserve">
+    <value>其他內資企業</value>
+  </data>
+  <data name="R000000170" xml:space="preserve">
+    <value>(港澳臺商)合資經營企業</value>
+  </data>
+  <data name="R000000180" xml:space="preserve">
+    <value>(港澳臺商)合作經營企業</value>
+  </data>
+  <data name="R000000190" xml:space="preserve">
+    <value>(港澳臺商)獨資經營公司</value>
+  </data>
+  <data name="R000000200" xml:space="preserve">
+    <value>非企業單位</value>
+  </data>
+  <data name="R000000210" xml:space="preserve">
+    <value>私營股份有限公司</value>
+  </data>
+  <data name="R000000220" xml:space="preserve">
+    <value>集體聯營企業</value>
+  </data>
+  <data name="R000000230" xml:space="preserve">
+    <value>中外合作經營企業</value>
+  </data>
+  <data name="R000000240" xml:space="preserve">
+    <value>零售業</value>
+  </data>
+  <data name="R000000250" xml:space="preserve">
+    <value>批發業</value>
+  </data>
+  <data name="R000000260" xml:space="preserve">
+    <value>分公司</value>
+  </data>
+  <data name="R000000270" xml:space="preserve">
+    <value>總公司</value>
+  </data>
+  <data name="R000000280" xml:space="preserve">
+    <value>辦事處</value>
+  </data>
+  <data name="R000000300" xml:space="preserve">
+    <value>5人以下</value>
+  </data>
+  <data name="R000000310" xml:space="preserve">
+    <value>50人以下</value>
+  </data>
+  <data name="R000000320" xml:space="preserve">
+    <value>100人以下</value>
+  </data>
+  <data name="R000000330" xml:space="preserve">
+    <value>500人以下</value>
+  </data>
+  <data name="R000000340" xml:space="preserve">
+    <value>1000人以下</value>
+  </data>
+  <data name="R000000350" xml:space="preserve">
+    <value>1000人以上</value>
+  </data>
+  <data name="R000000360" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="R000000370" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="R000000380" xml:space="preserve">
+    <value>初中以上</value>
+  </data>
+  <data name="R000000390" xml:space="preserve">
+    <value>高中以上</value>
+  </data>
+  <data name="R000000400" xml:space="preserve">
+    <value>中專以上</value>
+  </data>
+  <data name="R000000410" xml:space="preserve">
+    <value>大專以上</value>
+  </data>
+  <data name="R000000420" xml:space="preserve">
+    <value>大本以上</value>
+  </data>
+  <data name="R000000430" xml:space="preserve">
+    <value>碩士以上</value>
+  </data>
+  <data name="R000000440" xml:space="preserve">
+    <value>全職</value>
+  </data>
+  <data name="R000000450" xml:space="preserve">
+    <value>兼職</value>
+  </data>
+  <data name="R000000460" xml:space="preserve">
+    <value>25歲以下</value>
+  </data>
+  <data name="R000000470" xml:space="preserve">
+    <value>35歲以下</value>
+  </data>
+  <data name="R000000480" xml:space="preserve">
+    <value>45歲以下</value>
+  </data>
+  <data name="R000000490" xml:space="preserve">
+    <value>一年以上</value>
+  </data>
+  <data name="R000000500" xml:space="preserve">
+    <value>二年以上</value>
+  </data>
+  <data name="R000000510" xml:space="preserve">
+    <value>五年以上</value>
+  </data>
+  <data name="R000000520" xml:space="preserve">
+    <value>八年以上</value>
+  </data>
+  <data name="R000000530" xml:space="preserve">
+    <value>一個月以內</value>
+  </data>
+  <data name="R000000540" xml:space="preserve">
+    <value>三個月以前</value>
+  </data>
+  <data name="R000000550" xml:space="preserve">
+    <value>一年以前</value>
+  </data>
+  <data name="R000000560" xml:space="preserve">
+    <value>博士以上</value>
+  </data>
+  <data name="R000001000" xml:space="preserve">
+    <value>元(人民幣)</value>
+  </data>
+  <data name="R000002000" xml:space="preserve">
+    <value>円</value>
+  </data>
+  <data name="R000003000" xml:space="preserve">
+    <value>元(美元)</value>
+  </data>
+  <data name="R000004000" xml:space="preserve">
+    <value>馬克(德國馬克)</value>
+  </data>
+  <data name="R000005000" xml:space="preserve">
+    <value>元(加拿大元)</value>
+  </data>
+  <data name="R000006000" xml:space="preserve">
+    <value>法郎(法國法郎)</value>
+  </data>
+  <data name="R000010000" xml:space="preserve">
+    <value>咨詢</value>
+  </data>
+  <data name="R000011000" xml:space="preserve">
+    <value>元(港元)</value>
+  </data>
+  <data name="R000012000" xml:space="preserve">
+    <value>元(澳門元)</value>
+  </data>
+  <data name="R000013000" xml:space="preserve">
+    <value>圓(韓元)</value>
+  </data>
+  <data name="R000020000" xml:space="preserve">
+    <value>投訴</value>
+  </data>
+  <data name="R000030000" xml:space="preserve">
+    <value>意見</value>
+  </data>
+  <data name="R000040000" xml:space="preserve">
+    <value>舉報</value>
+  </data>
+  <data name="R000050000" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="R000060000" xml:space="preserve">
+    <value>套</value>
+  </data>
+  <data name="R000070000" xml:space="preserve">
+    <value>.com</value>
+  </data>
+  <data name="R000071000" xml:space="preserve">
+    <value>.com.cn</value>
+  </data>
+  <data name="R000080000" xml:space="preserve">
+    <value>.net</value>
+  </data>
+  <data name="R000081000" xml:space="preserve">
+    <value>.net.cn</value>
+  </data>
+  <data name="R000090000" xml:space="preserve">
+    <value>.org</value>
+  </data>
+  <data name="R000091000" xml:space="preserve">
+    <value>.org.cn</value>
+  </data>
+  <data name="R000100000" xml:space="preserve">
+    <value>.cn</value>
+  </data>
+  <data name="R001000010" xml:space="preserve">
+    <value>通用模板</value>
+  </data>
+  <data name="R001000020" xml:space="preserve">
+    <value>教育教學</value>
+  </data>
+  <data name="R001000030" xml:space="preserve">
+    <value>酒店餐飲</value>
+  </data>
+  <data name="R001000040" xml:space="preserve">
+    <value>旅遊公司</value>
+  </data>
+  <data name="R001000050" xml:space="preserve">
+    <value>電腦</value>
+  </data>
+  <data name="R001000060" xml:space="preserve">
+    <value>時尚服飾</value>
+  </data>
+  <data name="R001001000" xml:space="preserve">
+    <value>標准風格</value>
+  </data>
+  <data name="R001001010" xml:space="preserve">
+    <value>綠色之風</value>
+  </data>
+  <data name="R001001020" xml:space="preserve">
+    <value>藍色心情</value>
+  </data>
+  <data name="R001001030" xml:space="preserve">
+    <value>紅色金屬</value>
+  </data>
+  <data name="R001001040" xml:space="preserve">
+    <value>灰色金屬</value>
+  </data>
+  <data name="R001001050" xml:space="preserve">
+    <value>藍色校園</value>
+  </data>
+  <data name="R001001060" xml:space="preserve">
+    <value>藍色海岸</value>
+  </data>
+  <data name="R001001070" xml:space="preserve">
+    <value>紅色酒店</value>
+  </data>
+  <data name="R001001080" xml:space="preserve">
+    <value>電腦藍色暢想</value>
+  </data>
+  <data name="R001001090" xml:space="preserve">
+    <value>咖啡故事</value>
+  </data>
+  <data name="R001001100" xml:space="preserve">
+    <value>金色假日</value>
+  </data>
+  <data name="R001001110" xml:space="preserve">
+    <value>綠色原野</value>
+  </data>
+  <data name="R001001120" xml:space="preserve">
+    <value>簡單時尚</value>
+  </data>
+  <data name="R001001130" xml:space="preserve">
+    <value>清新自然</value>
+  </data>
+  <data name="R001001140" xml:space="preserve">
+    <value>標準風格(日本語)</value>
+  </data>
+  <data name="R001001150" xml:space="preserve">
+    <value>簡單紅色</value>
+  </data>
+  <data name="R001001160" xml:space="preserve">
+    <value>藍色自然</value>
+  </data>
+  <data name="R001001170" xml:space="preserve">
+    <value>自然家園</value>
+  </data>
+  <data name="R001001180" xml:space="preserve">
+    <value>自然科技</value>
+  </data>
+  <data name="R010000000" xml:space="preserve">
+    <value>組織性質</value>
+  </data>
+  <data name="R020000000" xml:space="preserve">
+    <value>經營形式</value>
+  </data>
+  <data name="R030000000" xml:space="preserve">
+    <value>機構類別</value>
+  </data>
+  <data name="R040000000" xml:space="preserve">
+    <value>員工數量</value>
+  </data>
+  <data name="R050000000" xml:space="preserve">
+    <value>資金單位</value>
+  </data>
+  <data name="R060000000" xml:space="preserve">
+    <value>問題類型</value>
+  </data>
+  <data name="R070000000" xml:space="preserve">
+    <value>數量單位</value>
+  </data>
+  <data name="R080000000" xml:space="preserve">
+    <value>國際功能變數名稱</value>
+  </data>
+  <data name="R090000000" xml:space="preserve">
+    <value>中國頂級功能變數名稱</value>
+  </data>
+  <data name="R100000000" xml:space="preserve">
+    <value>性別</value>
+  </data>
+  <data name="R110000000" xml:space="preserve">
+    <value>學歷</value>
+  </data>
+  <data name="R120000000" xml:space="preserve">
+    <value>工作性質</value>
+  </data>
+  <data name="R130000000" xml:space="preserve">
+    <value>年齡要求</value>
+  </data>
+  <data name="R140000000" xml:space="preserve">
+    <value>工作經驗</value>
+  </data>
+  <data name="R150000000" xml:space="preserve">
+    <value>發佈日期</value>
+  </data>
+</root>
+                                                                                                                                                                                                        
